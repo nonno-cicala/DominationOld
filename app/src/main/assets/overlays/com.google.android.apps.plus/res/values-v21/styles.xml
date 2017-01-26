@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material" />
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large" />
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium" />
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+    <style name="Platform.AppCompat.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+
+    <style name="BottomBarItemHorizontal">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">10.0dip</item>
+    </style>
+    <style name="BottomBarItemVertical">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">-5.0dip</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@*android:style/ThemeOverlay.Material.Dark">
+        <item name="colorControlHighlight">@*android:color/ripple_material_dark</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@*android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="colorControlNormal">@*android:color/white</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="colorControlNormal">@*android:color/white</item>
+    </style>
+
+    <style name="UrawTheme" parent="@*android:style/Theme.Material">
+       <item name="android:colorControlActivated">#ff1976d2</item>
+    </style>
+</resources>

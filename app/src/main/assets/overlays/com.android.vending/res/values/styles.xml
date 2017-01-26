@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlayMediumPlainText" parent="@style/PlayPlainText" />
+    <style name="PlayDrawerProfileNameText" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PlayRatingBarSmall">
+        <item name="android:background">#ff4caf50</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="gap">@*com.android.vending:dimen/play_star_rating_bar_small_gap</item>
+    </style>
+    <style name="PlaySearchPlate">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+    </style>
+    <style name="PlayPlainText" />
+    <style name="PlayDrawerBaseText" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_drawer_primary_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@*com.android.vending:dimen/play_drawer_item_left_padding</item>
+        <item name="android:paddingRight">@*com.android.vending:dimen/play_drawer_item_right_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@*com.android.vending:dimen/play_drawer_item_primary_min_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">32.0dip</item>
+    </style>
+    <style name="PlayDrawerProfileEmailText" parent="@style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="PlayDrawerSelectedText" parent="@style/PlayDrawerBaseText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#ff555555</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">32.0dip</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="SettingsTheme" parent="@*android:style/Theme.Material" />
+    <style name="Theme.Base.InstrumentManager.Light" parent="@*android:style/Theme.Holo.NoActionBar" />
+
+    <style name="PlayImageClusterTitle" parent="@style/PlayPlainText">
+       <item name="android:textSize">@*com.android.vending:dimen/play_person_follow_cluster_header_title_size</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#ffffffff</item>
+       <item name="android:ellipsize">end</item>
+       <item name="android:gravity">center_horizontal</item>
+       <item name="android:paddingLeft">@*com.android.vending:dimen/play_follow_cluster_text_padding</item>
+       <item name="android:paddingTop">@*com.android.vending:dimen/play_follow_cluster_title_top_margin</item>
+       <item name="android:paddingRight">@*com.android.vending:dimen/play_follow_cluster_text_padding</item>
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:maxLines">1</item>
+       <item name="android:singleLine">true</item>
+    </style>
+    <style name="PlayImageClusterSubtitle" parent="@style/PlayClusterSubtitle">
+       <item name="android:textColor">#ffffffff</item>
+       <item name="android:ellipsize">end</item>
+       <item name="android:gravity">center_horizontal</item>
+       <item name="android:paddingLeft">@*com.android.vending:dimen/play_follow_cluster_text_padding</item>
+       <item name="android:paddingRight">@*com.android.vending:dimen/play_follow_cluster_text_padding</item>
+       <item name="android:paddingBottom">8.0dip</item>
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:maxLines">3</item>
+    </style>
+    <style name="PlayClusterSubtitle" parent="@style/PlayPlainText">
+       <item name="android:textSize">@*com.android.vending:dimen/play_cluster_header_subtitle_size</item>
+       <item name="android:textColor">#ffffffff</item>
+       <item name="android:ellipsize">marquee</item>
+       <item name="android:maxLines">1</item>
+       <item name="android:singleLine">true</item>
+    </style>
+    <style name="PlayCardLabel" parent="@style/PlayPlainText">
+       <item name="android:textSize">@*com.android.vending:dimen/play_medium_size</item>
+       <item name="android:textColor">#ffffffff</item>
+       <item name="android:gravity">center</item>
+       <item name="android:background">@null</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:minWidth">0.0dip</item>
+       <item name="android:minHeight">0.0dip</item>
+       <item name="android:maxLines">1</item>
+       <item name="android:singleLine">true</item>
+       <item name="android:drawablePadding">4.0dip</item>
+    </style>
+    <style name="PlayHighlightLabel" parent="@style/PlayMediumPlainText">
+       <item name="android:textSize">11.0sp</item>
+       <item name="android:textColor">#ffffffff</item>
+       <item name="android:background">@*android:color/button_material_dark</item>
+       <item name="android:paddingLeft">2.0dip</item>
+       <item name="android:paddingTop">0.0dip</item>
+       <item name="android:paddingRight">2.0dip</item>
+       <item name="android:paddingBottom">1.0dip</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:singleLine">true</item>
+    </style>
+    <style name="OnboardText" parent="@style/PlayPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_onboard__onboard_v2_tutorial_page_title_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@*com.android.vending:dimen/play_onboard__onboard_v2_tutorial_page_title_extra_line_spacing</item>
+    </style>
+    <style name="CirclesButton" parent="@style/PlayPlainText">
+       <item name="android:textSize">@*com.android.vending:dimen/play_price_small_size</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#ffffffff</item>
+       <item name="android:gravity">center</item>
+       <item name="android:paddingLeft">30.0dip</item>
+       <item name="android:paddingRight">30.0dip</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:minWidth">@*com.android.vending:dimen/standard_button_minwidth</item>
+       <item name="android:minHeight">@*com.android.vending:dimen/play_profile_button_height</item>
+       <item name="android:singleLine">true</item>
+    </style>
+    <style name="Play_Purchase_Button" parent="@style/PlayPlainText">
+       <item name="android:textSize">@*com.android.vending:dimen/play_purchase_secondary_size</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#ffffffff</item>
+       <item name="android:gravity">center</item>
+       <item name="android:paddingTop">1.0dip</item>
+       <item name="android:paddingBottom">1.0dip</item>
+       <item name="android:focusable">true</item>
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:minWidth">@*com.android.vending:dimen/standard_button_minwidth</item>
+       <item name="android:minHeight">@*com.android.vending:dimen/standard_button_minheight</item>
+    </style>
+    <style name="PlayCardDescription" parent="@style/PlayPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_medium_size</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:singleLine">false</item>
+        <item name="lastLineOverdrawColor">@*android:color/background_floating_material_dark</item>
+    </style>
+
+    <style name="QuicklinksCircleTitle" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lineSpacingExtra">0.0sp</item>
+    </style>
+    <style name="PlayCardAction" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_card_action_size</item>
+    </style>
+    <style name="QuicklinksPillTitle" parent="@style/PlayCardAction">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="QuicklinksPillView">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:minWidth">64.0dip</item>
+    </style>
+    <style name="OnboardTab" parent="@style/PlayMediumBoldText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PlayMediumBoldText" parent="@style/PlayGridBoldText" />
+    <style name="PlayGridBoldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HighlightBannerOverlaySubtitle" parent="@style/PlayPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_cluster_header_subtitle_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:paddingBottom">@*com.android.vending:dimen/highlight_banner_vpadding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#61000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="HighlightBannerOverlayTitle" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_cluster_header_title_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#61000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="RestoreDialog" parent="@*android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+</resources>

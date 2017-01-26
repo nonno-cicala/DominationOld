@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="windowActionModeOverlay" format="boolean" />
+    <attr name="actionMenuTextColor" format="reference|color" />
+</resources>

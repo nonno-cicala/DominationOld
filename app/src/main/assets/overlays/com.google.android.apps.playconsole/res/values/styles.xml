@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.AppCompat" parent="@*android:style/Theme.Material" />
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_floating_material_dark</item>
+    </style>
+
+    <style name="Base.CardView" parent="@*android:style/Widget" />
+
+    <style name="NavigationDrawerItem">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:clickable">false</item>
+    </style>
+</resources>

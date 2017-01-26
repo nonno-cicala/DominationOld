@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+
+    <style name="CardView" parent="@style/Base.CardView" />
+ 
+    <style name="Base.CardView" parent="@*android:style/Widget" />
+
+
+</resources>
