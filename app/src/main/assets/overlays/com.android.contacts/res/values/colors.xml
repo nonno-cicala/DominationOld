@@ -16,6 +16,7 @@
     <color name="primary_text_color">#ffffffff</color>
     <color name="secondary_text_color">#ffdddddd</color>
     <color name="section_header_text_color">#ff1976d2</color>
+    <color name="main_header_separator_color">#ff1976d2</color>
     <color name="secondary_header_separator_color">#ffaaaaaa</color>
     <color name="people_app_theme_color">#ff1976d2</color>
     <color name="dialtacts_theme_color">#ff1976d2</color>

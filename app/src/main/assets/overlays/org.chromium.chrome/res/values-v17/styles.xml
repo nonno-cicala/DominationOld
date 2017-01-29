@@ -83,4 +83,13 @@
         <item name="android:layout_marginStart">7.0dip</item>
         <item name="android:layout_marginEnd">7.0dip</item>
     </style>
+
+    <style name="FullscreenWhite" parent="@*org.chromium.chrome:style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="*org.chromium.chrome:windowNoTitle">true</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
 </resources>

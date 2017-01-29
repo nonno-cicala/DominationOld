@@ -218,7 +218,7 @@
     <color name="ad_undo_text_color">#ffbf360c</color>
     <color name="ad_undo_description_text_color">#ffffffff</color>
     <color name="ad_app_install_text_color">#ffffffff</color>
-    <color name="quantum_black_text">#ffffff</color>
+    <color name="quantum_black_text">#ffffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_hint_text">#ffbbbbbb</color>
     <color name="quantum_black_divider">#ffaaaaaa</color>
@@ -226,4 +226,11 @@
     <color name="quantum_googred500">#ffd32f2f</color>
     <color name="edge_effect_color">@*android:color/accent_material_dark</color>
     <color name="quantum_grey200">@*android:color/background_floating_material_dark</color>
+    <color name="duffy_survey_border_color">#ff555555</color>
+    <color name="duffy_survey_calm_font_color">#ffdddddd</color>
+    <color name="duffy_survey_red_background_color">#ffd32f2f</color>
+    <color name="duffy_survey_calm_background_color">@*android:color/background_dark</color>
+    <color name="duffy_survey_white_background_color">@*android:color/background_dark</color>
+
+    <color name="quantum_black_100">#ffffffff</color>
 </resources>
