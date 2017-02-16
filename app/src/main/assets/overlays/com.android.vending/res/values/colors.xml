@@ -26,9 +26,9 @@
     <color name="common_signin_btn_default_background">#ffd32f2f</color>
     <color name="common_signin_btn_light_text_default">#ffffffff</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
-    <color name="design_snackbar_background_color">#ff111111</color>
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
     <color name="design_textinput_error_color">#ffd32f2f</color>
-    <color name="detailed_permissions_footer_bg">#ff111111</color>
+    <color name="detailed_permissions_footer_bg">@*android:color/background_floating_material_dark</color>
     <color name="detailed_permissions_footer_text">#ffffffff</color>
     <color name="details_review_source_text">#ff1976d2</color>
     <color name="details_screenshot_placeholder">@*android:color/button_material_dark</color>
@@ -46,13 +46,13 @@
     <color name="material_blue_grey_950">@*android:color/accent_material_dark</color>
     <color name="material_deep_teal_200">@*android:color/accent_material_dark</color>
     <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
-    <color name="material_grey_100">#ff111111</color>
-    <color name="material_grey_300">#ff000000</color>
-    <color name="material_grey_50">#ff000000</color>
-    <color name="material_grey_600">#ff000000</color>
-    <color name="material_grey_800">#ff000000</color>
-    <color name="material_grey_850">#ff000000</color>
-    <color name="material_grey_900">#ff111111</color>
+    <color name="material_grey_100">@*android:color/background_floating_material_dark</color>
+    <color name="material_grey_300">@*android:color/background_dark</color>
+    <color name="material_grey_50">@*android:color/primary_dark_material_dark</color>
+    <color name="material_grey_600">@*android:color/background_dark</color>
+    <color name="material_grey_800">@*android:color/background_dark</color>
+    <color name="material_grey_850">@*android:color/primary_dark_material_dark</color>
+    <color name="material_grey_900">@*android:color/background_floating_material_dark</color>
     <color name="my_account_action_fg">#ff1976d2</color>
     <color name="my_account_fop_invalid">#ffd32f2f</color>
     <color name="now_playing_widget_hotseat_bg">#f2000000</color>
@@ -143,9 +143,10 @@
     <color name="play_search_suggestion_divider_background">#ffaaaaaa</color>
     <color name="play_translucent_separator_line">#26aaaaaa</color>
     <color name="play_white">@*android:color/background_dark</color>
-    <color name="primary_dark_material_light">#ff000000</color>
-    <color name="primary_material_dark">#ff111111</color>
-    <color name="primary_material_light">#ff111111</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
     <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_light">#4dffffff</color>
     <color name="purchase_button_icon_background">@*android:color/background_floating_material_dark</color>
@@ -163,8 +164,8 @@
     <color name="setup_wizard_color_accent_light">#ff1976d2</color>
     <color name="setup_wizard_color_secondary_dark">#ff9e9e9e</color>
     <color name="setup_wizard_color_secondary_light">#ff9e9e9e</color>
-    <color name="setup_wizard_navbar_bg_dark">#ff000000</color>
-    <color name="setup_wizard_navbar_bg_light">#ff000000</color>
+    <color name="setup_wizard_navbar_bg_dark">@*android:color/background_dark</color>
+    <color name="setup_wizard_navbar_bg_light">@*android:color/background_dark</color>
     <color name="setup_wizard_navbar_text_light">#deffffff</color>
     <color name="song_highlighted_background">#ffff5722</color>
     <color name="status_bar_apps">#ff1b5e20</color>
@@ -183,10 +184,15 @@
     <color name="wallet_im_credit_card_invalid_text_color">#ffd32f2f</color>
     <color name="whatsnew_apps">@*android:color/background_floating_material_dark</color>
     <color name="whatsnew_apps_ent">@*android:color/background_floating_material_dark</color>
+    <color name="whatsnew_apps_v2">@*android:color/background_floating_material_dark</color>
     <color name="whatsnew_books">@*android:color/background_floating_material_dark</color>
+    <color name="whatsnew_books_v2">@*android:color/background_floating_material_dark</color>
     <color name="whatsnew_movies">@*android:color/background_floating_material_dark</color>
+    <color name="whatsnew_movies_v2">@*android:color/background_floating_material_dark</color>
     <color name="whatsnew_music">@*android:color/background_floating_material_dark</color>
+    <color name="whatsnew_music_v2">@*android:color/background_floating_material_dark</color>
     <color name="whatsnew_newsstand">@*android:color/background_floating_material_dark</color>
+    <color name="whatsnew_newsstand_v2">@*android:color/background_floating_material_dark</color>
     <color name="white">@*android:color/background_dark</color>
     <color name="whiteTBO">#ffffffff</color>
 
@@ -199,4 +205,21 @@
     <color name="review_question_option_text">#ffffffff</color>
     <color name="review_question_text">#ffffffff</color>
     <color name="reviews_filtering_color">#ffffffff</color>
+    <color name="play_apps_secondary_v2">#ff388e3c</color>
+    <color name="play_avatar_ring_color">@*android:color/button_material_dark</color>
+
+    <color name="flat_card_cluster_header_title_text_color">#ffffffff</color>
+    <color name="flat_card_cluster_light_background">@*android:color/background_floating_material_dark</color>
+    <color name="flat_cluster_item_divider_color">#ffaaaaaa</color>
+    <color name="flat_overflow_menu_fill_color">#33ffffff</color>
+    <color name="jpkr_disabled_grey">#ffaaaaaa</color>
+    <color name="jpkr_grey_secondary">#ffdddddd</color>
+    <color name="jpkr_mini_top_charts_category_spinner_label_color">#ff388e3c</color>
+    <color name="jpkr_mini_top_charts_cluster_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="jpkr_mini_top_charts_cluster_viewpager_background_color">@*android:color/background_dark</color>
+    <color name="jpkr_mini_top_charts_empty_item_background_color">@*android:color/background_dark</color>
+    <color name="jpkr_mini_top_charts_tab_strip_background_color">@*android:color/background_dark</color>
+    <color name="jpkr_mini_top_charts_tooltip_background">@*android:color/background_floating_material_dark</color>
+    <color name="jpkr_primary_black">#ffffffff</color>
+    <color name="jpkr_vertical_secondary">#ff388e3c</color>
 </resources>

@@ -58,7 +58,7 @@
     <color name="play_header_list_tab_underline_color">#ffffffff</color>
     <color name="play_header_list_tab_pressed_bg_color">#40555555</color>
     <color name="play_header_list_banner_text_color">#ffffffff</color>
-    <color name="play_header_list_banner_background_color">#ff000000</color>
+    <color name="play_header_list_banner_background_color">@*android:color/background_dark</color>
     <color name="play_card_light_background">@*android:color/background_floating_material_dark</color>
     <color name="play_card_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="play_search_plate_hint_text_color">#ffbbbbbb</color>
@@ -70,8 +70,8 @@
     <color name="play_highlight_grey_fill_dark">#40555555</color>
     <color name="play_highlight_grey_fill_light">#33999999</color>
     <color name="play_default_download_arc_color_offline">#ff999999</color>
-    <color name="play_download_arc_background_color_press">#ff000000</color>
-    <color name="play_download_arc_background_color_download">#ff555555</color>
+    <color name="play_download_arc_background_color_press">#ff555555</color>
+    <color name="play_download_arc_background_color_download">@*android:color/button_material_dark</color>
     <color name="play_onboard_app_color">#ffc2185b</color>
     <color name="play_onboard_app_color_dark">#ff880e4f</color>
     <color name="play_onboard__page_indicator_dot_active">#ffffffff</color>
@@ -132,10 +132,10 @@
     <color name="background_material_light">@*android:color/background_dark</color>
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
-    <color name="primary_material_dark">#ff111111</color>
-    <color name="primary_material_light">#ff111111</color>
-    <color name="primary_dark_material_dark">#ff000000</color>
-    <color name="primary_dark_material_light">#ff000000</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#4dffffff</color>
     <color name="accent_material_light">#ffe64a19</color>
@@ -291,7 +291,7 @@
     <color name="gearhead_primary_color_dark">#ffbf360c</color>
     <color name="wear_download_pie_chart_background">@*android:color/background_floating_material_dark</color>
     <color name="wear_download_pie_chart_color">#ffe64a19</color>
-    <color name="art_loading_color">#ff000000</color>
+    <color name="art_loading_color">@*android:color/background_dark</color>
     <color name="text_color">#ffffffff</color>
     <color name="cancel_nautilus_dialog_color">@*android:color/background_floating_material_dark</color>
     <color name="cancel_nautilus_dialog_disabled_button_color">#80222222</color>
@@ -300,4 +300,10 @@
     <color name="lb_dialog_list_item_unselected_text_color">#ffffffff</color>
     <color name="lb_dialog_selector_color">#26555555</color>
     <color name="music_play_card_small_number_bg">@*android:color/background_floating_material_dark</color>
+
+
+    <color name="play_card_ad_badge_default_color">#ffe64a19</color>
+    <color name="side_drawer_icon_color">#ffffffff</color>
+    <color name="side_drawer_icon_selected_color">#ffe64a19</color>
+    <color name="play_music_primary_v2">#ffe64a19</color>
 </resources>

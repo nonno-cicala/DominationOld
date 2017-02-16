@@ -2,12 +2,13 @@
 <resources>
     <style name="CardboardDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
     <style name="youtube_wallet_custom_theme">
-        <item name="android:colorPrimary">#ff111111</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
     </style>
     <style name="QuantumFloatingActionButton">
         <item name="android:elevation">4.0dip</item>
-        <item name="quantumFabColor">@*com.google.android.youtube:color/quantum_googred</item>
-        <item name="quantumFabRippleColor">@*android:color/ripple_material_dark</item>
+        <item name="*com.google.android.youtube:quantumFabColor">@*com.google.android.youtube:color/quantum_googred</item>
+        <item name="*com.google.android.youtube:quantumFabRippleColor">@*android:color/ripple_material_dark</item>
+        <item name="*com.google.android.youtube:quantumSize">normal</item>
     </style>
 
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
@@ -26,14 +27,13 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-    <style name="CardboardDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
     <style name="InfoCards">
         <item name="android:foreground">?android:selectableItemBackground</item>
-        <item name="cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.youtube:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="InfoCardsWatchNext">
         <item name="android:foreground">?android:selectableItemBackground</item>
-        <item name="cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.youtube:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="GvrDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
 

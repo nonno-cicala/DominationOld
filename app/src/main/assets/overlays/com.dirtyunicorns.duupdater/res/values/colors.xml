@@ -2,7 +2,7 @@
 <resources>
     <color name="design_textinput_error_color_light">#ffd32f2f</color>
     <color name="design_textinput_error_color_dark">#ffd32f2f</color>
-    <color name="design_snackbar_background_color">#ff111111</color>
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
     <color name="abc_search_url_text_normal">#ffffffff</color>
     <color name="abc_search_url_text_selected">#ffffffff</color>
     <color name="abc_search_url_text_pressed">#ffffffff</color>

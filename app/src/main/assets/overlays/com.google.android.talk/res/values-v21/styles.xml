@@ -4,7 +4,7 @@
         <item name="android:icon">@*android:color/transparent</item>
         <item name="android:background">#ff388e3c</item>
         <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
-        <item name="android:contentInsetStart">72.0dip</item>
+        <item name="android:contentInsetStart">@*com.google.android.apps.hangouts:dimen/settings_action_bar_content_inset_start</item>
     </style>
     <style name="Theme.Promo" parent="@*android:style/Theme.Material.NoActionBar">
         <item name="android:textColorPrimary">#ffffffff</item>
@@ -31,9 +31,7 @@
         <item name="android:colorPrimaryDark">#ff0d47a1</item>
         <item name="android:colorAccent">#ff1976d2</item>
     </style>
-    <style name="Snackbar">
-        <item name="android:background">#ff111111</item>
-    </style>
+
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
@@ -61,6 +59,7 @@
         <item name="android:textColor">#ffdddddd</item>
     </style>
     <style name="Theme.EmeraldSea.Settings" parent="@*android:style/Theme.Material">
+        <item name="android:actionBarStyle">@*com.google.android.apps.hangouts:style/EsActionBar</item>
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColor">#ffdddddd</item>
         <item name="android:colorPrimary">#ff388e3c</item>

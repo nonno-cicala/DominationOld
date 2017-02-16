@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@*com.android.calendar:id/time_picker_dialog" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@*com.android.calendar:id/time_display_background" android:background="@*android:color/button_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@*com.android.calendar:dimen/header_height" layout="@*com.android.calendar:layout/time_header_label" />
+    </FrameLayout>
+    <com.android.datetimepicker.time.RadialPickerLayout android:layout_gravity="center" android:id="@*com.android.calendar:id/time_picker" android:background="@*com.android.calendar:color/circle_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="@*com.android.calendar:dimen/picker_dimen" />
+    <View android:id="@*com.android.calendar:id/line" android:background="@*com.android.calendar:color/line_background" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textSize="@*com.android.calendar:dimen/done_label_size" android:textColor="@*com.android.calendar:color/done_text_color" android:id="@*com.android.calendar:id/done_button" android:background="@*com.android.calendar:drawable/done_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@*com.android.calendar:string/done_label" />
+</LinearLayout>

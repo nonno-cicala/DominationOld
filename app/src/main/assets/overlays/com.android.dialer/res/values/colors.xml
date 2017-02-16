@@ -106,7 +106,7 @@
     <color name="call_log_icon_tint">#ffffffff</color>
     <color name="call_log_missed_call_highlight_color">#ffd32f2f</color>
     <color name="call_log_voicemail_highlight_color">#ff1976d2</color>
-    <color name="visual_voicemail_promo_card_background">#ff111111</color>
+    <color name="visual_voicemail_promo_card_background">@*android:color/background_floating_material_dark</color>
     <color name="visual_voicemail_promo_card_divider">#ffaaaaaa</color>
     <color name="voicemail_icon_tint">#ffffffff</color>
     <color name="voicemail_icon_disabled_tint">#80ffffff</color>
@@ -148,7 +148,7 @@
     <color name="call_log_header_color_dark">@*android:color/background_dark</color>
     <color name="dialpad_text_color">#ffffffff</color>
     <color name="exposed_bg_light">@*android:color/background_dark</color>
-    <color name="exposed_secondary_bg_color">#ff111111</color>
+    <color name="exposed_secondary_bg_color">@*android:color/background_floating_material_dark</color>
     <color name="exposed_call_log_header">#ff1976d2</color>
     <color name="exposed_call_log_voicemail_status_background">@*android:color/background_floating_material_dark</color>
     <color name="exposed_call_log_voicemail_status_text">#ffffffff</color>

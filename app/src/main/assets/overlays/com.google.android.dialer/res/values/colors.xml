@@ -198,4 +198,10 @@
     <color name="notification_action_accept">#ff4caf50</color>
     <color name="notification_action_answer_video">#ff4caf50</color>
     <color name="notification_action_dismiss">#fff44336</color>
+
+
+    <color name="call_accept_background">#ff388e3c</color>
+    <color name="call_hangup_background">#ffd32f2f</color>
+    <color name="compose_and_call_background">#ff388e3c</color>
+
 </resources>

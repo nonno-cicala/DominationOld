@@ -30,7 +30,7 @@
     <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
     <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="design_textinput_error_color">#ffd32f2f</color>
-    <color name="design_snackbar_background_color">#ff111111</color>
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
     <color name="sc_badge_color">#ff0097a7</color>
     <color name="sc_transparent_color">#f00079a7</color>
     <color name="youtube_blue">#ff1976d2</color>
@@ -107,7 +107,7 @@
     <color name="share_panel_check_box">#ff1976d2</color>
     <color name="share_panel_overflow_toolbar_background">@*android:color/background_dark</color>
     <color name="share_panel_overflow_toolbar_text">#ffdddddd</color>
-    <color name="share_panel_overflow_status_bar_background">#ff000000</color>
+    <color name="share_panel_overflow_status_bar_background">@*android:color/primary_dark_material_dark</color>
     <color name="share_panel_identity_confirmation_bg_color">@*android:color/background_dark</color>
     <color name="share_panel_identity_confirmation_user_bg">@*android:color/background_dark</color>
     <color name="share_panel_identity_confirmation_title_text_color">#ffffffff</color>
@@ -179,10 +179,10 @@
     <color name="background_material_light">@*android:color/background_dark</color>
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
-    <color name="primary_material_dark">#ff111111</color>
-    <color name="primary_material_light">#ff111111</color>
-    <color name="primary_dark_material_dark">#ff000000</color>
-    <color name="primary_dark_material_light">#ff000000</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#33ffffff</color>
     <color name="accent_material_light">@*android:color/accent_material_dark</color>
@@ -237,8 +237,8 @@
     <color name="quantum_grey100">#ff555555</color>
     <color name="quantum_grey300">#ff555555</color>
     <color name="youtube_gray_dark">#ffbbbbbb</color>
-    <color name="conversation_header_background">#ff000000</color>
-    <color name="conversation_status_background">#ff000000</color>
+    <color name="conversation_header_background">@*android:color/primary_material_dark</color>
+    <color name="conversation_status_background">@*android:color/primary_dark_material_dark</color>
     <color name="conversation_titlebar_text">#99ffffff</color>
     <color name="primary_background">@*android:color/background_dark</color>
     <color name="video_item_duration_font">#ffffffff</color>
@@ -248,7 +248,7 @@
     <color name="corrected_query_link_color">#ff1976d2</color>
     <color name="remote_queue_time_bar">#ffd32f2f</color>
     <color name="channel_layer_banner_background">@*android:color/background_dark</color>
-    <color name="playlist_header_color_primary">#ff000000</color>
+    <color name="playlist_header_color_primary">@*android:color/primary_material_dark</color>
     <color name="set_row_color">@*android:color/background_dark</color>
     <color name="set_row_selected_color">#ff555555</color>
     <color name="set_row_pressed_color">#ff555555</color>
@@ -353,7 +353,7 @@
     <color name="live_chat_more_comments_selected_background">@*android:color/button_material_dark</color>
     <color name="live_chat_shadow_color">#22000000</color>
     <!-- New with 11.43.52 -->
-    <color name="disabled_buy_button_color">#ff000000</color>
+    <color name="disabled_buy_button_color">@*android:color/background_floating_material_dark</color>
     <color name="edit_text_dark_focused">#d9ffffff</color>
     <color name="edit_text_dark_unfocused">#8cffffff</color>
     <color name="edit_text_light_focused">#d9ffffff</color>
@@ -438,7 +438,7 @@
     <color name="image_filter_list_item_label_background_color">@*android:color/button_material_dark</color>
     <color name="image_filter_list_item_label_text_color">#deffffff</color>
     <color name="image_filter_toolbar_background_color">@*android:color/background_floating_material_dark</color>
-    <color name="live_chat_button_color_disabled">#ff111111</color>
+    <color name="live_chat_button_color_disabled">@*android:color/background_floating_material_dark</color>
     <color name="live_chat_button_subtext_dark_color">#80ffffff</color>
     <color name="live_chat_button_subtext_light_color">#80ffffff</color>
     <color name="live_chat_dark_char_count_exceeded_text_color">#ffd32f2f</color>
@@ -464,4 +464,8 @@
     <color name="ticket_shelf_more_background">@*android:color/background_dark</color>
     <color name="ticket_shelf_subtitle_color">#ffdddddd</color>
     <color name="ticket_shelf_title_color">#ffffffff</color>
+    <!-- New with 12.03.56 -->
+    <color name="search_suggestion_category_text_color">#ffd32f2f</color>
+    <color name="slim_metadata_main_color">#ffffffff</color>
+    <color name="quantum_bluegrey100">@*android:color/background_floating_material_dark</color>
 </resources>

@@ -187,6 +187,7 @@
     <attr name="spinnerStyle" format="reference" />
     <attr name="switchStyle" format="reference" />
     <attr name="behavior_peekHeight" format="dimension" />
+    <attr name="behavior_skipCollapsed" format="boolean" />
     <attr name="behavior_hideable" format="boolean" />
     <attr name="allowStacking" format="boolean" />
     <attr name="layout_collapseMode">

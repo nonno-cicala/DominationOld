@@ -29,9 +29,10 @@
     </style>
 
     <style name="Theme.Photos.Button.Light" parent="@*android:style/Widget.Material.Button">
+        <item name="android:theme">@*com.google.android.apps.photos:style/PhotosSettingButtonTheme</item>
         <item name="android:textColor">#ffffffff</item>
-        <item name="android:paddingLeft">16.0dip</item>
-        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingLeft">@*com.google.android.apps.photos:dimen/photos_theme_envelope_components_padding</item>
+        <item name="android:paddingRight">@*com.google.android.apps.photos:dimen/photos_theme_envelope_components_padding</item>
         <item name="android:minWidth">88.0dip</item>
         <item name="android:minHeight">48.0dip</item>
     </style>
@@ -76,5 +77,10 @@
         <item name="android:colorPrimary">#ff1976d2</item>
         <item name="android:colorPrimaryDark">#ff0d47a1</item>
         <item name="android:colorAccent">#ff1976d2</item>
+    </style>
+
+
+    <style name="DialogTitle" parent="@*android:style/TextAppearance.Material.DialogWindowTitle">
+        <item name="android:textColor">#ffffffff</item>
     </style>
 </resources>

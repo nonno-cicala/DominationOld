@@ -8,4 +8,6 @@
     <attr name="colorPrimaryDark" format="color" />
     <attr name="colorAccent" format="color" />
 
+
+    <attr name="textAllCaps" format="reference|boolean" />
 </resources>

@@ -8,10 +8,22 @@
         </shape>
     </item>
     <item>
-        <shape>
-            <corners android:radius="4.0dip" />
-            <solid android:color="@*android:color/button_material_dark" />
-            <stroke android:width="1.0px" android:color="#ffffffff" />
-        </shape>
+        <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true">
+                <shape>
+                    <corners android:radius="4.0dip" />
+                    <solid android:color="#ff555555" />
+                    <stroke android:width="1.0px" android:color="@*android:color/button_material_dark" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <corners android:radius="4.0dip" />
+                    <solid android:color="@*android:color/button_material_dark" />
+                    <stroke android:width="1.0px" android:color="@*android:color/background_floating_material_dark" />
+                </shape>
+            </item>
+        </selector>
     </item>
 </layer-list>

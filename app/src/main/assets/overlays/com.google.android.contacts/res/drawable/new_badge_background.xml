@@ -2,5 +2,5 @@
 <shape
   xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="@*android:color/button_material_dark" />
-    <corners android:radius="3.0dip" />
+    <corners android:radius="@*com.android.contacts:dimen/nav_new_badge_corners" />
 </shape>

@@ -10,11 +10,14 @@
     <attr name="textColorBoldLink" format="color" />
     <attr name="textColorRegularLink" format="color" />
     <attr name="textColorHyperlink" format="color" />
-    <attr name="inverseButtonStyle" format="reference" />
+    <attr name="dividerColor" format="color" />
     <attr name="primaryButtonStyle" format="reference" />
     <attr name="secondaryButtonStyle" format="reference" />
+    <attr name="inversePrimaryButtonStyle" format="reference" />
+    <attr name="inverseSecondaryButtonStyle" format="reference" />
     <attr name="updatableButtonStyle" format="reference" />
     <attr name="updatableButtonGlyphStyle" format="reference" />
+    <attr name="inverseUpdatableButtonStyle" format="reference" />
     <attr name="backgroundColorPrimary" format="color" />
     <attr name="backgroundColorPrimaryDark" format="color" />
     <attr name="backgroundColorSecondary" format="color" />
@@ -53,28 +56,14 @@
     <attr name="actionBarSearchStyle" format="reference" />
     <attr name="actionBarTextButtonStyle" format="reference" />
     <attr name="titleLogoDrawable" format="reference" />
-    <attr name="strokeColor" format="reference|color" />
-    <attr name="strokeWidth" format="dimension" />
-    <attr name="placeholder" format="reference|color" />
-    <attr name="aspect" format="float" />
-    <attr name="radius" format="dimension" />
+    <attr name="dark" format="boolean" />
+    <attr name="capitalize" format="boolean" />
+    <attr name="medium" format="boolean" />
     <attr name="normal" format="color" />
     <attr name="normal_alpha" format="integer" min="0" max="255" />
     <attr name="active" format="color" />
     <attr name="active_alpha" format="integer" min="0" max="255" />
     <attr name="disabled_alpha" format="integer" min="0" max="255" />
-    <attr name="drawable" format="reference" />
-    <attr name="innerSpacing" format="dimension" />
-    <attr name="followButtonStyle" format="string" />
-    <attr name="allowUpdateColor" format="boolean" />
-    <attr name="state_follow" format="boolean" />
-    <attr name="state_following" format="boolean" />
-    <attr name="state_requesting" format="boolean" />
-    <attr name="forceFullWidth" format="boolean" />
-    <attr name="perfTrackingCategory" format="string" />
-    <attr name="circularImageView" format="boolean" />
-    <attr name="fitAspectRatio" format="boolean" />
-    <attr name="dark" format="boolean" />
     <attr name="image" format="reference" />
     <attr name="errorImage" format="reference" />
     <attr name="colorFilter" format="reference|color" />
@@ -93,13 +82,32 @@
         <enum name="Error" value="2" />
         <enum name="Loading" value="1" />
     </attr>
+    <attr name="strokeColor" format="reference|color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="placeholder" format="reference|color" />
+    <attr name="aspect" format="float" />
+    <attr name="radius" format="dimension" />
+    <attr name="loadMoreAspectRatio" format="float" />
+    <attr name="drawable" format="reference" />
+    <attr name="innerSpacing" format="dimension" />
+    <attr name="followButtonStyle" format="string" />
+    <attr name="allowUpdateColor" format="boolean" />
+    <attr name="state_follow" format="boolean" />
+    <attr name="state_following" format="boolean" />
+    <attr name="state_requesting" format="boolean" />
+    <attr name="forceFullWidth" format="boolean" />
+    <attr name="perfTrackingCategory" format="string" />
+    <attr name="circularImageView" format="boolean" />
+    <attr name="fitAspectRatio" format="boolean" />
+    <attr name="fixedTabBarStyle" format="reference" />
+    <attr name="fixedTabBarTextColor" format="color" />
     <attr name="SeletedPicturePaddingRight" format="dimension" />
-    <attr name="capitalize" format="boolean" />
-    <attr name="medium" format="boolean" />
     <attr name="igSwitchStyle" format="reference" />
     <attr name="thumbDrawable" format="reference" />
     <attr name="checkedDrawable" format="reference" />
     <attr name="uncheckedDrawable" format="reference" />
+    <attr name="descendantWithErrorBackground" format="reference" />
+    <attr name="errorBackground" format="reference" />
     <attr name="text" format="string" />
     <attr name="textColor" format="color" />
     <attr name="backgroundColor" format="color" />
@@ -110,7 +118,6 @@
     <attr name="textPaddingLeft" format="dimension" />
     <attr name="textPaddingRight" format="dimension" />
     <attr name="barImage" format="reference" />
-    <attr name="loadMoreAspectRatio" format="float" />
     <attr name="lineSpacingExtra" format="dimension" />
     <attr name="textColorLocation" format="color" />
     <attr name="textSizeLocation" format="dimension" />
@@ -148,9 +155,10 @@
     <attr name="gradientColour4" format="color" />
     <attr name="gradientColour5" format="color" />
     <attr name="showStroke" format="boolean" />
+    <attr name="imageWidth" format="dimension" />
+    <attr name="imageHeight" format="dimension" />
+    <attr name="imageCornerRadius" format="dimension" />
     <attr name="avatarWidth" format="dimension" />
-    <attr name="fixedTabBarStyle" format="reference" />
-    <attr name="fixedTabBarTextColor" format="color" />
     <attr name="borderDrawable" format="reference" />
     <attr name="auto_start" format="boolean" />
     <attr name="base_alpha" format="float" />
@@ -224,6 +232,24 @@
     <attr name="mediaTabBackground" format="color" />
     <attr name="mediaTabTextColor" format="color" />
     <attr name="mediaTabTextColorSelected" format="color" />
+    <attr name="initialCameraFacingDeprecated">
+        <enum name="back" value="0" />
+        <enum name="front" value="1" />
+    </attr>
+    <attr name="videoCaptureQualityDeprecated">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="photoCaptureQualityDeprecated">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="enablePinchZoomDeprecated" format="boolean" />
+    <attr name="lockMediaOrientationDeprecated" format="boolean" />
     <attr name="colorIndicatorRadius" format="dimension" />
     <attr name="stroke_width" format="dimension" />
     <attr name="stroke_colour" format="color" />
@@ -257,27 +283,13 @@
     <attr name="outlineWidth" format="dimension" />
     <attr name="activeColor" format="color" />
     <attr name="inactiveColor" format="color" />
+    <attr name="circleRadius" format="dimension" />
+    <attr name="circleSpacing" format="dimension" />
+    <attr name="indicatorMaxWidth" format="dimension" />
+    <attr name="scrollingCircleCountThreshold" format="integer" />
     <attr name="content_layout" format="reference" />
     <attr name="below" format="boolean" />
     <attr name="toolTipColor" format="color" />
-    <attr name="initialCameraFacing">
-        <enum name="back" value="0" />
-        <enum name="front" value="1" />
-    </attr>
-    <attr name="videoCaptureQuality">
-        <enum name="deactivated" value="3" />
-        <enum name="high" value="0" />
-        <enum name="low" value="2" />
-        <enum name="medium" value="1" />
-    </attr>
-    <attr name="photoCaptureQuality">
-        <enum name="deactivated" value="3" />
-        <enum name="high" value="0" />
-        <enum name="low" value="2" />
-        <enum name="medium" value="1" />
-    </attr>
-    <attr name="enablePinchZoom" format="boolean" />
-    <attr name="lockMediaOrientation" format="boolean" />
     <attr name="captureStyle" format="reference" />
     <attr name="captureStrokeRing" format="color" />
     <attr name="captureCameraOuterRing" format="color" />
@@ -354,6 +366,7 @@
     <attr name="defaultSubtitle" format="string" />
     <attr name="connectedTitle" format="string" />
     <attr name="connectedSubtitle" format="string" />
+    <attr name="connectedColor" format="color" />
     <attr name="glyphEnabled" format="boolean" />
     <attr name="glyphPadding" format="dimension" />
     <attr name="countryCodeTextBold" format="boolean" />
@@ -368,7 +381,6 @@
     <attr name="maxWidth" format="dimension" />
     <attr name="maxHeight" format="dimension" />
     <attr name="customToastViewStyle" format="reference" />
-    <attr name="dividerColor" format="color" />
     <attr name="notificationNub" format="reference" />
     <attr name="notificationTooltip" format="reference" />
     <attr name="TokenTextViewStyle" format="reference" />
@@ -376,7 +388,11 @@
     <attr name="unfilledColor" format="color" />
     <attr name="spacing" format="dimension" />
     <attr name="cornerRadius" format="dimension" />
-    <attr name="onlyFillCurrentSegment" format="boolean" />
+    <attr name="segmentFillType">
+        <enum name="current_segment" value="1" />
+        <enum name="sliding_segment" value="2" />
+        <enum name="total progress" value="0" />
+    </attr>
     <attr name="seekBarStyle" format="reference" />
     <attr name="seekBarRoot" format="reference" />
     <attr name="seekBarKnob" format="reference" />
@@ -400,6 +416,29 @@
     <attr name="filterListDividers" format="reference" />
     <attr name="filterListItemText" format="reference" />
     <attr name="filterListCheckColor" format="color" />
+    <attr name="initialCameraFacing">
+        <enum name="back" value="0" />
+        <enum name="front" value="1" />
+    </attr>
+    <attr name="videoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="photoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="enablePinchZoom" format="boolean" />
+    <attr name="singleTapGesture">
+        <flag name="disabled" value="0x00000000" />
+        <flag name="focus" value="0x00000001" />
+        <flag name="metering" value="0x00000002" />
+    </attr>
+    <attr name="lockMediaOrientation" format="boolean" />
     <attr name="selectedTextColor" format="color" />
     <attr name="selectedTextSize" format="dimension" />
     <attr name="textPadding" format="dimension" />

@@ -16,6 +16,7 @@
 
     <style name="BaseActionBarOverflow" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
     <style name="BaseAppTheme" parent="@*android:style/Theme.Material">
+        <item name="android:buttonStyle">@*com.google.android.apps.docs:style/BaseButton</item>
         <item name="android:windowContentTransitions">true</item>
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
@@ -39,7 +40,9 @@
         <item name="android:colorAccent">#ff1976d2</item>
     </style>
 
-    <style name="CakemixTheme.Projector" parent="@*android:style/Theme.Material" />
+    <style name="CakemixTheme.Projector" parent="@*android:style/Theme.Material">
+        <item name="android:actionBarStyle">@*com.google.android.apps.docs:style/ProjectorActionBar</item>
+    </style>
 
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
         <item name="android:windowNoTitle">true</item>
@@ -62,4 +65,12 @@
     <style name="CakemixTheme.Upload" parent="@*android:style/Theme.Material" />
 
     <style name="UserFeedback_Tablet" parent="@*android:style/Theme.Material.Dialog" />
+
+
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
 </resources>

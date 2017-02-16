@@ -38,12 +38,12 @@
     <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
     <color name="primary_bold">#fffbc02d</color>
     <color name="primary_bold_transparent">#55fbc02d</color>
-    <color name="primary_dark_material_dark">#ff000000</color>
-    <color name="primary_dark_material_light">#ff000000</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
     <color name="primary_darker">#fffbc02d</color>
     <color name="primary_lighter">#ffffeb3b</color>
-    <color name="primary_material_dark">#ff111111</color>
-    <color name="primary_material_light">#ff111111</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_dark">#4dffffff</color>

@@ -14,12 +14,12 @@
 <style name="AbstractComposeArea">
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:background">@*android:color/background_dark</item>
-        <item name="android:paddingLeft">0.0dip</item>
-        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingLeft">@*com.google.android.gm:dimen/compose_area_start_padding</item>
+        <item name="android:paddingRight">@*com.google.android.gm:dimen/compose_area_end_padding</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:animateLayoutChanges">true</item>
-        <item name="android:paddingStart">0.0dip</item>
-        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:paddingStart">@*com.google.android.gm:dimen/compose_area_start_padding</item>
+        <item name="android:paddingEnd">@*com.google.android.gm:dimen/compose_area_end_padding</item>
     </style>
 </resources>

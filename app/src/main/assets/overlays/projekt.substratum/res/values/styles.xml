@@ -2,11 +2,10 @@
 <resources>
 
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
-
-
-    <style name="CardView" parent="@style/Base.CardView" />
+    <style name="AppTheme.DialogAlert" parent="@*android:style/Theme.Material.Dialog.Alert" />
+    <style name="RestoreDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
  
-    <style name="Base.CardView" parent="@*android:style/Widget" />
+
 
 
 </resources>

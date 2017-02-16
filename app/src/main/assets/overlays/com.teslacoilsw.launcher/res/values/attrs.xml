@@ -12,4 +12,5 @@
     <attr name="viewportHeight" format="float" />
     <attr name="pathData" format="string" />
     <attr name="fillColor" format="color" />
+    <attr name="cardBackgroundColor" format="color" />
 </resources>

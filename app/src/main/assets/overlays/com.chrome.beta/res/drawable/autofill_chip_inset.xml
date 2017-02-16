@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="4.0dip" android:insetRight="4.0dip" android:insetTop="8.0dip" android:insetBottom="8.0dip"
+<inset android:insetLeft="@*com.chrome.beta:dimen/keyboard_accessory_half_padding" android:insetRight="@*com.chrome.beta:dimen/keyboard_accessory_half_padding" android:insetTop="@*com.chrome.beta:dimen/keyboard_accessory_padding" android:insetBottom="@*com.chrome.beta:dimen/keyboard_accessory_padding"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <shape>
         <solid android:color="#ff555555" />

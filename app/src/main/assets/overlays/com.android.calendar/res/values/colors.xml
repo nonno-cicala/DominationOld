@@ -14,8 +14,8 @@
     <color name="calendar_future_bg_color">@*android:color/background_dark</color>
     <color name="calendar_hour_label">#ffdddddd</color>
     <color name="calendar_ampm_label">#ffbbbbbb</color>
-    <color name="calendar_hour_background">#ff111111</color>
-    <color name="calendar_date_banner_background">#ff111111</color>
+    <color name="calendar_hour_background">@*android:color/background_floating_material_dark</color>
+    <color name="calendar_date_banner_background">@*android:color/background_floating_material_dark</color>
     <color name="calendar_date_banner_text_color">#ffdddddd</color>
     <color name="calendar_grid_area_selected">#e6555555</color>
     <color name="calendar_grid_line_inner_horizontal_color">#ffaaaaaa</color>
@@ -39,7 +39,7 @@
     <color name="month_other_month_day_number">#ffdddddd</color>
     <color name="month_other_bgcolor">@*android:color/background_floating_material_dark</color>
     <color name="month_selected_week_bgcolor">#ff555555</color>
-    <color name="month_today_bgcolor">#ff222222</color>
+    <color name="month_today_bgcolor">@*android:color/button_material_dark</color>
     <color name="month_bgcolor">@*android:color/background_dark</color>
     <color name="month_dna_conflict_time_color">#ffdddddd</color>
     <color name="event_center">#ff388e3c</color>
@@ -52,7 +52,7 @@
     <color name="agenda_item_declined_color">#66dddddd</color>
     <color name="agenda_item_standard_color">#88ffffff</color>
     <color name="agenda_day_bar_background_color">@*android:color/background_dark</color>
-    <color name="agenda_past_days_bar_background_color">#ff222222</color>
+    <color name="agenda_past_days_bar_background_color">@*android:color/button_material_dark</color>
     <color name="agenda_past_present_separator_color">#ffaaaaaa</color>
     <color name="agenda_general_background_color">@*android:color/background_floating_material_dark</color>
     <color name="agenda_day_item_text_color">#ffdddddd</color>
@@ -68,7 +68,7 @@
     <color name="new_event_hint_text_color">#ffffffff</color>
     <color name="day_event_clicked_background_color">#801976d2</color>
     <color name="day_clicked_background_color">#ff1976d2</color>
-    <color name="day_past_background_color">#ff222222</color>
+    <color name="day_past_background_color">@*android:color/button_material_dark</color>
     <color name="event_info_headline_color">#ffffffff</color>
     <color name="event_info_headline_transparent_color">#b3ffffff</color>
     <color name="event_info_headline_link_color">#ffffffff</color>
@@ -138,4 +138,21 @@
     <color name="chips_dropdown_text_activated">#ffffffff</color>
     <color name="chips_dropdown_text_highlighted">#ffffffff</color>
     <color name="loading_message_background">@*android:color/background_dark</color>
+
+
+     <color name="edit_event_bg_color">@*android:color/background_dark</color>
+     <color name="edit_event_landscape_bg_color">@*android:color/background_floating_material_dark</color>
+     <color name="action_mode_background_color">@*android:color/primary_material_dark</color>
+     <color name="agenda_background_color">@*android:color/background_dark</color>
+     <color name="agenda_event_info_background_color">@*android:color/background_dark</color>
+     <color name="edit_event_single_column_event_bg_color">@*android:color/background_dark</color>
+     <color name="edit_event_single_column_scroll_view_background_color">@*android:color/background_floating_material_dark</color>
+     <color name="event_info_dialog_bg_color">@*android:color/background_floating_material_dark</color>
+     <color name="event_info_dialog_email_attendees_button_color">#ffffffff</color>
+     <color name="event_info_dialog_launch_custom_app_button_color">#ffffffff</color>
+     <color name="event_info_dialog_reminder_add_color">#ffffffff</color>
+     <color name="event_info_background_color">@*android:color/background_dark</color>
+     <color name="event_info_email_attendees_button_color">#ffffffff</color>
+     <color name="event_info_launch_custom_app_button_color">#ffffffff</color>
+     <color name="event_info_reminder_add_color">#ffffffff</color>
 </resources>

@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Hangouts.Snackbar" parent="@style/Snackbar">
-        <item name="android:layout_gravity">bottom|center</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:maxWidth">568.0dip</item>
-        <item name="android:minWidth">288.0dip</item>
-    </style>
-    <style name="Hangouts.Fauxbar" parent="@style/Hangouts.Snackbar">
-        <item name="android:background">#ff111111</item>
+    <style name="Hangouts.Fauxbar" parent="@*com.google.android.apps.hangouts:style/Hangouts.Snackbar">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">56.0dip</item>
-        <item name="messageTextColor">@*android:color/white</item>
-        <item name="actionTextColor">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.apps.hangouts:messageTextColor">@*android:color/white</item>
+        <item name="*com.google.android.apps.hangouts:actionTextColor">@*android:color/accent_material_dark</item>
     </style>
 </resources>

@@ -8,22 +8,22 @@
 
     <style name="systemui_theme" parent="@*android:style/Theme.Material">
         <item name="android:colorControlActivated">@*android:color/material_deep_teal_200</item>
-        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
     </style>
     <style name="Theme.SystemUI.Dialog" parent="@*android:style/Theme.Material.Dialog">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:colorControlActivated">#ffffffff</item>
-        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
     </style>
     <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.AlertDialogHost" parent="@*android:style/Theme.Material">
-        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/background_floating_material_dark</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">false</item>
-        <item name="android:alertDialogTheme">@style/Theme.SystemUI.Dialog.Alert</item>
+        <item name="android:alertDialogTheme">@*com.android.systemui:style/Theme.SystemUI.Dialog.Alert</item>
     </style>
     <style name="TextAppearance.Material.Notification.Parenthetical" parent="@*android:style/TextAppearance.Material.Notification">
         <item name="android:textStyle">italic</item>
@@ -40,21 +40,24 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:fontFamily">roboto-regular</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Header" parent="@style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Header" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
         <item name="android:textSize">12.0sp</item>
         <item name="android:alpha">1.0</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Secondary" parent="@style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Secondary" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+        <item name="android:textColor">#ffdddddd</item>
         <item name="android:alpha">1.0</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Primary" parent="@style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Primary" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
         <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
         <item name="android:alpha">1.0</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Radio" parent="@style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Radio" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+        <item name="android:textColor">#ffffffff</item>
         <item name="android:alpha">1.0</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Button" parent="@style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Button" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@*android:color/accent_material_dark</item>
         <item name="android:gravity">center</item>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:bottom="25.0dip">
+    <item android:bottom="@*com.sonelli.juicessh:dimen/status_bar_height">
         <shape android:shape="rectangle">
             <solid android:color="@*android:color/background_dark" />
         </shape>
     </item>
-    <item android:top="25.0dip">
+    <item android:top="@*com.sonelli.juicessh:dimen/status_bar_height">
         <shape android:shape="rectangle">
             <solid android:color="@*android:color/background_dark" />
         </shape>

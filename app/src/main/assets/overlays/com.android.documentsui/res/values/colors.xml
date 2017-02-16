@@ -5,7 +5,7 @@
     <color name="item_doc_grid_background">@*android:color/background_dark</color>
 
     <color name="drawer_background_color">@*android:color/background_dark</color>
-    <color name="font_color_doc_grid">#ffffff</color>
+    <color name="font_color_doc_grid">#ffffffff</color>
 
     <color name="primary_dark">@*android:color/primary_dark_material_dark</color>
     <color name="primary">@*android:color/primary_material_dark</color>

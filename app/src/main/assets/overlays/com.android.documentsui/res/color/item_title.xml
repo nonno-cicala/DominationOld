@@ -17,6 +17,6 @@
         android:alpha="0.87" />
     <item
         android:state_enabled="false"
-        android:color="#ff9e9e9e"
+        android:color="#ffdddddd"
         android:alpha="0.54" />
 </selector>

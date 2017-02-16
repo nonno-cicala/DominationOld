@@ -129,7 +129,7 @@
     <color name="fre_text_color">#ffdddddd</color>
     <color name="fre_title_color">#ffffffff</color>
     <color name="signin_head_background">@*android:color/background_dark</color>
-    <color name="signin_body_background">@*android:color/background_dark</color>
+    <color name="signin_body_background">@*android:color/background_floating_material_dark</color>
     <color name="signin_border_line_color">#ff555555</color>
     <color name="signin_disabled_button_text_color">#42ffffff</color>
     <color name="sad_tab_header_text_color">#ffffffff</color>
@@ -166,9 +166,6 @@
     <color name="find_result_bar_result_border_color">#fffbc02d</color>
     <color name="find_result_bar_active_color">#ffe64a19</color>
     <color name="find_result_bar_active_border_color">#ffbf360c</color>
-    <color name="find_in_page_query_color">#ffdddddd</color>
-    <color name="find_in_page_results_status_color">#ffdddddd</color>
-    <color name="find_in_page_results_status_white_color">#ffdddddd</color>
     <color name="find_in_page_failed_results_status_color">#ffd32f2f</color>
     <color name="light_background_color">@*android:color/background_dark</color>
     <color name="contextual_search_promo_border_color">#ff555555</color>

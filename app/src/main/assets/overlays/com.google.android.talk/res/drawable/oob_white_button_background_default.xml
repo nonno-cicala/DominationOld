@@ -4,21 +4,21 @@
     <item>
         <shape android:shape="rectangle"
           xmlns:android="http://schemas.android.com/apk/res/android">
-            <solid android:color="#ff111111" />
+            <solid android:color="@*android:color/button_material_dark" />
             <corners android:radius="5.0dip" />
         </shape>
     </item>
     <item android:bottom="1.0dip">
         <shape android:shape="rectangle"
           xmlns:android="http://schemas.android.com/apk/res/android">
-            <solid android:color="#ff333333" />
+            <solid android:color="@*android:color/background_floating_material_dark" />
             <corners android:radius="4.0dip" />
         </shape>
     </item>
     <item android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="2.0dip">
         <shape android:shape="rectangle"
           xmlns:android="http://schemas.android.com/apk/res/android">
-            <solid android:color="#ff000000" />
+            <solid android:color="@*android:color/background_dark" />
             <corners android:radius="3.0dip" />
         </shape>
     </item>

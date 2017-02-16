@@ -6,7 +6,7 @@
     <color name="dialer_settings_color_dark">#ff0d47a1</color>
 
     <color name="disabled_text_color">#ffaaaaaa</color>
-    <color name="usage_graph_dots">#ff1976d2</color>
+    <color name="usage_graph_dots">@*android:color/accent_material_dark</color>
     <color name="dialer_settings_actionbar_text_color">#ffffffff</color>
     <color name="blocked_numbers_divider_color">#ffaaaaaa</color>
     <color name="blocked_numbers_butter_bar_color">#ffdddddd</color>

@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false">
         <shape android:shape="oval">
-            <solid android:color="#ff787878" />
+            <solid android:color="#ff555555" />
             <size android:height="40.0dip" android:width="40.0dip" />
         </shape>
     </item>
@@ -15,7 +15,7 @@
     </item>
     <item>
         <shape android:shape="oval">
-            <solid android:color="#ff202020" />
+            <solid android:color="@*android:color/button_material_dark" />
             <size android:height="40.0dip" android:width="40.0dip" />
         </shape>
     </item>

@@ -14,8 +14,7 @@
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:dropDownListViewStyle">@style/Base.Widget.AppCompat.ListView.DropDown</item> 
-        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:dropDownListViewStyle">@*com.android.chrome:style/Base.Widget.AppCompat.ListView.DropDown</item>
     </style>
     <style name="PreferenceCategoryTextStyle">
         <item name="android:textSize">14.0sp</item>

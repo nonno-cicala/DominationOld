@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Holo.Light.Panel" parent="@*android:style/Theme.Holo.Panel" />
+    <style name="Theme.Holo.Light.Panel" parent="@*android:style/Theme.Holo.Panel">
+        <item name="imeFullscreenBackground">@*android:color/background_floating_material_dark</item>
+    </style>
     <style name="Theme.Holo.InputMethod" parent="@*android:style/Theme.Holo.InputMethod" />
     <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />
@@ -206,7 +208,9 @@
         <item name="android:textSize">@*android:dimen/notification_title_text_size</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="Theme.Material.InputMethod" parent="@*android:style/Theme.Material.Panel" />
+    <style name="Theme.Material.InputMethod" parent="@*android:style/Theme.Material.Panel">
+        <item name="imeFullscreenBackground">@*android:color/background_floating_material_dark</item>
+    </style>
     <style name="Theme.Material.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -254,4 +258,27 @@
     <style name="NetInitiatedActivityTheme" parent="@*android:style/Theme.Material.Dialog.Alert" />
     <style name="ConfirmUserCreationActivityTheme" parent="@*android:style/Theme.Material.Dialog.Alert" />
     <style name="UnlaunchableAppActivityTheme" parent="@*android:style/Theme.Material.Dialog.Alert" />
+
+    <style name="Theme.Holo.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Holo.Dialog.NoActionBar">
+       <item name="windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+       <item name="windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.InputMethod" parent="@*android:style/Theme.Material.InputMethod">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+
+    <style name="Theme.Material.Light.Panel" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
 </resources>

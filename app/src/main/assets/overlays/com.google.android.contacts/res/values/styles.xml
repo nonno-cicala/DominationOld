@@ -19,7 +19,18 @@
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:windowNoDisplay">false</item>
     </style>
-    <style name="Theme.CallSubjectDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Theme.CallSubjectDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">0.0dip</item>
+    </style>
     <style name="DetailActivityTheme" parent="@*android:style/Theme.Holo">
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffdddddd</item>
@@ -31,7 +42,6 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
-    <style name="ContactsActionBarOverflowQP" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
     <style name="ContactsActionBarDropDownStyle" parent="@*android:style/Widget.Holo.Spinner" />
     <style name="ContactsActionBarTheme" parent="@*android:style/Theme.Holo">
         <item name="android:textColor">#ffffffff</item>
@@ -45,8 +55,9 @@
     <style name="ContactEditorAccountsChangedActivityTheme" parent="@*android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffdddddd</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:listViewStyle">@*com.android.contacts:style/ListViewStyle</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:colorAccent">#ff1976d2</item>
     </style>
     <style name="SectionDivider">
         <item name="android:background">#ffaaaaaa</item>
@@ -103,9 +114,14 @@
 
     <style name="ExpandingEntryCardStyle">
         <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@*com.android.contacts:dimen/expanding_entry_card_marginBottom</item>
+        <item name="android:layout_marginStart">@*com.android.contacts:dimen/expanding_entry_card_marginStartEnd</item>
+        <item name="android:layout_marginEnd">@*com.android.contacts:dimen/expanding_entry_card_marginStartEnd</item>
+        <item name="android:elevation">@*com.android.contacts:dimen/expanding_entry_card_elevation</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
 
@@ -117,5 +133,15 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
-    <style name="Base.CardView" parent="@*android:style/Widget" />
+
+    <style name="PopupMenuStyleAppCompat" parent="@*com.android.contacts:style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="AssistantCardButtonStyle" parent="@*android:style/Widget.Material.Button.Borderless.Colored">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:padding">@*com.android.contacts:dimen/assistant_card_button_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
 </resources>

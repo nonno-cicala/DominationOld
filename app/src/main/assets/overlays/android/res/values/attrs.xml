@@ -37,4 +37,10 @@
     <attr name="textColorSecondary" format="reference|color" />
     <attr name="imeFullscreenBackground" format="reference|color" />
     <attr name="windowActionBar" format="boolean" />
+    <attr name="windowMinWidthMajor" format="dimension|fraction" />
+    <attr name="windowMinWidthMinor" format="dimension|fraction" />
+
+    <attr name="imeExtractEnterAnimation" format="reference" />
+    <attr name="imeExtractExitAnimation" format="reference" />
+    <attr name="windowAnimationStyle" format="reference" />
 </resources>

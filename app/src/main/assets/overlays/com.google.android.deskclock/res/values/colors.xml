@@ -22,8 +22,8 @@
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
     <color name="primary_material_dark">#ff512da8</color>
     <color name="primary_material_light">#ff512da8</color>
-    <color name="primary_dark_material_dark">#ff000000</color>
-    <color name="primary_dark_material_light">#ff000000</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
     <color name="ripple_material_dark">#42ffffff</color>
     <color name="ripple_material_light">#42ffffff</color>
     <color name="accent_material_light">#ff512da8</color>
@@ -55,8 +55,8 @@
     <color name="material_grey_900">#ff512da8</color>
     <color name="material_grey_850">@*android:color/background_dark</color>
     <color name="material_grey_800">@*android:color/background_floating_material_dark</color>
-    <color name="material_grey_600">#ff000000</color>
-    <color name="material_grey_300">#ffe0e0e0</color>
+    <color name="material_grey_600">@*android:color/primary_dark_material_dark</color>
+    <color name="material_grey_300">@*android:color/background_dark</color>
     <color name="material_grey_100">#ff512da8</color>
     <color name="material_grey_50">@*android:color/background_dark</color>
     <color name="material_deep_teal_200">#ff512da8</color>
@@ -64,7 +64,7 @@
     <color name="material_blue_grey_800">#ff512da8</color>
     <color name="material_blue_grey_900">#ff512da8</color>
     <color name="material_blue_grey_950">#ff311b92</color>
-    <color name="design_snackbar_background_color">#ff111111</color>
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
     <color name="white">#ffffffff</color>
     <color name="circle_background">#ffffffff</color>
     <color name="line_background">#ffaaaaaa</color>
@@ -79,8 +79,8 @@
     <color name="darker_blue">#ff0d47a1</color>
     <color name="date_picker_text_normal">#ffffffff</color>
     <color name="date_picker_text_disabled">#ffbbbbbb</color>
-    <color name="calendar_header">#ff111111</color>
-    <color name="date_picker_view_animator">#ff111111</color>
+    <color name="calendar_header">@*android:color/primary_material_dark</color>
+    <color name="date_picker_view_animator">#ff555555</color>
     <color name="calendar_selected_date_text">#ffffffff</color>
     <color name="red">#ffd32f2f</color>
     <color name="red_focused">#ffb71c1c</color>
@@ -91,7 +91,7 @@
     <color name="done_text_color_dark_disabled">#ffbbbbbb</color>
     <color name="done_disabled_dark">#ffbbbbbb</color>
     <color name="color_accent">#ff512da8</color>
-    <color name="time_picker_gray">#ff111111</color>
+    <color name="time_picker_gray">@*android:color/background_floating_material_dark</color>
     <color name="button_pressed">#ff555555</color>
     <color name="transparent">#00000000</color>
     <color name="ampm_off">#ff555555</color>
@@ -102,7 +102,7 @@
     <color name="action_bar_button_text_color">#ffffffff</color>
     <color name="dialog_gray">#28ffffff</color>
     <color name="pressed_state_color">#33999999</color>
-    <color name="black">#ff000000</color>
+    <color name="black">@*android:color/background_dark</color>
     <color name="black_87p">#ffffffff</color>
     <color name="black_54p">#ffdddddd</color>
     <color name="black_16p">#ffbbbbbb</color>
@@ -112,8 +112,8 @@
     <color name="bright_foreground_light_disabled">#80ffffff</color>
     <color name="clock_white">#ffffffff</color>
     <color name="clock_gray">#b3ffffff</color>
-    <color name="default_background">#ff000000</color>
-    <color name="status_bar">#ff000000</color>
+    <color name="default_background">@*android:color/background_dark</color>
+    <color name="status_bar">@*android:color/primary_dark_material_dark</color>
     <color name="notif_text_grey">#ffffffff</color>
     <color name="control_highlight_color">#42ffffff</color>
     <color name="notification_bg">@*android:color/background_dark</color>

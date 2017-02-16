@@ -13,4 +13,5 @@
     <item type="drawable" name="notification_template_divider">#29000000</item>
     <item type="drawable" name="notification_template_divider_media">#29ffffff</item>
     <item type="drawable" name="screen_background_holo_dark">@*android:color/background_dark</item>
+    <item type="drawable" name="screen_background_holo_light">@*android:color/background_dark</item>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="grey_9">#ffffffff</color>
     <color name="grey_6">#ffdddddd</color>
     <color name="grey_5">#ffdddddd</color>
     <color name="grey_4">#ffdddddd</color>
@@ -7,6 +8,7 @@
     <color name="grey_2">@*android:color/background_dark</color>
     <color name="grey_1_5">#ffaaaaaa</color>
     <color name="grey_1">@*android:color/background_floating_material_dark</color>
+    <color name="grey_0">#ffffffff</color>
     <color name="grey_0_7">@*android:color/background_floating_material_dark</color>
     <color name="grey_0_5">@*android:color/background_dark</color>
     <color name="white_5_transparent">@*android:color/button_material_dark</color>
@@ -17,6 +19,8 @@
     <color name="dialog_background">@*android:color/background_floating_material_dark</color>
     <color name="red_6_whiteout">#ffd32f2f</color>
     <color name="red_5_whiteout">#ffd32f2f</color>
+    <color name="blue_5">#ff1976d2</color>
+    <color name="blue_1">#801976d2</color>
     <color name="blue_9_whiteout">#ff1976d2</color>
     <color name="blue_6_whiteout">#ff1976d2</color>
     <color name="blue_5_whiteout">#ff1976d2</color>

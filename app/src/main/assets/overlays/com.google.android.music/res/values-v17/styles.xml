@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Upsell.Button.Companion" parent="@style/Upsell.Button">
+    <style name="Upsell.Button.Companion" parent="@*com.google.android.music:style/Upsell.Button">
         <item name="android:textSize">@*com.google.android.music:dimen/companion_upsell_button_text_size</item>
         <item name="android:textColor">#ffffffff</item>
         <item name="android:gravity">center_horizontal</item>

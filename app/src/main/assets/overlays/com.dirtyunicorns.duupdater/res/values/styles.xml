@@ -4,7 +4,7 @@
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
 
     <style name="Base.CardView" parent="@*android:style/Widget">
-        <item name="cardUseCompatPadding">false</item>
-        <item name="cardPreventCornerOverlap">true</item>
+        <item name="*com.dirtyunicorns.duupdater:cardUseCompatPadding">false</item>
+        <item name="*com.dirtyunicorns.duupdater:cardPreventCornerOverlap">true</item>
     </style>
 </resources>

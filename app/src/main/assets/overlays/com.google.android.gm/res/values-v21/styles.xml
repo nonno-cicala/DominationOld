@@ -10,20 +10,7 @@
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large" />
     <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium" />
     <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
-    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-        <item name="android:textColorPrimary">#ffffffff</item>
-        <item name="android:textColorSecondary">#ffffffff</item>
-        <item name="android:textColorSecondaryInverse">#ffffffff</item>
-        <item name="android:textColorSecondaryInverseNoDisable">#ffffffff</item>
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:textColorTertiary">#ffffffff</item>
-        <item name="android:textColorTertiaryInverse">#ffffffff</item>
-        <item name="android:editTextColor">#ffffffff</item>
-        <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
-    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
     <style name="NotificationPrimaryText">
         <item name="android:textColor">#ffffffff</item>
     </style>
@@ -32,24 +19,29 @@
     </style>
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Material">
         <item name="android:listViewWhiteStyle">@*android:style/Widget.Material.ListView</item>
-        <item name="android:background">@*android:color/background_dark</item>
-        <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:actionModeBackground">@*android:color/primary_material_dark</item>
+        <item name="android:actionOverflowButtonStyle">@*com.google.android.gm:style/ActionBarOverflowButtonStyle</item>
+        <item name="android:colorPrimary">@*com.google.android.gm:color/primary_color</item>
+        <item name="android:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
+        <item name="android:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
     </style>
-    <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@style/GmailTheme.NoActionBar">
+    <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@*com.google.android.gm:style/GmailTheme.NoActionBar">
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/background_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
     </style>
     <style name="LabelSyncTheme" parent="@*android:style/Theme.Material.Dialog" />
     <style name="GmailTheme.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
-        <item name="android:colorPrimary">#ffd32f2f</item>
-        <item name="android:colorPrimaryDark">#ffb71c1c</item>
-        <item name="android:colorAccent">#ff0288d1</item>
+        <item name="android:colorPrimary">@*com.google.android.gm:color/primary_color</item>
+        <item name="android:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
+        <item name="android:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
     </style>
     <style name="GmailTheme.NoActionBar.Fullscreen" parent="@*android:style/Theme.Material.NoActionBar.Fullscreen">
-        <item name="android:colorPrimary">#ffd32f2f</item>
-        <item name="android:colorPrimaryDark">#ffb71c1c</item>
-        <item name="android:colorAccent">#ff0288d1</item>
+        <item name="android:colorPrimary">@*com.google.android.gm:color/primary_color</item>
+        <item name="android:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
+        <item name="android:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
     </style>
 
     <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
@@ -65,9 +57,30 @@
 
     <style name="MailActivityTheme" parent="@*com.google.android.gm:style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@*com.google.android.gm:color/mail_activity_status_bar_color</item>
+        <item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
         <item name="*com.google.android.gm:windowActionModeOverlay">true</item>
-        <item name="android:colorPrimary">@*com.google.android.gm:color/primary_color</item>
-        <item name="android:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
-        <item name="android:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="*com.google.android.gm:actionBarPopupTheme">@*com.google.android.gm:style/ThemeOverlay.AppCompat.Light</item>
+        <item name="*com.google.android.gm:actionModeBackground">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.gm:popupMenuStyle">@*com.google.android.gm:style/MessageHeaderPopupStyle</item>
+        <item name="*com.google.android.gm:colorPrimary">@*com.google.android.gm:color/primary_color</item>
+        <item name="*com.google.android.gm:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
+        <item name="*com.google.android.gm:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="*com.google.android.gm:alertDialogTheme">@*com.google.android.gm:style/AlertDialogTheme</item>
+        <item name="*com.google.android.gm:drawerArrowStyle">@*com.google.android.gm:style/ActionBarDrawerArrowDrawableStyle</item>
+    </style>
+
+
+    <style name="SuwGlifCardContainer">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">5.0dip</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*com.google.android.gm:dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="*com.google.android.gm:behavior_peekHeight">auto</item>
+        <item name="*com.google.android.gm:behavior_hideable">true</item>
+        <item name="*com.google.android.gm:behavior_skipCollapsed">false</item>
     </style>
 </resources>

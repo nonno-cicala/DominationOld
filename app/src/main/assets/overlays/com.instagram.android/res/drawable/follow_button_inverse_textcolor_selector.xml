@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/lib/com.instagram.android">
+    <item android:state_pressed="true" android:color="#ff1976d2" app:state_follow="true" />
+    <item android:color="#ff1976d2" app:state_follow="true" />
+    <item android:state_pressed="true" android:color="#ffffffff" app:state_following="true" />
+    <item android:color="#ffffffff" app:state_following="true" />
+</selector>

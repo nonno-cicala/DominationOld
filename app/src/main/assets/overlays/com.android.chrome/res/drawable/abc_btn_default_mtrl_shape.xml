@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="4.0dip" android:insetRight="4.0dip" android:insetTop="6.0dip" android:insetBottom="6.0dip"
+<inset android:insetLeft="@*com.android.chrome:dimen/abc_button_inset_horizontal_material" android:insetRight="@*com.android.chrome:dimen/abc_button_inset_horizontal_material" android:insetTop="@*com.android.chrome:dimen/abc_button_inset_vertical_material" android:insetBottom="@*com.android.chrome:dimen/abc_button_inset_vertical_material"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <shape android:shape="rectangle">
-        <corners android:radius="2.0dip" />
+        <corners android:radius="@*com.android.chrome:dimen/abc_control_corner_material" />
         <solid android:color="@*android:color/button_material_dark" />
-        <padding android:left="8.0dip" android:top="4.0dip" android:right="8.0dip" android:bottom="4.0dip" />
+        <padding android:left="@*com.android.chrome:dimen/abc_button_padding_horizontal_material" android:top="@*com.android.chrome:dimen/abc_button_padding_vertical_material" android:right="@*com.android.chrome:dimen/abc_button_padding_horizontal_material" android:bottom="@*com.android.chrome:dimen/abc_button_padding_vertical_material" />
     </shape>
 </inset>

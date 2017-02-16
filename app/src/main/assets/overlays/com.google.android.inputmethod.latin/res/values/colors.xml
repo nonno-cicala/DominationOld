@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="ColorChordedTrackMaterialDarkTheme">#ff787878</color>
-    <color name="ColorGestureTrackMaterialDarkTheme">#ff787878</color>
+    <color name="ColorChordedTrackMaterialDarkTheme">@*android:color/accent_material_dark</color>
+    <color name="ColorGestureTrackMaterialDarkTheme">@*android:color/accent_material_dark</color>
     <color name="base_material_dark_theme">@*android:color/background_dark</color>
     <color name="candidate_material_dark_theme">@*android:color/background_dark</color>
-    <color name="candidate_placeholder">#ff222222</color>
+    <color name="candidate_placeholder">@*android:color/button_material_dark</color>
     <color name="common_action_bar_splitter">#ffaaaaaa</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
@@ -24,7 +24,7 @@
     <color name="common_plus_signin_btn_text_light_pressed">#ffffffff</color>
     <color name="confidential_red">#ffd32f2f</color>
     <color name="confidential_silver">#ffdddddd</color>
-    <color name="default_green">#ff787878</color>
+    <color name="default_green">@*android:color/accent_material_dark</color>
     <color name="feature_page_background">#ff1976d2</color>
     <color name="feature_page_text_color">#ffffffff</color>
     <color name="first_run_navigation_text">#e6ffffff</color>
@@ -34,7 +34,7 @@
     <color name="inline_composing_text_determined_syllable">#881976d2</color>
     <color name="inline_composing_text_undecoded">#77d32f2f</color>
     <color name="key_action_bordered_dark_theme">#cc787878</color>
-    <color name="key_action_pressed_bordered_dark_theme">#ff787878</color>
+    <color name="key_action_pressed_bordered_dark_theme">@*android:color/accent_material_dark</color>
     <color name="key_bordered_dark_theme">#1fffffff</color>
     <color name="key_dark_bordered_dark_theme">#0dffffff</color>
     <color name="key_dark_pressed_bordered_dark_theme">#3dffffff</color>
@@ -52,20 +52,20 @@
     <color name="label_non_prime_header_deactive_dark_theme">#ffbbbbbb</color>
     <color name="label_popup_footer_material_dark_theme">#54dddddd</color>
     <color name="label_popup_material_dark_theme">#ffffffff</color>
-    <color name="label_popup_pressed_material_dark_theme">#ff787878</color>
+    <color name="label_popup_pressed_material_dark_theme">@*android:color/accent_material_dark</color>
     <color name="label_reading_text_candidate_material_dark_theme">#ccffffff</color>
     <color name="label_secondary_material_dark_theme">#99ffffff</color>
     <color name="label_space_bordered_dark_theme">#6bdddddd</color>
     <color name="label_space_material_dark_theme">#33dddddd</color>
     <color name="label_sup_dark_material_dark_theme">#99ffffff</color>
-    <color name="label_sup_light_material_dark_theme">#ff787878</color>
+    <color name="label_sup_light_material_dark_theme">@*android:color/accent_material_dark</color>
     <color name="more_candidates_separator_material_dark_theme">#1affffff</color>
     <color name="popup_background_material_dark_theme">@*android:color/background_floating_material_dark</color>
     <color name="popup_confirmation_text">#ffffffff</color>
     <color name="popup_overlay_background">#88222222</color>
     <color name="tutorial_hint_bubble">#66222222</color>
     <color name="tutorial_press_color">#4c555555</color>
-    <color name="tutorial_tip_desc_green">#ff787878</color>
+    <color name="tutorial_tip_desc_green">@*android:color/accent_material_dark</color>
     <color name="tutorial_tip_source">#ffffffff</color>
 
     <color name="key_text_color_lxx_dark">#ccffffff</color>
