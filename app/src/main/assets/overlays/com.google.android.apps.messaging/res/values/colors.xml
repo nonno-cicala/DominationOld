@@ -235,7 +235,7 @@
     <color name="sticker_empty_list_view_tag_line_text_color">#ffffffff</color>
     <color name="sticker_tab_icon_background">@*android:color/button_material_dark</color>
     <color name="sticker_tab_add_icon_stroke_color">#ff555555</color>
-    <color name="fastscroll_track_color">#ffdddddd</color>
+    <color name="fastscroll_track_color">#ff555555</color>
     <color name="fastscroll_thumb_color">@*android:color/button_material_dark</color>
     <color name="fastscroll_preview_text_color">#ffffffff</color>
 
@@ -258,4 +258,7 @@
     <color name="contact_label_text">#ffffffff</color>
     <color name="contact_picker_group_name_text">#ffffffff</color>
     <color name="contact_picker_search_background">@*android:color/background_dark</color>
+
+
+    <color name="c2o_grid_background">@*android:color/background_dark</color>
 </resources>

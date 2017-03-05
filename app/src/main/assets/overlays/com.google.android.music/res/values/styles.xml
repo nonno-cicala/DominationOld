@@ -102,13 +102,7 @@
     <style name="EpisodeDetailsTitleText">
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="InfoCardButton" parent="@*com.google.android.music:style/PlayMediumBoldText">
-        <item name="android:textColor">#ffe64a19</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@*com.google.android.music:drawable/tutorial_white_button_bg</item>
-        <item name="android:paddingLeft">@*com.google.android.music:dimen/info_card_button_padding</item>
-        <item name="android:paddingRight">@*com.google.android.music:dimen/info_card_button_padding</item>
-    </style>
+
     <style name="SoundSearchButton" parent="@*com.google.android.music:style/PlayMediumBoldText">
         <item name="android:textSize">@*com.google.android.music:dimen/sound_search_button_text_size</item>
         <item name="android:textColor">#ffe64a19</item>
@@ -144,16 +138,7 @@
         <item name="android:windowActionBar">false</item>
     </style>
 
-    <style name="EdgeNowPlayingWidgetTrackText">
-        <item name="android:textSize">@*com.google.android.music:dimen/edge_now_playing_track_text_size</item>
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:paddingLeft">@*com.google.android.music:dimen/edge_now_playing_title_margin_side</item>
-        <item name="android:paddingRight">@*com.google.android.music:dimen/edge_now_playing_title_margin_side</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:marqueeRepeatLimit">marquee_forever</item>
-    </style>
+
 
     <style name="FamilyOnboarding.Title" parent="@*com.google.android.music:style/FamilyOnboarding">
         <item name="android:textSize">@*com.google.android.music:dimen/family_onboarding_title_text_size</item>

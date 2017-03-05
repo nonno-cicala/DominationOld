@@ -351,4 +351,8 @@
     <color name="quick_button_text_background_pressed_color">#ff555555</color>
     <color name="quick_button_text_background_unpressed_color">@*android:color/button_material_dark</color>
     <color name="quick_button_color">@*android:color/button_material_dark</color>
+    <color name="in_call_message_bubble_background">@*android:color/button_material_dark</color>
+    <color name="in_call_message_link">@*android:color/accent_material_dark</color>
+    <color name="in_call_message_button_background">@*android:color/button_material_dark</color>
+    <color name="in_call_message_indicator_background">#ff1976d2</color>
 </resources>

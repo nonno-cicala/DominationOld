@@ -129,6 +129,7 @@
     <color name="bt_acl_fix_more_radio_button_checked">#ff1976d2</color>
     <color name="bt_acl_fix_more_radio_button_label_disabled">#ffaaaaaa</color>
     <color name="bt_acl_fix_more_radio_button_label">#ffffffff</color>
+    <color name="bt_acl_fix_more_radio_button_label_enabled">#ffffffff</color>
     <color name="bt_acl_fix_more_radio_button_sublabel">#ffdddddd</color>
     <color name="bt_acl_fix_more_radio_button_unchecked">#ffdddddd</color>
     <color name="bt_acl_fix_sharing_options_text">#ffffffff</color>
@@ -325,6 +326,7 @@
     <color name="bt_smartreply_suggestion_text">#ff1976d2</color>
     <color name="bt_smartreply_suggestion_text_v1">#ff1976d2</color>
     <color name="bt_smartreply_suggestion_view_background">@*android:color/background_dark</color>
+    <color name="bt_smartreply_bottom_bar_content_text">#ffdddddd</color>
     <color name="bt_snooze_dialog_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_snooze_yellow">#fffbc02d</color>
     <color name="bt_speed_dial_background">#e6111111</color>
@@ -357,4 +359,6 @@
     <color name="bt_unseen_count_background_unimportant">#ff333333</color>
     <color name="bt_white_text">#ffffffff</color>
     <color name="bt_settings_background">@*android:color/background_dark</color>
+    <color name="edge_effect_color">@*android:color/accent_material_dark</color>
+    <color name="quantum_grey900">#ffdddddd</color>
 </resources>

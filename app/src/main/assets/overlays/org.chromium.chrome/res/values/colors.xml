@@ -199,4 +199,6 @@
     <color name="place_autocomplete_prediction_primary_text_highlight">#ffffffff</color>
     <color name="place_autocomplete_prediction_secondary_text">#ffdddddd</color>
     <color name="place_autocomplete_separator">#1faaaaaa</color>
+    <color name="tile_view_text">#ffdddddd</color>
+    <color name="tile_view_offline_badge_tint">#ff1976d2</color>
 </resources>

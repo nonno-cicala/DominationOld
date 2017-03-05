@@ -769,4 +769,6 @@
     <color name="teardrop_color">#ff1976d2</color>
     <!-- Selected tab in main Google Screen -->
     <color name="active_tab_color">#ff1976d2</color>
+
+    <color name="optin_animation_image_background_notif">@*android:color/black</color>
 </resources>

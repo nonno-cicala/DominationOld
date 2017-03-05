@@ -370,4 +370,11 @@
     <color name="warm_welcome_page_1">#ff1976d2</color>
     <color name="warm_welcome_page_2">#ffe64a19</color>
     <color name="warm_welcome_page_3">#ff388e3c</color>
+
+    <color name="material_title">#ffffffff</color>
+    <color name="placeholder_grey">@*android:color/button_material_dark</color>
+    <color name="placeholder_light_grey">@*android:color/button_material_dark</color>
+    <color name="refined_reason">#ffdddddd</color>
+    <color name="refined_reason_background">@*android:color/button_material_dark</color>
+    <color name="refined_title">#ffffffff</color>
 </resources>

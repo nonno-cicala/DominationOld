@@ -92,4 +92,43 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:singleLine">true</item>
     </style>
+
+    <style name="InCallMessage.Name" parent="@*com.google.android.apps.hangouts:style/Theme.EmeraldSea">
+        <item name="android:textSize">@*com.google.android.apps.hangouts:dimen/in_call_message_name_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:alpha">1.00</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="InCallMessage.Text" parent="@*com.google.android.apps.hangouts:style/Theme.EmeraldSea">
+        <item name="android:textSize">@*com.google.android.apps.hangouts:dimen/in_call_message_text_size</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:alpha">1.00</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="LastReadIndicatorMessageTextStyle">
+        <item name="android:textSize">@*com.google.android.apps.hangouts:dimen/last_read_message_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/button_material_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@*com.google.android.apps.hangouts:dimen/last_read_message_text_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.hangouts:dimen/last_read_message_text_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="LastReadIndicatorLineViewStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@*com.google.android.apps.hangouts:dimen/last_read_message_line_height</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
 </resources>

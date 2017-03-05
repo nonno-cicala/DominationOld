@@ -124,4 +124,9 @@
     <color name="smartbar_editor_popup_horiz_separator">@*android:color/accent_material_dark</color>
 
     <color name="docked_divider_background">@*android:color/accent_material_dark</color>
+
+    <color name="pie_background">@*android:color/button_material_dark</color>
+    <color name="pie_foreground">#ffffffff</color>
+    <color name="pie_icon">#4dffffff</color>
+    <color name="pie_line">#1affffff</color>
 </resources>

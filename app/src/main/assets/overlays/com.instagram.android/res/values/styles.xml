@@ -125,8 +125,6 @@
         <item name="*com.instagram.android:modalActionBarStatusBarColor">@*android:color/primary_dark_material_dark</item>
         <item name="*com.instagram.android:clearActionBarForegroundPressedColor">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:clearActionBarDividerColor">@*android:color/transparent</item>
-        <item name="*com.instagram.android:transparentActionBarForegroundPressedColor">@*android:color/transparent</item>
-        <item name="*com.instagram.android:transparentActionBarDividerColor">@*android:color/transparent</item>
         <item name="*com.instagram.android:browserActionBarForegroundPressedColor">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:browserActionBarDividerColor">@*android:color/transparent</item>
         <item name="*com.instagram.android:actionBarShadowVisibility">0</item>
@@ -331,6 +329,7 @@
     <style name="Widget.MediaPickerItem.Whiteout" parent="">
         <item name="*com.instagram.android:placeholderColor">@*android:color/background_floating_material_dark</item>
         <item name="*com.instagram.android:selectedColor">@*android:color/dim_foreground_light</item>
+        <item name="*com.instagram.android:selectedCircleColor">#ff1976d2</item>
         <item name="*com.instagram.android:selectedStrokeWidth">0.0dip</item>
     </style>
     <style name="Widget.InAppCaptureView" parent="">

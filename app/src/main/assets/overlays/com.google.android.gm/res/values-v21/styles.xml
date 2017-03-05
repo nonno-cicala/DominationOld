@@ -30,7 +30,12 @@
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
     </style>
-    <style name="LabelSyncTheme" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="LabelSyncTheme" parent="@*com.google.android.gm:style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:colorControlNormal">@*com.google.android.gm:color/accent_blue</item>
+        <item name="android:colorControlActivated">@*com.google.android.gm:color/accent_blue</item>
+        <item name="android:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+    </style>
     <style name="GmailTheme.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
         <item name="android:colorPrimary">@*com.google.android.gm:color/primary_color</item>
         <item name="android:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>

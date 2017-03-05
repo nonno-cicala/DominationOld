@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@*com.Slack:id/search_recyclerview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@*com.Slack:id/empty_search_stub" android:layout="@*com.Slack:layout/empty_search" android:inflatedId="@*com.Slack:id/empty_search" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@*com.Slack:id/search_loading" android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@*com.Slack:drawable/icon_anim_load" android:scaleType="center" android:contentDescription="@*com.Slack:string/a11y_loading" />
+    <android.support.v7.widget.RecyclerView android:id="@*com.Slack:id/filter_recyclerview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

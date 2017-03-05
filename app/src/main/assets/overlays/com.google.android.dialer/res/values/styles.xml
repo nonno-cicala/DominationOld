@@ -73,4 +73,20 @@
         <item name="android:textSize">@*com.google.android.dialer:dimen/toolbar_title_text_size</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
+
+    <style name="Dialer.Incall.TextAppearance.Message" parent="@*com.google.android.dialer:style/Dialer.Incall.TextAppearance">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="EmergencyAddressTextStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="EmergencyAddressTitleTextStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
 </resources>

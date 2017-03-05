@@ -155,4 +155,9 @@
      <color name="event_info_email_attendees_button_color">#ffffffff</color>
      <color name="event_info_launch_custom_app_button_color">#ffffffff</color>
      <color name="event_info_reminder_add_color">#ffffffff</color>
+
+     <color name="calendars_to_display_background_color">@*android:color/background_dark</color>
+     <color name="calendars_to_display_button_color">@*android:color/button_material_dark</color>
+     <color name="calendars_to_display_button_text_color">#ffffffff</color>
+     <color name="calendars_to_display_list_text_color">#ffffffff</color>
 </resources>

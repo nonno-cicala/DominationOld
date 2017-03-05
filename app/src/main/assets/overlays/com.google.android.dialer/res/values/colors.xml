@@ -204,4 +204,8 @@
     <color name="call_hangup_background">#ffd32f2f</color>
     <color name="compose_and_call_background">#ff388e3c</color>
 
+    <color name="background_item_grey_pressed">#ff555555</color>
+    <color name="dialer_ripple_material_light">#4dffffff</color>
+    <color name="gallery_item_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="gallery_item_image_color">@*android:color/accent_material_dark</color>
 </resources>

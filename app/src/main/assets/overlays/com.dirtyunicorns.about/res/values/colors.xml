@@ -127,4 +127,20 @@
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#ffbdbdbd</color>
     <color name="yellow">#fffbc02d</color>
+
+    <color name="developer_card_background">@*android:color/background_floating_material_dark</color>
+    <color name="developer_card_text">#ffffffff</color>
+    <color name="device_card_background">@*android:color/background_floating_material_dark</color>
+    <color name="device_card_text">#ffffffff</color>
+    <color name="general_info_background">@*android:color/background_floating_material_dark</color>
+    <color name="general_info_divider">#ffaaaaaa</color>
+    <color name="general_info_text">#ffffffff</color>
+    <color name="nav_drawer_background">@*android:color/background_floating_material_dark</color>
+    <color name="nav_drawer_divider">#ffaaaaaa</color>
+    <color name="nav_drawer_header_text">#ffffffff</color>
+    <color name="nav_drawer_icon_color">#ffdddddd</color>
+    <color name="nav_drawer_icon_tint_color">#ffd32f2f</color>
+    <color name="nav_drawer_selected_text">#ffd32f2f</color>
+    <color name="nav_drawer_selector">#ff555555</color>
+    <color name="nav_drawer_text">#ffffffff</color>
 </resources>
