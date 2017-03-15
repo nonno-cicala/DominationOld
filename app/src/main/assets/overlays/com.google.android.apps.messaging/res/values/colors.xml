@@ -9,7 +9,7 @@
     <color name="common_signin_btn_light_text_disabled">#ffdddddd</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
     <color name="common_signin_btn_default_background">#ffd32f2f</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="wallet_bright_foreground_holo_dark">#ffffffff</color>
     <color name="wallet_dim_foreground_holo_dark">#ffdddddd</color>
     <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
@@ -44,7 +44,7 @@
     <color name="text_error_hint">#ffffffff</color>
     <color name="chips_dropdown_background_activated">#ff1976d2</color>
     <color name="chips_dropdown_background_pressed">#ff555555</color>
-    <color name="autocomplete_divider_color">#ffaaaaaa</color>
+    <color name="autocomplete_divider_color">#00000000</color>
     <color name="chip_background">#ff555555</color>
     <color name="chip_background_invalid">#ffd32f2f</color>
     <color name="chips_dropdown_text_default">#ffffffff</color>
@@ -181,7 +181,7 @@
     <color name="participant_list_text_primary">#ffffffff</color>
     <color name="participant_list_text_secondary">#ffdddddd</color>
     <color name="people_and_options_header_text">#ffffffff</color>
-    <color name="people_and_options_list_divider">#ffaaaaaa</color>
+    <color name="people_and_options_list_divider">#00000000</color>
     <color name="fab_color">#ff1976d2</color>
     <color name="fab_pressed_color">#ff0288d1</color>
     <color name="fab_ripple">#40ffffff</color>
@@ -228,8 +228,8 @@
     <color name="sticker_grid_item_view_background_color">@*android:color/background_dark</color>
     <color name="sticker_set_overview_download_status_color">#ffffffff</color>
     <color name="sticker_set_overview_download_button_color">#ff1976d2</color>
-    <color name="sticker_set_overview_divider">#ffaaaaaa</color>
-    <color name="sticker_grid_view_holder_divider">#ffaaaaaa</color>
+    <color name="sticker_set_overview_divider">#00000000</color>
+    <color name="sticker_grid_view_holder_divider">#00000000</color>
     <color name="sticker_empty_list_image_color">#ffffffff</color>
     <color name="sticker_empty_list_image_stroke_color">#ffdddddd</color>
     <color name="sticker_empty_list_view_tag_line_text_color">#ffffffff</color>

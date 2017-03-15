@@ -12,7 +12,7 @@
     <color name="accent_material_light">@*android:color/accent_material_dark</color>
     <color name="action_mode">#ff00796b</color>
     <color name="action_mode_dark">#ff00796b</color>
-    <color name="actionbar_separator">#66ffffff</color>
+    <color name="actionbar_separator">#00000000</color>
     <color name="archived">#ffdddddd</color>
     <color name="attach_popup_background">#f8111111</color>
     <color name="avatar_broadcast_large">#ff555555</color>
@@ -39,7 +39,7 @@
     <color name="call_decline">#ffd32f2f</color>
     <color name="camera_thumb">#40ffffff</color>
     <color name="chat_info_activity">@*android:color/background_dark</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_signin_btn_dark_text_default">#ffffffff</color>
     <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
     <color name="common_signin_btn_dark_text_focused">#ffffffff</color>
@@ -66,7 +66,7 @@
     <color name="dim_foreground_material_light">#ffbebebe</color>
     <color name="disabled_text_color_darker">#66ffffff</color>
     <color name="disabled_text_color_lighter">#4bffffff</color>
-    <color name="divider_gray">#1effffff</color>
+    <color name="divider_gray">#00000000</color>
     <color name="edit_text_counter">#ffdddddd</color>
     <color name="emoji_popup_body">@*android:color/background_floating_material_dark</color>
     <color name="emoji_popup_header">@*android:color/background_floating_material_dark</color>
@@ -74,7 +74,7 @@
     <color name="foreground_material_light">#ffffffff</color>
     <color name="full_screen_footer">@*android:color/background_floating_material_dark</color>
     <color name="gallery_cell">@*android:color/background_floating_material_dark</color>
-    <color name="gallery_separator">#ffaaaaaa</color>
+    <color name="gallery_separator">#00000000</color>
     <color name="gdrive_restore_anim_gray_dot">#ffaaaaaa</color>
     <color name="gdrive_restore_anim_green_dot">#ff388e3c</color>
     <color name="gdrive_setup_disabled_button_color">#4a777777</color>

@@ -8,7 +8,7 @@
     <color name="common_plus_signin_btn_text_light_pressed">#ffffffff</color>
     <color name="common_plus_signin_btn_text_light_disabled">#ffaaaaaa</color>
     <color name="common_plus_signin_btn_text_light_focused">#ffffffff</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_pressed">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
@@ -27,8 +27,8 @@
     <color name="wallet_link_text_light">#ff0d47a1</color>
     <color name="color_picker_border_color">#ff555555</color>
     <color name="color_picker_background_color">@*android:color/background_dark</color>
-    <color name="dropdown_divider_color">#ffaaaaaa</color>
-    <color name="dropdown_dark_divider_color">#ffaaaaaa</color>
+    <color name="dropdown_divider_color">#00000000</color>
+    <color name="dropdown_dark_divider_color">#00000000</color>
     <color name="abc_search_url_text_normal">#ff388e3c</color>
     <color name="abc_search_url_text_selected">#ffffffff</color>
     <color name="abc_search_url_text_pressed">#ffffffff</color>
@@ -117,7 +117,7 @@
     <color name="url_emphasis_light_default_text">#ffffffff</color>
     <color name="distilled_page_prefs_selected">#ff555555</color>
     <color name="distilled_page_prefs_unselected">@*android:color/button_material_dark</color>
-    <color name="password_generation_divider_color">#ffaaaaaa</color>
+    <color name="password_generation_divider_color">#00000000</color>
     <color name="password_generation_link_text_color">#ff1976d2</color>
     <color name="pref_accent_color">#ff1976d2</color>
     <color name="expandable_group_dark_gray">@*android:color/background_dark</color>
@@ -158,8 +158,8 @@
     <color name="locationbar_light_hint_text">#80ffffff</color>
     <color name="locationbar_light_selection_color">#cc1976d2</color>
     <color name="locationbar_status_color">#ff1976d2</color>
-    <color name="locationbar_status_separator_color">#3dffffff</color>
-    <color name="locationbar_status_separator_color_light">#3dffffff</color>
+    <color name="locationbar_status_separator_color">#00000000</color>
+    <color name="locationbar_status_separator_color_light">#00000000</color>
     <color name="find_result_bar_background_color">#bf000000</color>
     <color name="find_result_bar_background_border_color">#bf555555</color>
     <color name="find_result_bar_result_color">#fffbc02d</color>
@@ -174,7 +174,7 @@
     <color name="contextual_search_promo_border_color">#ff555555</color>
     <color name="webapp_default_bg">@*android:color/background_dark</color>
     <color name="webapp_url_bar_bg">@*android:color/primary_material_dark</color>
-    <color name="webapp_url_bar_separator">#ffaaaaaa</color>
+    <color name="webapp_url_bar_separator">#00000000</color>
     <color name="bookmark_detail_text">#ffdddddd</color>
     <color name="bookmark_detail_section">@*android:color/background_floating_material_dark</color>
     <color name="bookmark_drawer_selected_background_color">#ff555555</color>
@@ -195,5 +195,5 @@
     <color name="snippets_thumnail_placeholder_fg">#ffffffff</color>
     <color name="payments_section_edit_background">@*android:color/background_dark</color>
     <color name="payments_section_chevron">#ffffffff</color>
-    <color name="payments_section_separator">#ffaaaaaa</color>
+    <color name="payments_section_separator">#00000000</color>
 </resources>

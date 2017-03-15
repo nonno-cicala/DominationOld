@@ -10,7 +10,7 @@
     <color name="memory_used">#ffd32f2f</color>
     <color name="memory_avail">#ff999999</color>
     <color name="title_color">#ffffffff</color>
-    <color name="setup_divider_color_light">#33ffffff</color>
+    <color name="setup_divider_color_light">#00000000</color>
     <color name="setup_wizard_color_accent_dark">@*android:color/accent_material_dark</color>
     <color name="setup_wizard_color_accent_light">@*android:color/accent_material_dark</color>
     <color name="setup_wizard_wifi_color_dark">#ffffffff</color>
@@ -20,7 +20,7 @@
     <color name="theme_accent">@*android:color/accent_material_dark</color>
     <color name="switchbar_background_color">@*android:color/button_material_dark</color>
     <color name="switch_accent_color">@*android:color/accent_material_dark</color>
-    <color name="wifi_divider">#ffaaaaaa</color>
+    <color name="wifi_divider">#00000000</color>
     <color name="dslv_icon_dark">#ffffffff</color>
     <color name="dslv_float_cackground_color">#ffffffff</color>
     <color name="dslv_float_background_color">#ffffffff</color>
@@ -34,7 +34,7 @@
     <color name="data_usage_secondary_fill_color">#ffdddddd</color>
     <color name="data_usage_label_color">#ffffffff</color>
     <color name="data_usage_secondary_label_color">#ffdddddd</color>
-    <color name="ownerinfo_divider_color">#ffaaaaaa</color>
+    <color name="ownerinfo_divider_color">#00000000</color>
     <color name="lock_pattern_view_regular_color">@*android:color/accent_material_dark</color>
     <color name="fingerprint_message_color">#ffdddddd</color>
     <color name="fingerprint_progress_ring_bg">#ffffffff</color>
@@ -143,7 +143,7 @@
     <color name="condition_card_title_text_color">@*android:color/accent_material_dark</color>
     <color name="condition_card_expander_color">@*android:color/accent_material_dark</color>
     <color name="condition_card_summary_text_color">#ffffffff</color>
-    <color name="condition_card_divider_color">#ffffffff</color>
+    <color name="condition_card_divider_color">#00000000</color>
     <color name="condition_card_first_button_text_color">@*android:color/accent_material_dark</color>
     <color name="condition_card_second_button_text_color">@*android:color/accent_material_dark</color>
 

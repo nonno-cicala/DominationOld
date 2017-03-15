@@ -57,7 +57,7 @@
         <item name="*com.android.vending:uicDelegateToSupportLibAlertDialog">false</item>
         <item name="*com.android.vending:setup_wizard_background_color">@*android:color/background_dark</item>
         <item name="*com.android.vending:setup_wizard_primary_text_color">#ffffffff</item>
-        <item name="*com.android.vending:setup_wizard_row_divider">#ffaaaaaa</item>
+        <item name="*com.android.vending:setup_wizard_row_divider">#00000000</item>
         <item name="*com.android.vending:setup_wizard_secondary_text_color">#ffdddddd</item>
         <item name="*com.android.vending:setup_wizard_section_title_text_color">#ffffffff</item>
         <item name="*com.android.vending:setup_wizard_title_text_color">#ffffffff</item>

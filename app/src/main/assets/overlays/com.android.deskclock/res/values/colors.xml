@@ -97,7 +97,7 @@
     <color name="notification_bg">@*android:color/background_dark</color>
     <color name="notification_icon_bg">@*android:color/background_floating_material_dark</color>
     <color name="notification_pressed">#ff555555</color>
-    <color name="notification_divider">#ffaaaaaa</color>
+    <color name="notification_divider">#00000000</color>
 
 
     <color name="hot_blue">#ff1976d2</color>

@@ -57,7 +57,7 @@
     <color name="container_about_action_bar_text">#ffffffff</color>
     <color name="container_about_primary_text">#ffffffff</color>
     <color name="container_background_color">@*android:color/background_dark</color>
-    <color name="container_divider_color">#ffaaaaaa</color>
+    <color name="container_divider_color">#00000000</color>
     <color name="container_edit_text_background">@*android:color/background_floating_material_dark</color>
     <color name="container_edit_text_border">@*android:color/button_material_dark</color>
     <color name="container_edit_text_hint">#ffaaaaaa</color>
@@ -92,14 +92,14 @@
     <color name="emoji_unselected_icon">#ffbbbbbb</color>
     <color name="extracted_text_view">#ffdddddd</color>
     <color name="extras_text">#ffdddddd</color>
-    <color name="fitzpatrick_divider_colour">#40aaaaaa</color>
+    <color name="fitzpatrick_divider_colour">#00000000</color>
     <color name="foreground_material_dark">#ffffffff</color>
     <color name="foreground_material_light">#ffffffff</color>
     <color name="gifting_footer_text">#ffdddddd</color>
     <color name="gifting_fragment_bg">@*android:color/background_dark</color>
     <color name="gifting_fragment_text">#ffdddddd</color>
     <color name="gifting_input_text">#ffdddddd</color>
-    <color name="gifting_separator_bg">#ffaaaaaa</color>
+    <color name="gifting_separator_bg">#00000000</color>
     <color name="green_button">#ff388e3c</color>
     <color name="green_button_shadow">#80388e3c</color>
     <color name="highlighted_text_material_dark">#66787878</color>
@@ -194,8 +194,8 @@
     <color name="selected_quick_settings_bg">#ff555555</color>
     <color name="settings_selected">#66555555</color>
 
-    <color name="shadow_divider_background_color">#ffaaaaaa</color>
-    <color name="stats_share_divider">#ffaaaaaa</color>
+    <color name="shadow_divider_background_color">#00000000</color>
+    <color name="stats_share_divider">#00000000</color>
     <color name="stats_share_summary">#ffdddddd</color>
     <color name="stats_share_title">#ffffffff</color>
     <color name="stats_share_value">#ff7b1fa2</color>
@@ -274,7 +274,7 @@
     <color name="theme_loading_bg">#bf000000</color>
     <color name="theme_loading_spinner">#ff009688</color>
     <color name="theme_progress_bar_grey">#ffdddddd</color>
-    <color name="tip_widget_divider">#ffaaaaaa</color>
+    <color name="tip_widget_divider">#00000000</color>
     <color name="transliteration_warm_welcome_button">#ff009688</color>
     <color name="transliteration_warm_welcome_dialog_bg_dark">@*android:color/background_floating_material_dark</color>
     <color name="transliteration_warm_welcome_dialog_bg_light">@*android:color/background_floating_material_dark</color>

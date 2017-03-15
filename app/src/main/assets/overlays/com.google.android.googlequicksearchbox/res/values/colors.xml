@@ -23,7 +23,7 @@
     <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
     <color name="common_signin_btn_default_background">@*android:color/button_material_dark</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="recurrence_picker_background">@*android:color/button_material_dark</color>
     <color name="recurrence_bubble_text_normal">#ffffffff</color>
     <color name="recurrence_edit_event_text">#ffffffff</color>
@@ -76,7 +76,7 @@
     <color name="search_plate_hint_color">#ffbbbbbb</color>
     <color name="selection_highlight_color">#ff555555</color>
     <color name="navigation_button_color">#ffffffff</color>
-    <color name="search_plate_suggestion_divider_background">#ffaaaaaa</color>
+    <color name="search_plate_suggestion_divider_background">#00000000</color>
     <color name="audio_progress_bar_color">#33555555</color>
     <color name="spinner_color">#ffdddddd</color>
     <color name="gray_700">#ffffffff</color>
@@ -91,7 +91,7 @@
     <color name="dots_green">#ff388e3c</color>
     <color name="suggestion_primary_text">#ffffffff</color>
     <color name="suggestion_secondary_text">#ffdddddd</color>
-    <color name="searchbox_suggestion_divider_background">#ffaaaaaa</color>
+    <color name="searchbox_suggestion_divider_background">#00000000</color>
     <color name="suggestion_container_header_text">#ffffffff</color>
     <color name="suggestion_container_footer_text">#ff1976d2</color>
     <color name="voice_promo_suggestion_background_normal">#ff1976d2</color>
@@ -100,12 +100,12 @@
     <color name="quantum_black_text">#ffffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_hint_text">#ffbbbbbb</color>
-    <color name="quantum_black_divider">#ffaaaaaa</color>
+    <color name="quantum_black_divider">#00000000</color>
     <color name="quantum_white_100">@*android:color/background_floating_material_dark</color>
     <color name="quantum_white_text">#ffffffff</color>
     <color name="quantum_white_secondary_text">#b3ffffff</color>
     <color name="quantum_white_hint_text">#4dffffff</color>
-    <color name="quantum_white_divider">#1fffffff</color>
+    <color name="quantum_white_divider">#00000000</color>
     <color name="quantum_greyblack1000">@*android:color/background_dark</color>
     <color name="quantum_greywhite1000">#ffffffff</color>
     <color name="quantum_bluegrey950">#ff21272b</color>
@@ -419,7 +419,7 @@
     <color name="quantum_yellowA200">#ffffff00</color>
     <color name="quantum_yellowA400">#ffffea00</color>
     <color name="quantum_yellowA700">#ffffd600</color>
-    <color name="action_card_separator_grey">#ffaaaaaa</color>
+    <color name="action_card_separator_grey">#00000000</color>
     <color name="action_card_light_grey">#ffffffff</color>
     <color name="action_card_medium_grey">#ffffffff</color>
     <color name="action_card_dark_grey">#ffffffff</color>
@@ -449,7 +449,7 @@
     <color name="suggest_header_primary_text_normal">#ffffffff</color>
     <color name="ime_level_enabled_background">#66000000</color>
     <color name="ime_level_primary">#4cffffff</color>
-    <color name="horizontal_bar_separator">#ffaaaaaa</color>
+    <color name="horizontal_bar_separator">#00000000</color>
     <color name="corpus_bar_background_color">@*android:color/background_floating_material_dark</color>
     <color name="selected_text_corpus_bar">#ffffffff</color>
     <color name="selected_icon_corpus_bar">#ffffffff</color>
@@ -466,8 +466,8 @@
     <color name="fade_out_weak">#9effffff</color>
     <color name="suggestion_background_normal">@*android:color/transparent</color>
     <color name="suggestion_background_pressed">#ff555555</color>
-    <color name="suggestion_divider_background">#ffaaaaaa</color>
-    <color name="suggestion_header_divider_background">#ffaaaaaa</color>
+    <color name="suggestion_divider_background">#00000000</color>
+    <color name="suggestion_header_divider_background">#00000000</color>
     <color name="first_run_text_shadow">#fff2f2f2</color>
     <color name="web_image_view_placeholder">@*android:color/background_dark</color>
     <color name="tinted_card_title_background">@*android:color/primary_material_dark</color>
@@ -530,16 +530,16 @@
     <color name="qp_flight_progress_no_status">#ffffffff</color>
     <color name="qp_flight_progress_no_status_plane">#ffdddddd</color>
     <color name="qp_star_rating_orange">#fff57c00</color>
-    <color name="qp_card_separator">#ffaaaaaa</color>
+    <color name="qp_card_separator">#00000000</color>
     <color name="qp_birthday_blue">#ff1976d2</color>
-    <color name="quick_action_separator_white">#ffaaaaaa</color>
+    <color name="quick_action_separator_white">#00000000</color>
     <color name="key_color_protection_overlay">#ffffffff</color>
     <color name="expanded_module_background">@*android:color/background_floating_material_dark</color>
     <color name="qp_field_border_default">#29ffffff</color>
     <color name="qp_field_border_focus">#ff0d47a1</color>
     <color name="qp_feedback_overlay">#0dffffff</color>
     <color name="qp_ripple_dark">#20ffffff</color>
-    <color name="qp_divider">#ffaaaaaa</color>
+    <color name="qp_divider">#00000000</color>
     <color name="qp_drawer_background">@*android:color/background_floating_material_dark</color>
     <color name="qp_drawer_text">#ffffffff</color>
     <color name="qp_drawer_icon">#ffffffff</color>
@@ -597,8 +597,8 @@
     <color name="setup_wizard_link_color_dark">#ff1976d2</color>
     <color name="setup_wizard_link_color_light">#ff03a8f4</color>
     <color name="setup_wizard_highlight_color">#fff57c00</color>
-    <color name="setup_wizard_divider_color_dark">#ffaaaaaa</color>
-    <color name="setup_wizard_divider_color_light">#ffaaaaaa</color>
+    <color name="setup_wizard_divider_color_dark">#00000000</color>
+    <color name="setup_wizard_divider_color_light">#00000000</color>
     <color name="setup_wizard_progress_bar_color_dark">#ffffa000</color>
     <color name="setup_wizard_progress_bar_color_light">#ffffc107</color>
     <color name="setup_wizard_navbar_bg_dark">@*android:color/background_dark</color>
@@ -609,7 +609,7 @@
     <color name="card_title_text">#ffffffff</color>
     <color name="card_light_text">#ffffffff</color>
     <color name="card_grid_text">#ffffffff</color>
-    <color name="card_separator">#ffaaaaaa</color>
+    <color name="card_separator">#00000000</color>
     <color name="card_bg">@*android:color/background_floating_material_dark</color>
     <color name="card_pressed_bg">#ff555555</color>
     <color name="card_bg_training">@*android:color/background_floating_material_dark</color>
@@ -653,7 +653,7 @@
     <color name="reminders_list_reminder_background_delete">#ffd32f2f</color>
     <color name="reminders_list_section_background">@*android:color/background_floating_material_dark</color>
     <color name="reminders_list_section_text">#ffffffff</color>
-    <color name="reminders_list_divider">#ffaaaaaa</color>
+    <color name="reminders_list_divider">#00000000</color>
     <color name="reminders_list_reminder_title_text">#ffffffff</color>
     <color name="reminders_list_undo_bar">@*android:color/background_floating_material_dark</color>
     <color name="reminders_list_undo_bar_text">#ffffffff</color>
@@ -679,7 +679,7 @@
     <color name="assistant_setting_services_button_link">#ff1976d2</color>
     <color name="assistant_setting_services_button_unlink">#ff787878</color>
     <color name="assistant_setting_services_category">#ffdddddd</color>
-    <color name="assistant_setting_services_divider">#ffaaaaaa</color>
+    <color name="assistant_setting_services_divider">#00000000</color>
     <color name="assistant_setting_services_help_line">#ffdddddd</color>
     <color name="assistant_setting_services_name">#ffffffff</color>
     <color name="assistant_settings_appbar_background">@*android:color/background_floating_material_dark</color>
@@ -709,17 +709,17 @@
     <color name="opa_background">@*android:color/background_floating_material_dark</color>
     <color name="opa_button_tint">#ff1976d2</color>
     <color name="opa_disabled_fab_tint_color">#ff444444</color>
-    <color name="opa_divider">#ffaaaaaa</color>
+    <color name="opa_divider">#00000000</color>
     <color name="opa_header_background">@*android:color/background_floating_material_dark</color>
     <color name="opa_scrim">#66000000</color>
     <color name="opa_text_primary">#ffffffff</color>
     <color name="opa_text_secondary">#ffdddddd</color>
     <color name="opa_text_user">#ffffffff</color>
-    <color name="opa_value_prop_divider">#ffaaaaaa</color>
+    <color name="opa_value_prop_divider">#00000000</color>
 
     <color name="assistant_setting_agent_details_background">@*android:color/background_dark</color>
     <color name="assistant_setting_agent_details_body">#ffdddddd</color>
-    <color name="assistant_setting_agent_details_divider">#ffaaaaaa</color>
+    <color name="assistant_setting_agent_details_divider">#00000000</color>
     <color name="assistant_setting_agent_details_heading">#ffffffff</color>
     <color name="assistant_setting_agent_details_text_box_background">@*android:color/background_floating_material_dark</color>
     <color name="immersive_actions_content_background_grey">@*android:color/background_dark</color>
@@ -747,8 +747,8 @@
     <color name="immersive_actions_bright_red">#ff1976d2</color>
     <color name="immersive_actions_dark_grey">#ffffffff</color>
     <color name="immersive_actions_dialog_plate_grey">@*android:color/background_floating_material_dark</color>
-    <color name="immersive_actions_dialog_plate_separator_grey">#ffaaaaaa</color>
-    <color name="immersive_actions_divider_grey">#ffaaaaaa</color>
+    <color name="immersive_actions_dialog_plate_separator_grey">#00000000</color>
+    <color name="immersive_actions_divider_grey">#00000000</color>
     <color name="immersive_actions_dropdown_arrow_grey">#ffdddddd</color>
     <!-- Text color when adding to shopping list with google assistant -->
     <color name="immersive_actions_light_grey">#ffffffff</color>

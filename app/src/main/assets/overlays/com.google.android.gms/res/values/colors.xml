@@ -37,7 +37,7 @@
     <color name="ocr_button_text">#ffffffff</color>
     <color name="ocr_snap_btn_released">#af1976d2</color>
     <color name="ocr_snap_btn_pressed">#ff1976d2</color>
-    <color name="ocr_divider">#80ffffff</color>
+    <color name="ocr_divider">#00000000</color>
     <color name="ocr_transparent_grey">#33999999</color>
     <color name="ocr_camera_preview_bg">#99000000</color>
     <color name="ocr_bounding_box_stroke">#ff555555</color>
@@ -49,7 +49,7 @@
     <color name="nearby_sharing_footer_line_color">@*android:color/background_dark</color>
     <color name="opt_in_text_light">#ffffffff</color>
     <color name="opt_in_text_dark">#ffffffff</color>
-    <color name="opt_in_divider">#ffaaaaaa</color>
+    <color name="opt_in_divider">#00000000</color>
     <color name="button_panel_background">#ff1976d2</color>
     <color name="nearby_primary_blue">#ff0288d1</color>
     <color name="nearby_secondary_blue">#ff1976d2</color>
@@ -79,8 +79,8 @@
     <color name="drive_GroupHeaderText">#ffdddddd</color>
     <color name="drive_DisabledText">#ffaaaaaa</color>
     <color name="drive_ActionBarText">#ffffffff</color>
-    <color name="drive_Divider">#ffaaaaaa</color>
-    <color name="drive_HairlineDivider">#ffaaaaaa</color>
+    <color name="drive_Divider">#00000000</color>
+    <color name="drive_HairlineDivider">#00000000</color>
     <color name="drive_PrimaryBackground">@*android:color/background_dark</color>
     <color name="drive_SecondaryBackground">@*android:color/background_floating_material_dark</color>
     <color name="drive_ButtonFocusedBackground">#33555555</color>
@@ -99,7 +99,7 @@
     <color name="udc_title_text_light">#ffffffff</color>
     <color name="udc_title_text_dark">#ffffffff</color>
     <color name="udc_identity_background">@*android:color/background_floating_material_dark</color>
-    <color name="udc_separator">#1fffffff</color>
+    <color name="udc_separator">#00000000</color>
     <color name="udc_button_confirm">#ff1976d2</color>
     <color name="udc_title_background_illustration">@*android:color/background_floating_material_dark</color>
     <color name="udc_settings_info_background">@*android:color/background_dark</color>
@@ -191,7 +191,7 @@
     <color name="smartdevice_material_blue_A200">#ff1976d2</color>
     <color name="profile_card_color">@*android:color/background_floating_material_dark</color>
     <color name="profile_card_margin">@*android:color/background_dark</color>
-    <color name="profile_card_separator_color">#ffaaaaaa</color>
+    <color name="profile_card_separator_color">#00000000</color>
     <color name="profile_card_expanding_entry_metadata_color">#ffdddddd</color>
     <color name="profile_default_theme_color">#ff455a64</color>
     <color name="profile_overlay_color">#ffffffff</color>
@@ -217,7 +217,7 @@
     <color name="reply_view_background">@*android:color/background_floating_material_dark</color>
     <color name="dialog_background">@*android:color/background_floating_material_dark</color>
     <color name="reply_view_scrollbar">#ffdddddd</color>
-    <color name="reply_view_horizontal_divider">#ffaaaaaa</color>
+    <color name="reply_view_horizontal_divider">#00000000</color>
     <color name="reply_text">#adffffff</color>
     <color name="reply_text_hint">#80ffffff</color>
     <color name="reply_view_action_button_text">#ff1976d2</color>
@@ -235,7 +235,7 @@
     <color name="unsupported_message_bg">#80000000</color>
     <color name="unsupported_message_install_text">#4dffffff</color>
     <color name="unsupported_message_text">#a8ffffff</color>
-    <color name="location_sharing_divider">#26ffffff</color>
+    <color name="location_sharing_divider">#00000000</color>
     <color name="location_sharing_link_color">#ff1976d2</color>
     <color name="location_sharing_onboarding_blue">#ff1976d2</color>
     <color name="location_sharing_off_shade">#ab111111</color>
@@ -246,13 +246,13 @@
     <color name="plus_background">@*android:color/background_dark</color>
     <color name="plus_orange_light">#ffe64a19</color>
     <color name="plus_one_title_text">#ffffffff</color>
-    <color name="plus_one_confirm_splitter">#ffaaaaaa</color>
+    <color name="plus_one_confirm_splitter">#00000000</color>
     <color name="plus_one_app_name">#ffffffff</color>
     <color name="plus_preview_title_text">#ffffffff</color>
     <color name="plus_preview_content_text">#ffdddddd</color>
     <color name="plus_audience_selection_header_color">#ffffffff</color>
     <color name="plus_audience_selection_highlight_color">#ff1976d2</color>
-    <color name="plus_audience_selection_divider_color">#ffaaaaaa</color>
+    <color name="plus_audience_selection_divider_color">#00000000</color>
     <color name="plus_audience_selection_text_color">#ffffffff</color>
     <color name="plus_audience_selection_text_light_color">#ffbbbbbb</color>
     <color name="plus_audience_selection_list_item_secondary">#ffdddddd</color>
@@ -277,15 +277,15 @@
     <color name="plus_oob_text_color">#ffdddddd</color>
     <color name="plus_oob_title_color">#ffffffff</color>
     <color name="plus_oob_title_background_color">@*android:color/background_floating_material_dark</color>
-    <color name="plus_oob_divider_color">#ffaaaaaa</color>
+    <color name="plus_oob_divider_color">#00000000</color>
     <color name="plus_oob_name_error_color">#ffd32f2f</color>
-    <color name="plus_oob_divider_color_setup_wizard">#ffaaaaaa</color>
+    <color name="plus_oob_divider_color_setup_wizard">#00000000</color>
     <color name="setup_wizard_highlight_color">#ffe64a19</color>
-    <color name="setup_wizard_divider_color">#ffaaaaaa</color>
+    <color name="setup_wizard_divider_color">#00000000</color>
     <color name="plus_settings_spinner_header_color">#ffffffff</color>
-    <color name="plus_settings_spinner_divider_color">#ffaaaaaa</color>
+    <color name="plus_settings_spinner_divider_color">#00000000</color>
     <color name="plus_auth_scope_fragment_bg">@*android:color/background_dark</color>
-    <color name="plus_auth_scope_fragment_divider">#ffaaaaaa</color>
+    <color name="plus_auth_scope_fragment_divider">#00000000</color>
     <color name="plus_auth_avatar_bg_color">@*android:color/background_dark</color>
     <color name="plus_auth_app_name_text_color">#ffffffff</color>
     <color name="plus_facl_header_text_color">#ffffffff</color>
@@ -299,7 +299,7 @@
     <color name="talladega_text_gray">#ffffffff</color>
     <color name="plus_add_to_circles_header_red">#ffd32f2f</color>
     <color name="plus_add_to_circles_header_grey">@*android:color/background_floating_material_dark</color>
-    <color name="plus_add_to_circles_header_divider_grey">#ffaaaaaa</color>
+    <color name="plus_add_to_circles_header_divider_grey">#00000000</color>
     <color name="plus_add_to_circles_header_text">#ffffffff</color>
     <color name="plus_add_to_circles_header_text_white">#ffffffff</color>
     <color name="plus_circle_creation_hint_color">#ffbbbbbb</color>
@@ -365,7 +365,7 @@
     <color name="gf_annotate_info_text_color">#ffdddddd</color>
     <color name="gf_got_it_text_color">#ff1976d2</color>
     <color name="gf_draw_view_background">@*android:color/background_floating_material_dark</color>
-    <color name="gf_separator_color">#ffaaaaaa</color>
+    <color name="gf_separator_color">#00000000</color>
     <color name="gf_drawable_border">#ff555555</color>
     <color name="fm_background">@*android:color/background_dark</color>
     <color name="fm_navbar_background">@*android:color/background_dark</color>
@@ -380,7 +380,7 @@
     <color name="quantum_black_text">#ddffffff</color>
     <color name="quantum_black_secondary_text">#89ffffff</color>
     <color name="quantum_black_hint_text">#61ffffff</color>
-    <color name="quantum_black_divider">#1fffffff</color>
+    <color name="quantum_black_divider">#00000000</color>
 
     <color name="quantum_googred500">#ffd32f2f</color>
 
@@ -399,7 +399,7 @@
     <color name="quantum_deeppurple500">#ff512da8</color>
 
 
-    <color name="auth_divider_color">#ffaaaaaa</color>
+    <color name="auth_divider_color">#00000000</color>
     <color name="auth_title_color">#ff1976d2</color>
     <color name="auth_action_button_color">#ff1976d2</color>
     <color name="auth_action_games_button_color">#ff388e3c</color>
@@ -420,7 +420,7 @@
     <color name="auth_minutemaid_progress_bar_activated">#fffbc02d</color>
     <color name="auth_minutemaid_color_accent_light">#ff1976d2</color>
     <color name="auth_minutemaid_color_secondary_light">#ffdddddd</color>
-    <color name="auth_minutemaid_divider_color_light">#33ffffff</color>
+    <color name="auth_minutemaid_divider_color_light">#00000000</color>
     <color name="auth_minutemaid_link_color_light">#ff1976d2</color>
     <color name="auth_setup_wizard_color_accent_dark">#ff1976d2</color>
     <color name="auth_setup_wizard_color_accent_light">#ff1976d2</color>
@@ -429,7 +429,7 @@
     <color name="auth_setup_wizard_link_color_light">#ff1976d2</color>
     <color name="auth_setup_wizard_link_color_dark">#ff1976d2</color>
     <color name="auth_setup_wizard_highlight_color">#ffe64a19</color>
-    <color name="auth_setup_wizard_divider_color_light">#33ffffff</color>
+    <color name="auth_setup_wizard_divider_color_light">#00000000</color>
     <color name="auth_setup_wizard_title_color">#ff1976d2</color>
     <color name="suw_color_accent_dark">#ff1976d2</color>
     <color name="suw_color_accent_light">#ff1976d2</color>
@@ -449,7 +449,7 @@
     <color name="appinvite_dark_black">#eeffffff</color>
     <color name="appinvite_medium_black">#8affffff</color>
     <color name="appinvite_light_black">#66ffffff</color>
-    <color name="appinvite_separator">#22ffffff</color>
+    <color name="appinvite_separator">#00000000</color>
     <color name="appinvite_mode_background">@*android:color/background_dark</color>
     <color name="appinvite_method_background">#ff1976d2</color>
     <color name="appinvite_message_background">#e6111111</color>
@@ -478,8 +478,8 @@
     <color name="text_normal">#ddffffff</color>
     <color name="text_gray">#ffdddddd</color>
     <color name="text_blue">#ff1976d2</color>
-    <color name="promo_divider_color">#ffaaaaaa</color>
-    <color name="photos_settings_dialog_divider_color">#ffaaaaaa</color>
+    <color name="promo_divider_color">#00000000</color>
+    <color name="photos_settings_dialog_divider_color">#00000000</color>
     <color name="play_games_theme_primary">#ff388e3c</color>
     <color name="games_dialog_title_color">#ff388e3c</color>
     <color name="games_dialog_body_color">#ffdddddd</color>
@@ -575,7 +575,7 @@
     <color name="material_grey_400">#ffbbbbbb</color>
     <color name="material_grey_500">#ffdddddd</color>
     <color name="material_grey_700">#ffdddddd</color>
-    <color name="material_grey_white_1000">#ff555555</color>
+    <color name="material_grey_white_1000">@*android:color/background_dark</color>
 
     <color name="audience_auth_button_color">@*android:color/button_material_dark</color>
     <color name="audience_auth_button_text_color">#ff1976d2</color>
@@ -589,7 +589,7 @@
     <color name="place_autocomplete_prediction_primary_text">#ffffffff</color>
     <color name="place_autocomplete_prediction_primary_text_highlight">#ff787878</color>
     <color name="place_autocomplete_prediction_secondary_text">#ffdddddd</color>
-    <color name="place_autocomplete_separator">#1fffffff</color>
+    <color name="place_autocomplete_separator">#00000000</color>
     <color name="common_plus_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_plus_signin_btn_text_dark_pressed">#ffffffff</color>
     <color name="common_plus_signin_btn_text_dark_disabled">#ffaaaaaa</color>

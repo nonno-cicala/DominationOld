@@ -22,7 +22,7 @@
     <color name="bright_foreground_material_light">#ffffffff</color>
     <color name="button_material_dark">@*android:color/button_material_dark</color>
     <color name="button_material_light">@*android:color/button_material_dark</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_signin_btn_default_background">#ffd32f2f</color>
     <color name="common_signin_btn_light_text_default">#ffffffff</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
@@ -90,7 +90,7 @@
     <color name="play_download_arc_background_color_download">@*android:color/background_dark</color>
     <color name="play_download_arc_background_color_press">#ff555555</color>
     <color name="play_drawer_mini_profile_background">#ff388e3c</color>
-    <color name="play_drawer_separator">#ffaaaaaa</color>
+    <color name="play_drawer_separator">#00000000</color>
     <color name="play_fg_button_secondary">#ffcdcdcd</color>
     <color name="play_fg_primary">#ffffffff</color>
     <color name="play_fg_secondary">#ffdddddd</color>
@@ -136,12 +136,12 @@
     <color name="play_onboard_simple_quiz_title_text_color">#ffffffff</color>
     <color name="play_outline_button_secondary">#26ffffff</color>
     <color name="play_rated_overlay">#f2111111</color>
-    <color name="play_reason_separator">#19aaaaaa</color>
+    <color name="play_reason_separator">#00000000</color>
     <color name="play_ripple_light">#20ffffff</color>
     <color name="play_search_plate_hint_text_color">#ffffffff</color>
     <color name="play_search_plate_navigation_button_color">#ffffffff</color>
-    <color name="play_search_suggestion_divider_background">#ffaaaaaa</color>
-    <color name="play_translucent_separator_line">#26aaaaaa</color>
+    <color name="play_search_suggestion_divider_background">#00000000</color>
+    <color name="play_translucent_separator_line">#00000000</color>
     <color name="play_white">@*android:color/background_dark</color>
     <color name="primary_material_dark">@*android:color/primary_material_dark</color>
     <color name="primary_material_light">@*android:color/primary_material_dark</color>
@@ -210,7 +210,7 @@
 
     <color name="flat_card_cluster_header_title_text_color">#ffffffff</color>
     <color name="flat_card_cluster_light_background">@*android:color/background_floating_material_dark</color>
-    <color name="flat_cluster_item_divider_color">#ffaaaaaa</color>
+    <color name="flat_cluster_item_divider_color">#00000000</color>
     <color name="flat_overflow_menu_fill_color">#33ffffff</color>
     <color name="jpkr_disabled_grey">#ffaaaaaa</color>
     <color name="jpkr_grey_secondary">#ffdddddd</color>

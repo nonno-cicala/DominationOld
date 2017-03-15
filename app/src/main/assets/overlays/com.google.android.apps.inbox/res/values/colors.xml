@@ -13,7 +13,7 @@
     <color name="place_autocomplete_prediction_primary_text">#ffffffff</color>
     <color name="place_autocomplete_prediction_primary_text_highlight">#ffffffff</color>
     <color name="place_autocomplete_prediction_secondary_text">#ffdddddd</color>
-    <color name="place_autocomplete_separator">#ffaaaaaa</color>
+    <color name="place_autocomplete_separator">#00000000</color>
     <color name="circle_background">@*android:color/button_material_dark</color>
     <color name="line_background">#ffaaaaaa</color>
     <color name="ampm_text_color">#ffdddddd</color>
@@ -45,7 +45,7 @@
     <color name="common_plus_signin_btn_text_light_pressed">#ffffffff</color>
     <color name="common_plus_signin_btn_text_light_disabled">#ffaaaaaa</color>
     <color name="common_plus_signin_btn_text_light_focused">#ffffffff</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_pressed">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
@@ -56,7 +56,7 @@
     <color name="common_google_signin_btn_text_light_focused">#ffffffff</color>
     <color name="chips_dropdown_background_activated">#ff1976d2</color>
     <color name="chips_dropdown_background_pressed">#ff555555</color>
-    <color name="autocomplete_divider_color">#ffaaaaaa</color>
+    <color name="autocomplete_divider_color">#00000000</color>
     <color name="chip_background">#ff555555</color>
     <color name="chip_background_invalid">#ffd32f2f</color>
     <color name="chips_dropdown_text_default">#ffffffff</color>

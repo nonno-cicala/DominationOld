@@ -197,7 +197,7 @@
         <item name="android:fadingEdgeLength">8.0dip</item>
         <item name="android:drawSelectorOnTop">false</item>
         <item name="android:cacheColorHint">@*android:color/background_dark</item>
-        <item name="android:divider">#ffaaaaaa</item>
+        <item name="android:divider">#00000000</item>
         <item name="android:dividerHeight">1.0px</item>
     </style>
     <style name="UndoBarClassic">

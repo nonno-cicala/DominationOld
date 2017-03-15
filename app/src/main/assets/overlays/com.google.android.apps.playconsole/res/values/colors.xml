@@ -26,7 +26,7 @@
     <color name="chart_color_2">#ff512da8</color>
     <color name="chart_color_old">#ffffffff</color>
     <color name="chart_tick_mark">#ffffffff</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
     <color name="common_google_signin_btn_text_dark_focused">#ffffffff</color>
@@ -54,7 +54,7 @@
     <color name="dim_foreground_disabled_material_light">#80bebebe</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ffbebebe</color>
-    <color name="divider">#1effffff</color>
+    <color name="divider">#00000000</color>
     <color name="drawer_icon_tint">#ffffffff</color>
     <color name="drawer_selected_background">#ff555555</color>
     <color name="drawer_text_color">#ffffffff</color>
@@ -100,7 +100,7 @@
     <color name="primary_text_disabled_material_dark">#4dffffff</color>
     <color name="primary_text_disabled_material_light">#4dffffff</color>
     <color name="quantum_black_100">#ffffffff</color>
-    <color name="quantum_black_divider">#1fffffff</color>
+    <color name="quantum_black_divider">#00000000</color>
     <color name="quantum_black_hint_text">#61ffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_text">#ffffffff</color>

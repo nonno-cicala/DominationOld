@@ -5,7 +5,7 @@
     <color name="base_material_dark_theme">@*android:color/background_dark</color>
     <color name="candidate_material_dark_theme">@*android:color/background_dark</color>
     <color name="candidate_placeholder">@*android:color/button_material_dark</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
     <color name="common_google_signin_btn_text_dark_focused">#ffffffff</color>
@@ -28,7 +28,7 @@
     <color name="feature_page_background">#ff1976d2</color>
     <color name="feature_page_text_color">#ffffffff</color>
     <color name="first_run_navigation_text">#e6ffffff</color>
-    <color name="header_bottom_separator_material_dark_theme">#0dffffff</color>
+    <color name="header_bottom_separator_material_dark_theme">#00000000</color>
     <color name="inline_composing_text_correction">#ff777777</color>
     <color name="inline_composing_text_correction_material_dark_theme">#e6787878</color>
     <color name="inline_composing_text_determined_syllable">#881976d2</color>
@@ -40,7 +40,7 @@
     <color name="key_dark_pressed_bordered_dark_theme">#3dffffff</color>
     <color name="key_pressed_bordered_dark_theme">#3dffffff</color>
     <color name="key_pressed_material_dark_theme">#1affffff</color>
-    <color name="keyboard_separator_material_dark_theme">#1affffff</color>
+    <color name="keyboard_separator_material_dark_theme">#00000000</color>
     <color name="label_9key_left_panel_material_dark_theme">#99ffffff</color>
     <color name="label_composing_text_material_dark_theme">#e6787878</color>
     <color name="label_dashboard_active_layout_dark_theme">#ccffffff</color>
@@ -59,7 +59,7 @@
     <color name="label_space_material_dark_theme">#33dddddd</color>
     <color name="label_sup_dark_material_dark_theme">#99ffffff</color>
     <color name="label_sup_light_material_dark_theme">@*android:color/accent_material_dark</color>
-    <color name="more_candidates_separator_material_dark_theme">#1affffff</color>
+    <color name="more_candidates_separator_material_dark_theme">#00000000</color>
     <color name="popup_background_material_dark_theme">@*android:color/background_floating_material_dark</color>
     <color name="popup_confirmation_text">#ffffffff</color>
     <color name="popup_overlay_background">#88222222</color>
@@ -114,5 +114,14 @@
     <color name="gif_search_text_color_material_light">#ffffffff</color>
 
 
-
+    <color name="translate_board_text_idle_color">#ffdddddd</color>
+    <color name="translate_dialog_button_color">#ff00796b</color>
+    <color name="translate_dialog_separator">#00000000</color>
+    <color name="quantum_black_hint_text">#ffbbbbbb</color>
+    <color name="quantum_black_text">#ffffffff</color>
+    <color name="feature_page_description_text_color">#ffdddddd</color>
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="first_run_page_blue_color">#ff1976d2</color>
+    <color name="generic_extension_background_all_theme_idle">@*android:color/button_material_dark</color>
+    <color name="label_translate_board_idle_all_theme">#b3ffffff</color>
 </resources>

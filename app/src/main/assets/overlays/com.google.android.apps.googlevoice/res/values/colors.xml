@@ -11,7 +11,7 @@
     <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
     <color name="common_signin_btn_default_background">#d32f2f</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="color_actionbar_dropdown_text">#ffffffff</color>
     <color name="quoted_text">#ffbbbbbb</color>
     <color name="drafts">#ffb71c1c</color>
@@ -128,7 +128,7 @@
     <color name="primary_text_disabled_material_dark">#4dffffff</color>
     <color name="primary_text_disabled_material_light">#4dffffff</color>
     <color name="progress_spinner">#ff1976d2</color>
-    <color name="quantum_black_divider">#1fffffff</color>
+    <color name="quantum_black_divider">#00000000</color>
     <color name="quantum_black_hint_text">#61ffffff</color>
     <color name="quantum_black_secondary_text">#4dffffff</color>
     <color name="quantum_black_text">#ffffffff</color>
@@ -139,7 +139,7 @@
     <color name="secondary_text_default_material_light">#b3ffffff</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#36ffffff</color>
-    <color name="separator_line">#ffaaaaaa</color>
+    <color name="separator_line">#00000000</color>
     <color name="sticker_set_list_item_view_sticker_creator_text_color">#b3ffffff</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ff616161</color>

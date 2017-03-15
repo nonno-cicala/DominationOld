@@ -25,7 +25,7 @@
     <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
     <color name="common_signin_btn_default_background">#ffd32f2f</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="alignment_marker_color">#ff777777</color>
     <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
     <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
@@ -61,7 +61,7 @@
     <color name="info_card_teaser_foreground">#ffffffff</color>
     <color name="info_card_teaser_background">@*android:color/background_dark</color>
     <color name="info_card_link_color">#ff1976d2</color>
-    <color name="card_separator">#ffaaaaaa</color>
+    <color name="card_separator">#00000000</color>
     <color name="custom_text_color">#ffbbbbbb</color>
     <color name="video_trim_view_waveform_background">@*android:color/background_dark</color>
     <color name="video_trim_view_waveform_fill">@*android:color/background_dark</color>
@@ -76,7 +76,7 @@
     <color name="gallery_thumb_background">#00000000</color>
     <color name="gallery_thumb_background_no_thumb">#ffeeeeee</color>
     <color name="gallery_thumb_duration_font_color">#ffffffff</color>
-    <color name="gallery_thumb_zero_state_grid_divider_color">#ffdddddd</color>
+    <color name="gallery_thumb_zero_state_grid_divider_color">#00000000</color>
     <color name="gallery_thumb_zero_state_grid_background">#00000000</color>
     <color name="gallery_thumb_zero_state_text_color_primary">#ffffffff</color>
     <color name="gallery_thumb_zero_state_text_color_secondary">#ffdddddd</color>
@@ -120,8 +120,8 @@
     <color name="conversation_secondary_text_color">#ffdddddd</color>
     <color name="conversation_tertiary_text_color">#ffbbbbbb</color>
     <color name="video_text_color">#ffdddddd</color>
-    <color name="line_separator">#ffaaaaaa</color>
-    <color name="line_separator_dark">#ffaaaaaa</color>
+    <color name="line_separator">#00000000</color>
+    <color name="line_separator_dark">#00000000</color>
     <color name="hint_color">#ffbbbbbb</color>
     <color name="conversation_background">@*android:color/background_dark</color>
     <color name="conversation_background_secondary">@*android:color/background_dark</color>
@@ -228,10 +228,10 @@
     <color name="quantum_black_text">#ffffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_hint_text">#ffbbbbbb</color>
-    <color name="quantum_black_divider">#ffaaaaaa</color>
+    <color name="quantum_black_divider">#00000000</color>
     <color name="quantum_white_secondary_text">#ffdddddd</color>
     <color name="quantum_white_hint_text">#ffbbbbbb</color>
-    <color name="quantum_white_divider">#ffaaaaaa</color>
+    <color name="quantum_white_divider">#00000000</color>
     <color name="quantum_error_light">#ffb71c1c</color>
     <color name="quantum_error_dark">#ffd32f2f</color>
     <color name="quantum_grey100">#ff555555</color>
@@ -252,13 +252,13 @@
     <color name="set_row_color">@*android:color/background_dark</color>
     <color name="set_row_selected_color">#ff555555</color>
     <color name="set_row_pressed_color">#ff555555</color>
-    <color name="upload_activity_separator_color">#ffaaaaaa</color>
-    <color name="upload_activity_privacy_separator_color">#ffaaaaaa</color>
+    <color name="upload_activity_separator_color">#00000000</color>
+    <color name="upload_activity_privacy_separator_color">#00000000</color>
     <color name="upload_activity_privacy_popup_nonselected_color">@*android:color/background_floating_material_dark</color>
     <color name="upload_activity_privacy_popup_selected_color">@*android:color/background_floating_material_dark</color>
     <color name="offline_active_text_color">#ff1976d2</color>
     <color name="offline_progress_bar_color">@*android:color/accent_material_dark</color>
-    <color name="feed_item_separator_color">#ffaaaaaa</color>
+    <color name="feed_item_separator_color">#00000000</color>
     <color name="music_badge_background">#ff1976d2</color>
     <color name="music_badge_text_color">#ffdddddd</color>
     <color name="color_primary">#ffd32f2f</color>
@@ -273,7 +273,7 @@
     <color name="channel_list_sub_menu_avatar_live">#ffd32f2f</color>
     <color name="channel_list_sub_menu_avatar_unread">#ff1976d2</color>
     <color name="inline_time_bar_ad_break_marker_color">#b2fbc02d</color>
-    <color name="expand_button_separator_color">#ffaaaaaa</color>
+    <color name="expand_button_separator_color">#00000000</color>
     <color name="section_list_drawer_selected_avatar_color">#bf1976d2</color>
     <color name="playlist_thumbnail_inner_border_color">#ff303f9f</color>
     <color name="theme_main_window_background">@*android:color/background_dark</color>
@@ -398,7 +398,7 @@
     <color name="live_chat_dark_char_count_text_color">#80ffffff</color>
     <color name="live_chat_header_viewership_color">#ffffffff</color>
     <color name="live_chat_light_char_count_text_color">#59ffffff</color>
-    <color name="live_chat_light_divider_color">#ffaaaaaa</color>
+    <color name="live_chat_light_divider_color">#00000000</color>
     <color name="new_version_available_activity_background_color">@*android:color/background_dark</color>
     <color name="new_version_available_activity_button_text_color">#ffffffff</color>
     <color name="new_version_available_activity_status_bar_color">@*android:color/primary_dark_material_dark</color>
@@ -455,7 +455,7 @@
     <color name="promoted_native_ad_cta_white">@*android:color/background_floating_material_dark</color>
 
     <!-- New with 11.49.55 -->
-    <color name="separator_color">#ffaaaaaa</color>
+    <color name="separator_color">#00000000</color>
     <color name="av_button_ripple_color">#4fffffff</color>
 
     <!-- New with 12.01.54 -->

@@ -28,7 +28,7 @@
     <color name="colorAccent">#fffbc02d</color>
     <color name="colorPrimary">@*android:color/primary_material_dark</color>
     <color name="colorPrimaryDark">@*android:color/primary_dark_material_dark</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
 
     <color name="cpb_blue">#ff1976d2</color>
     <color name="cpb_blue_dark">#ff0d47a1</color>
@@ -48,7 +48,7 @@
     <color name="dialog_bg_dark">@*android:color/background_floating_material_dark</color>
 
 
-    <color name="divider">#ffaaaaaa</color>
+    <color name="divider">#00000000</color>
     <color name="fab_color">#fffbc02d</color>
     <color name="fab_orange_bright">#fff57c00</color>
     <color name="fab_orange_dark">#ffe64a19</color>
@@ -109,7 +109,7 @@
     <color name="review_button_background_dark">@*android:color/button_material_dark</color>
 
 
-    <color name="search_divider_light">#ffaaaaaa</color>
+    <color name="search_divider_light">#00000000</color>
     <color name="search_list_results_bg_dark">@*android:color/background_floating_material_dark</color>
 
     <color name="secondary_text">#ffdddddd</color>

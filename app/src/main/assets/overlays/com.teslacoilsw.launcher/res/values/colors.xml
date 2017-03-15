@@ -64,8 +64,8 @@
     <color name="material_grey_900">@*android:color/background_floating_material_dark</color>
     <color name="md_btn_selected">#33555555</color>
     <color name="md_btn_selected_dark">#40555555</color>
-    <color name="md_divider_black">#10ffffff</color>
-    <color name="md_divider_white">#10ffffff</color>
+    <color name="md_divider_black">#00000000</color>
+    <color name="md_divider_white">#00000000</color>
     <color name="md_edittext_error">#ffd32f2f</color>
     <color name="md_material_blue_600">#ff1976d2</color>
     <color name="md_material_blue_800">#ff0d47a1</color>

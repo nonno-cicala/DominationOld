@@ -6,10 +6,10 @@
     <color name="about_libraries_accent">#ffd32f2f</color>
     <color name="about_libraries_card">@*android:color/background_floating_material_dark</color>
     <color name="about_libraries_card_dark">@*android:color/background_floating_material_dark</color>
-    <color name="about_libraries_dividerDark_openSource">#ffaaaaaa</color>
-    <color name="about_libraries_dividerDark_openSource_dark">#ffaaaaaa</color>
-    <color name="about_libraries_dividerLight_openSource">#ffaaaaaa</color>
-    <color name="about_libraries_dividerLight_openSource_dark">#ffaaaaaa</color>
+    <color name="about_libraries_dividerDark_openSource">#00000000</color>
+    <color name="about_libraries_dividerDark_openSource_dark">#00000000</color>
+    <color name="about_libraries_dividerLight_openSource">#00000000</color>
+    <color name="about_libraries_dividerLight_openSource_dark">#00000000</color>
     <color name="about_libraries_primary">#ff1976d2</color>
     <color name="about_libraries_primary_dark">#ff1976d2</color>
     <color name="about_libraries_special_button_openSource">#ffffffff</color>
@@ -48,7 +48,7 @@
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ffbebebe</color>
     <color name="fab_menu_background_card">@*android:color/background_floating_material_dark</color>
-    <color name="fab_menu_divider">#4affffff</color>
+    <color name="fab_menu_divider">#00000000</color>
     <color name="fab_menu_icon_color">#ffffffff</color>
     <color name="fab_menu_text_color">#ffffffff</color>
     <color name="foreground_material_dark">#ffffffff</color>
@@ -87,7 +87,7 @@
     <color name="md_dark_cards">@*android:color/background_floating_material_dark</color>
     <color name="md_dark_dialogs">@*android:color/background_dark</color>
     <color name="md_dark_disabled">#4dffffff</color>
-    <color name="md_dark_dividers">#1fffffff</color>
+    <color name="md_dark_dividers">#00000000</color>
     <color name="md_dark_primary_icon">#b3ffffff</color>
     <color name="md_dark_primary_text">#ffffffff</color>
     <color name="md_dark_secondary">#b3ffffff</color>
@@ -99,7 +99,7 @@
     <color name="md_light_cards">@*android:color/background_floating_material_dark</color>
     <color name="md_light_dialogs">@*android:color/background_dark</color>
     <color name="md_light_disabled">#4dffffff</color>
-    <color name="md_light_dividers">#1fffffff</color>
+    <color name="md_light_dividers">#00000000</color>
 
     <color name="md_light_primary_icon">#b3ffffff</color>
     <color name="md_light_primary_text">#ffffffff</color>

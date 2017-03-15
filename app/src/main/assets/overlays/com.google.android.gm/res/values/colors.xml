@@ -33,8 +33,8 @@
     <color name="common_signin_btn_light_text_default">#ffffffff</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
     <color name="common_signin_btn_default_background">#ff333333</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
-    <color name="suw_color_accent_dark">#ff1976D2</color>
+    <color name="common_action_bar_splitter">#00000000</color>
+    <color name="suw_color_accent_dark">#ff1976d2</color>
     <color name="suw_color_accent_light">#ff0d47a1</color>
     <color name="suw_color_secondary_dark">#ffffffff</color>
     <color name="suw_color_secondary_light">#ffffffff</color>
@@ -45,10 +45,10 @@
     <color name="suw_navbar_bg_dark">@*android:color/background_dark</color>
     <color name="suw_navbar_bg_light">@*android:color/background_dark</color>
     <color name="suw_navbar_text_light">#deffffff</color>
-    <color name="chips_dropdown_background_activated">#ff1976D2</color>
+    <color name="chips_dropdown_background_activated">#ff1976d2</color>
     <color name="chips_dropdown_background_pressed">#ff555555</color>
-    <color name="autocomplete_divider_color">#ffcccccc</color>
-    <color name="chip_background">#ff333333</color>
+    <color name="autocomplete_divider_color">#00000000</color>
+    <color name="chip_background">@*android:color/background_floating_material_dark</color>
     <color name="chips_dropdown_text_default">#ffffffff</color>
     <color name="chips_dropdown_text_highlighted">#ff999999</color>
     <color name="chips_dropdown_permission_text">#ff1976d2</color>
@@ -119,7 +119,7 @@
     <color name="text_color_hint_grey">#ffbbbbbb</color>
     <color name="gray_text_color">#ffffffff</color>
     <color name="dark_gray_text_color">#ffffffff</color>
-    <color name="divider_color">#ffaaaaaa</color>
+    <color name="divider_color">#00000000</color>
     <color name="senders_text_color">#ffffffff</color>
     <color name="subject_text_color_read">#ffbbbbbb</color>
     <color name="subject_text_color_unread">#ffffffff</color>
@@ -138,7 +138,7 @@
     <color name="list_background_color">@*android:color/background_dark</color>
     <color name="drawer_item_activated_background_color">#ff555555</color>
     <color name="mini_drawer_activated_background_color">#ff555555</color>
-    <color name="folder_list_divider_color">#ffaaaaaa</color>
+    <color name="folder_list_divider_color">#00000000</color>
     <color name="compose_label_text">#ffffffff</color>
     <color name="compose_user_text">#ffd32f2f</color>
     <color name="compose_label_hint">#ffbbbbbb</color>
@@ -153,7 +153,7 @@
     <color name="conversation_view_footer_text_color">#ffffffff</color>
     <color name="conversation_view_footer_load_more_text_color">#ff1976D2</color>
     <color name="widget_header_bg_color">#ffd32f2f</color>
-    <color name="widget_conversation_list_divider_color">#ffaaaaaa</color>
+    <color name="widget_conversation_list_divider_color">#00000000</color>
     <color name="attachment_name_color">#ffffffff</color>
     <color name="attachment_tile_subtitle_color">#ffdddddd</color>
     <color name="attachment_image_background_color">@*android:color/background_dark</color>
@@ -202,7 +202,7 @@
     <color name="text_color_undo_notification_description">#ffffffff</color>
     <color name="text_primary_color">#ffffffff</color>
     <color name="text_secondary_color">#ffffffff</color>
-    <color name="account_setup_divider_color">#ffaaaaaa</color>
+    <color name="account_setup_divider_color">#00000000</color>
     <color name="account_setup_button_bar_background">@*android:color/background_floating_material_dark</color>
     <color name="button_text_disabled_color">#ffbbbbbb</color>
     <color name="quick_response_text_color">#ffffffff</color>
@@ -210,7 +210,7 @@
     <color name="folder_teaser_count_text">#ffffffff</color>
     <color name="viewpager_indicator_current">#ffffffff</color>
     <color name="viewpager_indicator_other">#ffffffff</color>
-    <color name="grey_separator_color">#ffaaaaaa</color>
+    <color name="grey_separator_color">#00000000</color>
     <color name="list_ad_background_color">@*android:color/background_dark</color>
     <color name="promo_background">@*android:color/background_dark</color>
     <color name="promo_card">@*android:color/background_floating_material_dark</color>
@@ -222,7 +222,7 @@
     <color name="quantum_black_text">#ffffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_hint_text">#ffbbbbbb</color>
-    <color name="quantum_black_divider">#ffaaaaaa</color>
+    <color name="quantum_black_divider">#00000000</color>
 
     <color name="quantum_googred500">#ffd32f2f</color>
     <color name="edge_effect_color">@*android:color/accent_material_dark</color>

@@ -31,7 +31,7 @@
     <color name="card_background_selected">#ff555555</color>
     <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
     <color name="common_google_signin_btn_text_dark_focused">#ffffffff</color>
@@ -181,7 +181,7 @@
     <color name="photos_album_ui_flat_button_ripple">#4dffffff</color>
     <color name="photos_allphotos_ui_row_background">@*android:color/background_dark</color>
     <color name="photos_backup_apiservice_onboarding_accent">#ff1976d2</color>
-    <color name="photos_backup_apiservice_onboarding_divider">#ffaaaaaa</color>
+    <color name="photos_backup_apiservice_onboarding_divider">#00000000</color>
     <color name="photos_backup_apiservice_onboarding_primary">#ff1976d2</color>
     <color name="photos_backup_apiservice_onboarding_primary_dark">#ff0d47a1</color>
     <color name="photos_backup_apiservice_onboarding_primary_text">#ffffffff</color>
@@ -227,7 +227,7 @@
     <color name="place_autocomplete_prediction_secondary_text">#ffdddddd</color>
     <color name="place_autocomplete_search_hint">#42ffffff</color>
     <color name="place_autocomplete_search_text">#deffffff</color>
-    <color name="place_autocomplete_separator">#1faaaaaa</color>
+    <color name="place_autocomplete_separator">#00000000</color>
     <color name="preview_image_error_background">@*android:color/background_dark</color>
     <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
     <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
@@ -237,7 +237,7 @@
     <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_dark">#4dffffff</color>
     <color name="primary_text_disabled_material_light">#4dffffff</color>
-    <color name="quantum_black_divider">#1faaaaaa</color>
+    <color name="quantum_black_divider">#00000000</color>
     <color name="quantum_black_hint_text">#61ffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_text">#ffffffff</color>
@@ -309,7 +309,7 @@
     <color name="story_edit_location_item_place_tag_address_color">#ffdddddd</color>
     <color name="story_edit_location_item_place_tag_text_color">#ffffffff</color>
     <color name="story_edit_location_pressed_color">#ff555555</color>
-    <color name="story_edit_location_separator">#ffaaaaaa</color>
+    <color name="story_edit_location_separator">#00000000</color>
     <color name="story_element_loading_background">@*android:color/background_dark</color>
     <color name="story_empty_state_background">@*android:color/background_dark</color>
     <color name="story_whitebox_controls_background">#42000000</color>
@@ -330,22 +330,22 @@
     <color name="tile_background_selected">#ff555555</color>
     <color name="video_trim_view_container_border">#ff1976d2</color>
     <color name="white_button_ripple">#4dffffff</color>
-    <color name="year_adapter_item_divider">#ffaaaaaa</color>
+    <color name="year_adapter_item_divider">#00000000</color>
 
     <color name="sendkit_api_default_action_bar_color">@*android:color/primary_material_dark</color>
     <color name="sendkit_ui_default_background_color">@*android:color/background_dark</color>
     <color name="sendkit_ui_default_primary_color">#ffffffff</color>
     <color name="sendkit_ui_default_secondary_color">#ffdddddd</color>
-    <color name="sendkit_ui_divider_color">#ffaaaaaa</color>
+    <color name="sendkit_ui_divider_color">#00000000</color>
     <color name="sendkit_ui_list_background_color">@*android:color/background_dark</color>
     <color name="sendkit_ui_message_bar_mask_color">#aa000000</color>
     <color name="sendkit_ui_message_bar_top_border_color">#ff555555</color>
     <color name="autocomplete_background_color">@*android:color/background_dark</color>
     <color name="autocomplete_chip_background">#ff555555</color>
-    <color name="autocomplete_divider_color">#ffaaaaaa</color>
+    <color name="autocomplete_divider_color">#00000000</color>
     <color name="autocomplete_highlight_color">@*android:color/accent_material_dark</color>
     <color name="autocomplete_hint_color">#ffbbbbbb</color>
-    <color name="autocomplete_light_divider_color">#ffaaaaaa</color>
+    <color name="autocomplete_light_divider_color">#00000000</color>
     <color name="autocomplete_row_background_color">@*android:color/background_dark</color>
     <color name="autocomplete_selected_color">#ff1976d2</color>
     <color name="autocomplete_text_color">#ffffffff</color>

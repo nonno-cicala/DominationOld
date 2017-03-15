@@ -14,8 +14,8 @@
     <color name="current_user_border_color">@*android:color/accent_material_dark</color>
     <color name="notification_guts_bg_color">@*android:color/background_floating_material_dark</color>
     <color name="notification_guts_btn_color">@*android:color/button_material_dark</color>
-    <color name="assist_orb_color">@*android:color/background_dark</color>
-    <color name="search_panel_circle_color">@*android:color/background_dark</color>
+    <color name="assist_orb_color">@*android:color/background_floating_material_dark</color>
+    <color name="search_panel_circle_color">@*android:color/background_floating_material_dark</color>
     <color name="screen_pinning_nav_icon_highlight_outer">#40ffffff</color>
     <color name="screen_pinning_request_bg">@*android:color/background_floating_material_dark</color>
     <color name="segmented_button_selected">#ffffffff</color>
@@ -129,4 +129,7 @@
     <color name="pie_foreground">#ffffffff</color>
     <color name="pie_icon">#4dffffff</color>
     <color name="pie_line">#1affffff</color>
+
+    <color name="screenshot_flash_color">@*android:color/accent_material_dark</color>
+    <color name="screenshot_background_color">@*android:color/background_dark</color>
 </resources>

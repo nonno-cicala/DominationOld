@@ -30,7 +30,7 @@
     <color name="bright_foreground_material_dark">#ffffffff</color>
     <color name="bright_foreground_material_light">#ffffffff</color>
 
-    <color name="bs_divider_color">#1fffffff</color>
+    <color name="bs_divider_color">#00000000</color>
     <color name="burnt_violet">@*android:color/primary_material_dark</color>
     <color name="button_material_dark">@*android:color/button_material_dark</color>
     <color name="button_material_light">@*android:color/button_material_dark</color>
@@ -64,7 +64,7 @@
     <color name="connect_on_desktop_icon_color">#ff1976d2</color>
     <color name="contact_chip_background">#ff1976d2</color>
     <color name="contact_chip_restricted_background">#fffbc02d</color>
-    <color name="conversation_dividers_color">#ffaaaaaa</color>
+    <color name="conversation_dividers_color">#00000000</color>
     <color name="cool_grey">#ffdddddd</color>
 
     <color name="dark_grey">#ffffffff</color>
@@ -108,8 +108,8 @@
     <color name="gdrive_yellow">#fffbc02d</color>
     <color name="gray_bg">@*android:color/primary_material_dark</color>
     <color name="grey">#ffdddddd</color>
-    <color name="grey_divider_color">#ffaaaaaa</color>
-    <color name="grey_divider_color_transparent">#00aaaaaa</color>
+    <color name="grey_divider_color">#00000000</color>
+    <color name="grey_divider_color_transparent">#00000000</color>
     <color name="hdr_field_text_grey">#ffdddddd</color>
     <color name="highlight">#ff555555</color>
     <color name="highlight_edit_message">#ffbbbbbb</color>
@@ -129,7 +129,7 @@
     <color name="iphone_grey">#ff795548</color>
     <color name="jump_to_border_color">#ff555555</color>
     <color name="jump_to_border_fill">@*android:color/background_floating_material_dark</color>
-    <color name="light_divider_color">#ffaaaaaa</color>
+    <color name="light_divider_color">#00000000</color>
     <color name="light_grey">#ffb7b7b7</color>
     <color name="light_grey_background">@*android:color/background_floating_material_dark</color>
     <color name="link_inverse_color">#ff1976d2</color>

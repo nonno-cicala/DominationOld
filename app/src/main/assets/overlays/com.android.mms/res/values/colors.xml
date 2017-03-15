@@ -7,14 +7,14 @@
     <color name="dialpad_primary_text_color">#ff388e3c</color>
     <color name="dialpad_secondary_text_color">#ffdddddd</color>
     <color name="dialpad_digits_text_color">#ffffffff</color>
-    <color name="dialpad_separator_line_color">#ffaaaaaa</color>
+    <color name="dialpad_separator_line_color">#00000000</color>
     <color name="dialpad_icon_tint">#ffffffff</color>
     <color name="dialpad_voicemail_tint">#ffdddddd</color>
     <color name="holo_list_background_color">@*android:color/background_dark</color>
     <color name="primary_text_color">#ffffffff</color>
     <color name="secondary_text_color">#ffdddddd</color>
     <color name="section_header_text_color">#ffffffff</color>
-    <color name="secondary_header_separator_color">#ffaaaaaa</color>
+    <color name="secondary_header_separator_color">#00000000</color>
     <color name="people_app_theme_color">#ffffffff</color>
     <color name="dialtacts_theme_color">#ff388e3c</color>
     <color name="image_placeholder">#ff111111</color>
@@ -70,7 +70,7 @@
     <color name="exposed_primary_text_dark">#ffffffff</color>
     <color name="chips_dropdown_background_activated">#ff1976d2</color>
     <color name="chips_dropdown_background_pressed">#ff555555</color>
-    <color name="autocomplete_divider_color">#ffaaaaaa</color>
+    <color name="autocomplete_divider_color">#00000000</color>
     <color name="chip_background">#ff555555</color>
     <color name="chip_background_selected">#ff1976d2</color>
     <color name="chip_background_invalid">#ffd32f2f</color>
@@ -91,7 +91,7 @@
     <color name="darkgray_backgrounds">@*android:color/background_floating_material_dark</color>
     <color name="quickmessage_body_dark_bg">@*android:color/background_dark</color>
     <color name="quickmessage_body_light_bg">@*android:color/background_floating_material_dark</color>
-    <color name="dividers">#ffaaaaaa</color>
+    <color name="dividers">#00000000</color>
     <color name="transparent">#00000000</color>
     <color name="compose_message_background_color">@*android:color/background_floating_material_dark</color>
     <color name="compose_message_text_color">#ffffffff</color>

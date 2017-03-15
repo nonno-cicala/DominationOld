@@ -9,7 +9,7 @@
     <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
     <color name="common_signin_btn_light_text_focused">#ffffffff</color>
     <color name="common_signin_btn_default_background">#ffd32f2f</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="abc_search_url_text_normal">#ff388e3c</color>
     <color name="abc_search_url_text_selected">#ffffffff</color>
     <color name="abc_search_url_text_pressed">#ffffffff</color>
@@ -119,5 +119,5 @@
     <color name="notification_bg">@*android:color/background_dark</color>
     <color name="notification_icon_bg">@*android:color/background_dark</color>
     <color name="notification_pressed">#ff555555</color>
-    <color name="notification_divider">#ffaaaaaa</color>
+    <color name="notification_divider">#00000000</color>
 </resources>

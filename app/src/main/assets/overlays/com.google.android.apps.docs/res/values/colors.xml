@@ -20,13 +20,13 @@
     <color name="add_accounts_text_color">#ffffffff</color>
     <color name="apps_predict_entry_reason_color">#ffdddddd</color>
     <color name="apps_predict_entry_title_color">#ffffffff</color>
-    <color name="autocomplete_divider_color">#ffaaaaaa</color>
+    <color name="autocomplete_divider_color">#00000000</color>
     <color name="background_floating_material_dark">@*android:color/background_dark</color>
     <color name="background_floating_material_light">@*android:color/background_dark</color>
     <color name="background_material_dark">@*android:color/background_dark</color>
     <color name="background_material_light">@*android:color/background_dark</color>
     <color name="billing_bg">@*android:color/background_dark</color>
-    <color name="billing_divider">#1fffffff</color>
+    <color name="billing_divider">#00000000</color>
     <color name="billing_header_bg">#ff1976d2</color>
     <color name="billing_header_fg">#ffffffff</color>
     <color name="billing_item_title">#ffffffff</color>
@@ -56,7 +56,7 @@
     <color name="colorAccent">#ffd32f2f</color>
     <color name="colorPrimary">#ff303f9f</color>
     <color name="colorPrimaryDark">#ff1a237e</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
     <color name="common_google_signin_btn_text_dark_focused">#ffffffff</color>
@@ -76,7 +76,7 @@
     <color name="create_bar_button_background_focused">#ff555555</color>
     <color name="create_bar_button_background_pressed">#ff555555</color>
     <color name="default_account_details_color">#ffffffff</color>
-    <color name="default_list_divider">#ffaaaaaa</color>
+    <color name="default_list_divider">#00000000</color>
     <color name="default_text_color">#ffffffff</color>
     <color name="default_text_highlighted_color">#ffffffff</color>
     <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
@@ -154,13 +154,13 @@
     <color name="m_actionbar_background">@*android:color/background_floating_material_dark</color>
     <color name="m_actionbar_icon">#ffffffff</color>
     <color name="m_actionbar_icon_drawer_color">#ffffffff</color>
-    <color name="m_actionbar_separator">#ffaaaaaa</color>
+    <color name="m_actionbar_separator">#00000000</color>
     <color name="m_actionbar_text">#ffffffff</color>
     <color name="m_add_collaborator_background_alpha_hack">#fe000000</color>
     <color name="m_app_accent">#ff1976d2</color>
     <color name="m_app_alert_fullscreen">@*android:color/background_floating_material_dark</color>
     <color name="m_app_background">@*android:color/background_dark</color>
-    <color name="m_app_divider_color">#ffaaaaaa</color>
+    <color name="m_app_divider_color">#00000000</color>
     <color name="m_app_primary">@*android:color/background_floating_material_dark</color>
     <color name="m_app_primary_action_text">#ff1976d2</color>
     <color name="m_app_primary_docs">#ff1976d2</color>
@@ -276,7 +276,7 @@
     <color name="punch_status_text_color">#ffffffff</color>
 
 
-    <color name="quantum_black_divider">#1fffffff</color>
+    <color name="quantum_black_divider">#00000000</color>
     <color name="quantum_black_hint_text">#61ffffff</color>
     <color name="quantum_black_secondary_text">#89ffffff</color>
     <color name="quantum_black_text">#ffffffff</color>
@@ -342,7 +342,7 @@
     <color name="sheet_tab_active_bg">#ff555555</color>
     <color name="sheet_tab_bg">@*android:color/background_dark</color>
     <color name="sheet_tab_border">#ff555555</color>
-    <color name="sheet_tab_divider">#ffaaaaaa</color>
+    <color name="sheet_tab_divider">#00000000</color>
     <color name="sheet_tab_inactive_pressed">#ff555555</color>
     <color name="sheets_icon_background">#ff388e3c</color>
     <color name="slide_thumbnail_activated">#ff1976d2</color>

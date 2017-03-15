@@ -5,7 +5,7 @@
     <color name="place_autocomplete_prediction_primary_text">#ffffffff</color>
     <color name="place_autocomplete_prediction_primary_text_highlight">#ffffffff</color>
     <color name="place_autocomplete_prediction_secondary_text">#ffdddddd</color>
-    <color name="place_autocomplete_separator">#ffaaaaaa</color>
+    <color name="place_autocomplete_separator">#00000000</color>
     <color name="common_plus_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_plus_signin_btn_text_dark_pressed">#ffffffff</color>
     <color name="common_plus_signin_btn_text_dark_disabled">#ffaaaaaa</color>
@@ -14,7 +14,7 @@
     <color name="common_plus_signin_btn_text_light_pressed">#ffffffff</color>
     <color name="common_plus_signin_btn_text_light_disabled">#ffaaaaaa</color>
     <color name="common_plus_signin_btn_text_light_focused">#ffffffff</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_pressed">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
@@ -90,7 +90,7 @@
     <color name="material_blue_grey_950">@*android:color/background_dark</color>
     <color name="chips_dropdown_background_activated">#ff1976d2</color>
     <color name="chips_dropdown_background_pressed">#ff555555</color>
-    <color name="autocomplete_divider_color">#ffaaaaaa</color>
+    <color name="autocomplete_divider_color">#00000000</color>
     <color name="chip_background">#ff555555</color>
     <color name="chip_background_invalid">#ffd32f2f</color>
     <color name="chips_dropdown_text_default">#b3ffffff</color>
@@ -142,8 +142,8 @@
     <color name="cursor_color">#ffffffff</color>
     <color name="metadata_text_color">#4dffffff</color>
     <color name="checked_list_item_color">#4dffffff</color>
-    <color name="default_divider_color">#ffaaaaaa</color>
-    <color name="drawer_divider_color">#ffaaaaaa</color>
+    <color name="default_divider_color">#00000000</color>
+    <color name="drawer_divider_color">#00000000</color>
     <color name="drawer_label_edit_text_color">#ffdddddd</color>
     <color name="widget_background_color">@*android:color/background_dark</color>
     <color name="widget_message_text_color">#ffdddddd</color>
@@ -180,7 +180,7 @@
     <color name="share_activity_save_text_color_disabled">#80dddddd</color>
     <color name="share_activity_title_text_color">#ffffffff</color>
     <color name="rename_dialog_button_color">#ff1976d2</color>
-    <color name="rename_dialog_divider">#ffaaaaaa</color>
+    <color name="rename_dialog_divider">#00000000</color>
     <color name="error_message_color">#ffe64a19</color>
     <color name="share_activity_background">@*android:color/background_dark</color>
     <color name="share_activity_email_edit_hint_text">#66dddddd</color>
@@ -192,7 +192,7 @@
     <color name="swipe_refresh_color3">#ff1976d2</color>
     <color name="swipe_refresh_color4">#ffe64a19</color>
     <color name="image_placeholder_color">@*android:color/background_floating_material_dark</color>
-    <color name="label_editor_fragment_header_divider">#ffaaaaaa</color>
+    <color name="label_editor_fragment_header_divider">#00000000</color>
     <color name="label_editor_fragment_background">@*android:color/background_floating_material_dark</color>
     <color name="label_editor_checkbox_color">#ff1976d2</color>
     <color name="label_editor_rename_mode_color">@*android:color/background_floating_material_dark</color>
@@ -244,9 +244,9 @@
     <color name="reminder_dialog_divider_stroke_grey">#ff555555</color>
     <color name="quantum_googblue">#ff1976d2</color>
     <color name="material_gray">#ffffffff</color>
-    <color name="default_keep_divider">#ffaaaaaa</color>
+    <color name="default_keep_divider">#00000000</color>
     <color name="share_handler_account_selector">@*android:color/background_floating_material_dark</color>
-    <color name="share_handler_divider_color">#ffaaaaaa</color>
+    <color name="share_handler_divider_color">#00000000</color>
     <color name="hashtag_highlight_blue">#ff0d47a1</color>
     <color name="note_default_color">@*android:color/background_floating_material_dark</color>
     <color name="color_picker_swatch_default_color">@*android:color/background_floating_material_dark</color>

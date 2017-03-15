@@ -32,7 +32,7 @@
         <item name="*com.instagram.android:textColorBoldLink">@*android:color/white</item>
         <item name="*com.instagram.android:textColorRegularLink">@*android:color/accent_material_dark</item>
         <item name="*com.instagram.android:textColorHyperlink">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:dividerColor">@*android:color/secondary_text_default_material_dark</item>
+        <item name="*com.instagram.android:dividerColor">@*android:color/transparent</item>
         <item name="*com.instagram.android:backgroundColorPrimary">@*android:color/primary_material_dark</item>
         <item name="*com.instagram.android:backgroundColorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="*com.instagram.android:backgroundColorSecondary">@*android:color/background_floating_material_dark</item>
@@ -42,11 +42,11 @@
         <item name="*com.instagram.android:backgroundNotificationBadge">@*com.instagram.android:drawable/notification_bubble_whiteout</item>
         <item name="*com.instagram.android:defaultSpinnerStyle">@*com.instagram.android:style/SpinnerTextStyle.Whiteout</item>
         <item name="*com.instagram.android:segmentedUnderlineWidth">@*com.instagram.android:dimen/segmented_underline_width_whiteout</item>
-        <item name="*com.instagram.android:igSwitchStyle">@*com.instagram.android:style/IgSwitchStyle</item>
         <item name="*com.instagram.android:igBadgeViewStyle">@*com.instagram.android:style/IgBadgeViewStyle</item>
+        <item name="*com.instagram.android:igSwitchStyle">@*com.instagram.android:style/IgSwitchStyle</item>
     </style>
     <style name="ImmersiveViewerOverlay">
-        <item name="android:colorControlNormal">#b3ffffff</item>
+        <item name="android:colorControlNormal">@*android:color/secondary_text_default_material_dark</item>
         <item name="*com.instagram.android:glyphColorSecondary">@*android:color/secondary_text_default_material_dark</item>
         <item name="*com.instagram.android:glyphColorSecondaryActive">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:textColorPrimary">@*android:color/white</item>
@@ -59,5 +59,10 @@
         <item name="*com.instagram.android:textColorLocation">@*android:color/white</item>
         <item name="*com.instagram.android:boldAllLinks">true</item>
         <item name="*com.instagram.android:shouldHideAllComments">true</item>
+    </style>
+    <style name="Theme.Instagram.LightStatusBar" parent="@*com.instagram.android:style/Theme.Instagram">
+        <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.instagram.android:backgroundColorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.instagram.android:modalActionBarStatusBarColor">@*android:color/primary_dark_material_dark</item>
     </style>
 </resources>

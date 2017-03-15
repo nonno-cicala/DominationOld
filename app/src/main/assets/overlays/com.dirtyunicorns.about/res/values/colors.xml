@@ -71,7 +71,7 @@
     <color name="md_dark_cards">@*android:color/background_floating_material_dark</color>
     <color name="md_dark_dialogs">@*android:color/background_floating_material_dark</color>
     <color name="md_dark_disabled">#4dffffff</color>
-    <color name="md_dark_dividers">#1fffffff</color>
+    <color name="md_dark_dividers">#00000000</color>
     <color name="md_dark_primary_icon">#b3ffffff</color>
     <color name="md_dark_primary_text">#ffffffff</color>
     <color name="md_dark_secondary">#b3ffffff</color>
@@ -95,7 +95,7 @@
     <color name="md_light_cards">@*android:color/background_floating_material_dark</color>
     <color name="md_light_dialogs">@*android:color/background_floating_material_dark</color>
     <color name="md_light_disabled">#4dffffff</color>
-    <color name="md_light_dividers">#1fffffff</color>
+    <color name="md_light_dividers">#00000000</color>
 
     <color name="md_light_primary_icon">#b3ffffff</color>
     <color name="md_light_primary_text">#ffffffff</color>
@@ -133,10 +133,10 @@
     <color name="device_card_background">@*android:color/background_floating_material_dark</color>
     <color name="device_card_text">#ffffffff</color>
     <color name="general_info_background">@*android:color/background_floating_material_dark</color>
-    <color name="general_info_divider">#ffaaaaaa</color>
+    <color name="general_info_divider">#00000000</color>
     <color name="general_info_text">#ffffffff</color>
     <color name="nav_drawer_background">@*android:color/background_floating_material_dark</color>
-    <color name="nav_drawer_divider">#ffaaaaaa</color>
+    <color name="nav_drawer_divider">#00000000</color>
     <color name="nav_drawer_header_text">#ffffffff</color>
     <color name="nav_drawer_icon_color">#ffdddddd</color>
     <color name="nav_drawer_icon_tint_color">#ffd32f2f</color>

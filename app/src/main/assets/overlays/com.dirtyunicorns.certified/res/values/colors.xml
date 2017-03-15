@@ -6,10 +6,10 @@
     <color name="about_libraries_accent">#ffd32f2f</color>
     <color name="about_libraries_card">@*android:color/background_floating_material_dark</color>
     <color name="about_libraries_card_dark">@*android:color/background_floating_material_dark</color>
-    <color name="about_libraries_dividerDark_openSource">#ffaaaaaa</color>
-    <color name="about_libraries_dividerDark_openSource_dark">#ffaaaaaa</color>
-    <color name="about_libraries_dividerLight_openSource">#ffaaaaaa</color>
-    <color name="about_libraries_dividerLight_openSource_dark">#ffaaaaaa</color>
+    <color name="about_libraries_dividerDark_openSource">#00000000</color>
+    <color name="about_libraries_dividerDark_openSource_dark">#00000000</color>
+    <color name="about_libraries_dividerLight_openSource">#00000000</color>
+    <color name="about_libraries_dividerLight_openSource_dark">#00000000</color>
     <color name="about_libraries_primary">@*android:color/primary_material_dark</color>
     <color name="about_libraries_primary_dark">@*android:color/primary_dark_material_dark</color>
     <color name="about_libraries_special_button_openSource">@*android:color/button_material_dark</color>
@@ -49,7 +49,7 @@
     <color name="colorPrimary">@*android:color/primary_material_dark</color>
     <color name="colorPrimaryDark">@*android:color/background_dark</color>
     <color name="colorPrimaryLight">@*android:color/background_dark</color>
-    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_action_bar_splitter">#00000000</color>
     <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
     <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
     <color name="common_google_signin_btn_text_dark_focused">#ffffffff</color>
@@ -96,7 +96,7 @@
     <color name="material_drawer_dark_secondary_text">#ffdddddd</color>
     <color name="material_drawer_dark_selected">#ff555555</color>
     <color name="material_drawer_dark_selected_text">#ffffffff</color>
-    <color name="material_drawer_divider">#1fffffff</color>
+    <color name="material_drawer_divider">#00000000</color>
     <color name="material_drawer_header_selection_text">#ffffffff</color>
     <color name="material_drawer_hint_icon">#ffbbbbbb</color>
     <color name="material_drawer_hint_text">#ffbbbbbb</color>
@@ -121,7 +121,7 @@
     <color name="md_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="md_light_background">@*android:color/background_floating_material_dark</color>
     <color name="md_light_disabled">#ffbbbbbb</color>
-    <color name="md_light_dividers">#1fffffff</color>
+    <color name="md_light_dividers">#00000000</color>
     <color name="md_light_primary_icon">#ffffffff</color>
     <color name="md_light_primary_text">#ffffffff</color>
     <color name="md_light_secondary">#ffdddddd</color>

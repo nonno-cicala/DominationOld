@@ -21,7 +21,7 @@
     <color name="primary_dark_color">#ff1a237e</color>
     <color name="launcher_accent_color">#ff00796b</color>
 
-    <color name="all_apps_divider_color">#1effffff</color>
+    <color name="all_apps_divider_color">#00000000</color>
     <color name="all_apps_container_color">#cc000000</color>
     <color name="spring_loaded_panel_color">#40000000</color>
     <color name="spring_loaded_highlighted_panel_border_color">#ff111111</color>
