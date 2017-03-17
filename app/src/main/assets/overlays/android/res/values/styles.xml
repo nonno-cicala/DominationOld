@@ -244,7 +244,7 @@
     <style name="Theme.DeviceDefault" parent="@*android:style/Theme.Material" />
     <style name="Theme.DeviceDefault.Light" parent="@*android:style/Theme.Material" />
     <style name="Theme.DeviceDefault.Dark" parent="@*android:style/Theme.Material" />
-    <style name="Theme.Material.Light.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog" />
+
 
     <style name="HeavyWeightSwitcherActivityTheme" parent="@*android:style/Theme.Material.Dialog" />
     <style name="ChooseAccountActivityTheme" parent="@*android:style/Theme.Material.Dialog" />

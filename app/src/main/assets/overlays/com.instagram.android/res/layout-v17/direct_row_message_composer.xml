@@ -16,5 +16,5 @@
         </FrameLayout>
         <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@*com.instagram.android:id/row_thread_media_composer_camera" android:visibility="gone" android:layout_width="@*com.instagram.android:dimen/button_width" android:layout_height="@*com.instagram.android:dimen/button_width" android:src="@*com.instagram.android:drawable/dock_camera_whiteout" android:scaleType="center" app:normal="#b3ffffff" app:active="#ffffffff" />
     </LinearLayout>
-    <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@*com.instagram.android:layout/row_divider" />
+    <include android:layout_gravity="top" android:id="@*com.instagram.android:id/composer_divider" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@*com.instagram.android:layout/row_divider" />
 </FrameLayout>

@@ -144,4 +144,5 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
 </resources>

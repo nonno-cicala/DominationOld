@@ -744,8 +744,9 @@
     <color name="immersive_actions_black">#ffffffff</color>
     <!-- Text color when adding to a shopping list with assistant -->
     <color name="immersive_actions_blue">#ff1976d2</color>
-    <color name="immersive_actions_bright_red">#ff1976d2</color>
+    <color name="immersive_actions_bright_red">#ffd32f2f</color>
     <color name="immersive_actions_dark_grey">#ffffffff</color>
+    <color name="immersive_actions_dialog_plate_fab_container_separator_grey">#00000000</color>
     <color name="immersive_actions_dialog_plate_grey">@*android:color/background_floating_material_dark</color>
     <color name="immersive_actions_dialog_plate_separator_grey">#00000000</color>
     <color name="immersive_actions_divider_grey">#00000000</color>
@@ -755,7 +756,7 @@
     <color name="immersive_actions_lighter_black">#ffffffff</color>
     <!-- Secondary text color when voice dialing in assistant -->
     <color name="immersive_actions_medium_grey">#ffffffff</color>
-    <color name="immersive_actions_red">#ffffffff</color>
+    <color name="immersive_actions_red">#ffd32f2f</color>
     <color name="immersive_actions_sms_reminders_header">#ff1976d2</color>
     <color name="immersive_actions_unknown_provider_color">#ff455a64</color>
     <!-- Card BG Color when voice dialing with assistant -->
@@ -771,4 +772,16 @@
     <color name="active_tab_color">#ff1976d2</color>
 
     <color name="optin_animation_image_background_notif">@*android:color/black</color>
+
+    <color name="search_queue_activity_background">@*android:color/background_dark</color>
+    <color name="search_queue_blank_page_message">#ffbbbbbb</color>
+    <color name="search_queue_card_button_text">#ff1976d2</color>
+    <color name="search_queue_card_header_background">@*android:color/primary_material_dark</color>
+    <color name="search_queue_card_title_text">#ffffffff</color>
+    <color name="search_queue_completed_query">#ff1976d2</color>
+    <color name="search_queue_list_divider_grey">#00000000</color>
+    <color name="search_queue_pending_query">#ffdddddd</color>
+    <color name="search_queue_snackbar_action">#fffbc02d</color>
+    <color name="search_queue_snackbar_message">#ffdddddd</color>
+    <color name="search_queue_toolbar_background">#ff1976d2</color>
 </resources>

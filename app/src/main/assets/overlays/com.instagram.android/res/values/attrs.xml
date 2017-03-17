@@ -346,6 +346,7 @@
     <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="clipBackground" format="reference" />
     <attr name="clipBackgroundSoftDelete" format="reference" />
+    <attr name="backgroundColour" format="color" />
     <attr name="edgeRadius" format="dimension" />
     <attr name="strokeRadius" format="dimension" />
     <attr name="strokeColour" format="color" />

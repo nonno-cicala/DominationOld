@@ -161,8 +161,6 @@
     <color name="find_result_bar_result_border_color">#fffbc02d</color>
     <color name="find_result_bar_active_color">#ffe64a19</color>
     <color name="find_result_bar_active_border_color">#ffbf360c</color>
-    <color name="find_in_page_query_color">#ff1976d2</color>
-    <color name="find_in_page_results_status_color">#ff1976d2</color>
     <color name="find_in_page_results_status_white_color">#ffdddddd</color>
     <color name="find_in_page_failed_results_status_color">#ffd32f2f</color>
     <color name="light_background_color">@*android:color/background_dark</color>

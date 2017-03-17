@@ -113,7 +113,7 @@
         <item name="android:paddingRight">53.0dip</item>
         <item name="android:visibility">invisible</item>
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
     </style>
     <style name="ContextualSearchTextView">
         <item name="android:textSize">@*com.android.chrome:dimen/overlay_panel_text_size</item>
@@ -165,5 +165,13 @@
         <item name="android:layout_marginLeft">7.0dip</item>
         <item name="android:layout_marginRight">7.0dip</item>
         <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*com.android.chrome:dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="*com.android.chrome:behavior_peekHeight">@*com.android.chrome:dimen/design_bottom_sheet_modal_peek_height</item>
+        <item name="*com.android.chrome:behavior_hideable">true</item>
+        <item name="*com.android.chrome:behavior_skipCollapsed">false</item>
     </style>
 </resources>
