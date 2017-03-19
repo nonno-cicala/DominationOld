@@ -112,13 +112,6 @@
     <style name="TextViewStyle.Feed" parent="@*com.instagram.android:style/TextViewStyle">
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
     </style>
-    <style name="LoadingGradientStyle">
-        <item name="*com.instagram.android:gradientColour1">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour2">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour3">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour4">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour5">@*android:color/accent_material_dark</item>
-    </style>
     <style name="OverlayTextStyle">
         <item name="android:textSize">@*com.instagram.android:dimen/font_xxlarge</item>
         <item name="android:textColor">@*android:color/white</item>
@@ -132,17 +125,6 @@
     <style name="TabBarButton">
         <item name="*com.instagram.android:normal">@*android:color/white</item>
         <item name="*com.instagram.android:active">@*android:color/dim_foreground_light</item>
-    </style>
-    <style name="GradientSpinnerStyle">
-        <item name="*com.instagram.android:activeStrokeWidth">2.0dip</item>
-        <item name="*com.instagram.android:inactiveStrokeWidth">1.0dip</item>
-        <item name="*com.instagram.android:inactiveColour">@*android:color/white</item>
-        <item name="*com.instagram.android:errorColour">@*android:color/white</item>
-        <item name="*com.instagram.android:gradientColour1">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour2">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour3">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour4">@*android:color/accent_material_dark</item>
-        <item name="*com.instagram.android:gradientColour5">@*android:color/accent_material_dark</item>
     </style>
     <style name="PortraitReelTextOverlay">
         <item name="android:textSize">@*com.instagram.android:dimen/font_small</item>

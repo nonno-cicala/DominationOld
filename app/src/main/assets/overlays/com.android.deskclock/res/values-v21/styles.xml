@@ -16,10 +16,7 @@
     </style>
 
     <style name="DeskClockParentTheme" parent="@*android:style/Theme.Material">
-        <item name="android:popupMenuStyle">@*com.android.deskclock:style/PopupMenu</item>
         <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
-        <item name="android:dialogTheme">@*com.android.deskclock:style/DialogTheme</item>
-        <item name="android:alertDialogTheme">@*com.android.deskclock:style/DialogTheme</item>
         <item name="android:colorPrimary">#ff1976d2</item>
         <item name="android:colorPrimaryDark">#ff0d47a1</item>
         <item name="android:textColorPrimary">#ffffffff</item>
@@ -41,10 +38,6 @@
         <item name="android:colorPrimary">#ff1976d2</item>
         <item name="android:colorPrimaryDark">#ff0d47a1</item>
         <item name="android:textColorPrimary">#ffffffff</item>
-        <item name="android:actionBarPopupTheme">@*com.android.deskclock:style/PopupMenu</item>
-        <item name="android:popupMenuStyle">@*com.android.deskclock:style/PopupMenu</item>
-        <item name="android:dialogTheme">@*com.android.deskclock:style/DialogTheme</item>
-        <item name="android:alertDialogTheme">@*com.android.deskclock:style/DialogTheme</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="SettingsTheme" parent="@*android:style/Theme.Material.Settings">
