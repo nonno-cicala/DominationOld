@@ -269,6 +269,16 @@
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:dropDownListViewStyle">@*com.google.android.gm:style/ComposeDropdownListViewStyle</item>
         <item name="android:colorBackgroundCacheHint">@*android:color/background_dark</item>
-        <item name="popupMenuStyle">@*com.google.android.gm:style/PopupMenu</item>
+        <item name="*com.google.android.gm:popupMenuStyle">@*com.google.android.gm:style/PopupMenu</item>
+    </style>
+
+    <style name="Widget.Design.FloatingActionButton" parent="@*android:style/Widget">
+        <item name="android:background">@*com.google.android.gm:drawable/design_fab_background</item>
+        <item name="*com.google.android.gm:elevation">@*com.google.android.gm:dimen/design_fab_elevation</item>
+        <item name="*com.google.android.gm:backgroundTint">@*com.google.android.gm:color/primary_color</item>
+        <item name="*com.google.android.gm:rippleColor">@*com.google.android.gm:color/ripple_material_dark</item>
+        <item name="*com.google.android.gm:fabSize">auto</item>
+        <item name="*com.google.android.gm:pressedTranslationZ">@*com.google.android.gm:dimen/design_fab_translation_z_pressed</item>
+        <item name="*com.google.android.gm:borderWidth">@*com.google.android.gm:dimen/design_fab_border_width</item>
     </style>
 </resources>

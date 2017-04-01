@@ -130,6 +130,11 @@
     <color name="pie_icon">#4dffffff</color>
     <color name="pie_line">#1affffff</color>
 
-    <color name="screenshot_flash_color">@*android:color/accent_material_dark</color>
+    <color name="screenshot_flash_color">@*android:color/button_material_dark</color>
     <color name="screenshot_background_color">@*android:color/background_dark</color>
+
+    <color name="ksh_application_group_color">#ffd32f2f</color>
+    <color name="ksh_keyword_color">#d9ffffff</color>
+    <color name="ksh_key_item_color">@*android:color/accent_material_dark</color>
+    <color name="ksh_key_item_background">@*android:color/button_material_dark</color>
 </resources>

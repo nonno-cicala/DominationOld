@@ -8,7 +8,7 @@
         <View android:background="@*com.whatsapp:drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
         <LinearLayout android:orientation="vertical" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <FrameLayout style="@*com.whatsapp:style/FlatCardHeader">
-                <TextView android:id="@*com.whatsapp:id/status_and_phone_title" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:text="@*com.whatsapp:string/contact_status_and_phone" style="@*com.whatsapp:style/FlatCardTitle" />
+                <TextView android:id="@*com.whatsapp:id/status_and_phone_title" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:text="@*com.whatsapp:string/contact_info_and_phone" style="@*com.whatsapp:style/FlatCardTitle" />
             </FrameLayout>
             <com.whatsapp.TextEmojiLabel android:ellipsize="none" android:layout_gravity="left" android:id="@*com.whatsapp:id/status" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" style="@*com.whatsapp:style/ListItemTitle" />
             <TextView android:layout_gravity="left" android:id="@*com.whatsapp:id/status_info" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*com.whatsapp:style/ListItemSubtitleSmall" />

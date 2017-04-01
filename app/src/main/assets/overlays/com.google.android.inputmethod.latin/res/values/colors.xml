@@ -124,4 +124,5 @@
     <color name="first_run_page_blue_color">#ff1976d2</color>
     <color name="generic_extension_background_all_theme_idle">@*android:color/button_material_dark</color>
     <color name="label_translate_board_idle_all_theme">#b3ffffff</color>
+    <color name="voiceime_circle_color">#ff009688</color>
 </resources>

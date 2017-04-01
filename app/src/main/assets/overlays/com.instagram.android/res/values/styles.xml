@@ -23,6 +23,11 @@
         <item name="android:headerDividersEnabled">false</item>
         <item name="android:footerDividersEnabled">false</item>
     </style>
+    <style name="Widget.Instagram.Divider" parent="">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
     <style name="Avatar.ExploreStories" parent="@*com.instagram.android:style/Avatar">
         <item name="android:layout_width">28.0dip</item>
         <item name="android:layout_height">28.0dip</item>

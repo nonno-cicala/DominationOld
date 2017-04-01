@@ -108,6 +108,7 @@
     <attr name="checkedDrawable" format="reference" />
     <attr name="uncheckedDrawable" format="reference" />
     <attr name="enableQuickBackWhenEmpty" format="boolean" />
+    <attr name="allowTextSelection" format="boolean" />
     <attr name="defaultActionBarBackground" format="reference" />
     <attr name="defaultActionBarForegroundPressedColor" format="color" />
     <attr name="defaultActionBarDividerColor" format="color" />
@@ -136,10 +137,8 @@
     <attr name="drawable" format="reference" />
     <attr name="innerSpacing" format="dimension" />
     <attr name="followButtonStyle" format="string" />
-    <attr name="allowUpdateColor" format="boolean" />
-    <attr name="state_follow" format="boolean" />
-    <attr name="state_following" format="boolean" />
-    <attr name="state_requesting" format="boolean" />
+    <attr name="state_blue" format="boolean" />
+    <attr name="state_grey" format="boolean" />
     <attr name="forceFullWidth" format="boolean" />
     <attr name="perfTrackingCategory" format="string" />
     <attr name="circularImageView" format="boolean" />

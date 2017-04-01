@@ -201,4 +201,6 @@
     <color name="place_autocomplete_separator">#00000000</color>
     <color name="tile_view_text">#ffdddddd</color>
     <color name="tile_view_offline_badge_tint">#ff1976d2</color>
+
+    <color name="google_grey_600">#ffffffff</color>
 </resources>

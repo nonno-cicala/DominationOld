@@ -90,7 +90,7 @@
     <color name="emoji_space_key_brand_color">#ffffffff</color>
     <color name="emoji_text_color">#ffffffff</color>
     <color name="emoji_unselected_icon">#ffbbbbbb</color>
-    <color name="extracted_text_view">#ffdddddd</color>
+    <color name="extracted_text_view">@*android:color/background_floating_material_dark</color>
     <color name="extras_text">#ffdddddd</color>
     <color name="fitzpatrick_divider_colour">#00000000</color>
     <color name="foreground_material_dark">#ffffffff</color>

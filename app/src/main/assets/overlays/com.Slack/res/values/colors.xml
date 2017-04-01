@@ -226,4 +226,6 @@
     <color name="white_98p_alpha">#f9000000</color>
     <color name="word_blue">#ff1976d2</color>
     <color name="yolk_orange">#fffbc02d</color>
+
+    <color name="fake_edit_text_line">@*android:color/background_floating_material_dark</color>
 </resources>

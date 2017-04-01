@@ -194,4 +194,7 @@
     <color name="payments_section_edit_background">@*android:color/background_dark</color>
     <color name="payments_section_chevron">#ffffffff</color>
     <color name="payments_section_separator">#00000000</color>
+
+
+    <color name="google_grey_600">#ffffffff</color>
 </resources>
