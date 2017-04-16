@@ -88,4 +88,7 @@
     <color name="catalyst_redbox_background">#eed32f2f</color>
 
     <color name="default_slideout_icon_text_color">#ffffffff</color>
+
+    <color name="close_button_tint_color">#ffffffff</color>
+
 </resources>

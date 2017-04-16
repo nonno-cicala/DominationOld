@@ -10,7 +10,7 @@
         <ViewStub android:layout_gravity="end|bottom|center" android:id="@*com.instagram.android:id/failed_stub" android:visibility="visible" android:layout="@*com.instagram.android:layout/reel_failed_upload" android:layout_width="20.0dip" android:layout_height="20.0dip" />
         <ViewStub android:layout_gravity="end|bottom|center" android:id="@*com.instagram.android:id/offline_stub" android:visibility="visible" android:layout="@*com.instagram.android:layout/reel_offline_upload" android:layout_width="20.0dip" android:layout_height="20.0dip" />
         <ViewStub android:layout_gravity="end|bottom|center" android:id="@*com.instagram.android:id/empty_badge_stub" android:visibility="visible" android:layout="@*com.instagram.android:layout/reel_empty_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <ViewStub android:layout_gravity="bottom|center" android:id="@*com.instagram.android:id/iglive_badge_stub" android:layout="@*com.instagram.android:layout/layout_iglive_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@*com.instagram.android:id/badge_stub" android:layout="@*com.instagram.android:layout/layout_reel_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </FrameLayout>
     <TextView android:textColor="@*android:color/white" android:textSize="@*com.instagram.android:dimen/font_small" android:ellipsize="end" android:gravity="center" android:id="@*com.instagram.android:id/username" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
 </LinearLayout>

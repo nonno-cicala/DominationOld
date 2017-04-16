@@ -11,13 +11,6 @@
     <attr name="textColorRegularLink" format="color" />
     <attr name="textColorHyperlink" format="color" />
     <attr name="dividerColor" format="color" />
-    <attr name="primaryButtonStyle" format="reference" />
-    <attr name="secondaryButtonStyle" format="reference" />
-    <attr name="inversePrimaryButtonStyle" format="reference" />
-    <attr name="inverseSecondaryButtonStyle" format="reference" />
-    <attr name="updatableButtonStyle" format="reference" />
-    <attr name="updatableButtonGlyphStyle" format="reference" />
-    <attr name="inverseUpdatableButtonStyle" format="reference" />
     <attr name="backgroundColorPrimary" format="color" />
     <attr name="backgroundColorPrimaryDark" format="color" />
     <attr name="backgroundColorSecondary" format="color" />
@@ -81,8 +74,47 @@
     <attr name="disabled_alpha" format="integer" min="0" max="255" />
     <attr name="dark" format="boolean" />
     <attr name="SeletedPicturePaddingRight" format="dimension" />
+    <attr name="triangleSpinnerStyle" format="reference" />
+    <attr name="triangleColor" format="color" />
+    <attr name="trianglePadding" format="dimension" />
+    <attr name="triangleSize" format="dimension" />
+    <attr name="triangleStyle">
+        <enum name="corner" value="0" />
+        <enum name="downward" value="1" />
+    </attr>
+    <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
+    <attr name="primaryButtonStyle" format="reference" />
+    <attr name="secondaryButtonStyle" format="reference" />
+    <attr name="inversePrimaryButtonStyle" format="reference" />
+    <attr name="inverseSecondaryButtonStyle" format="reference" />
+    <attr name="updatableButtonStyle" format="reference" />
+    <attr name="updatableButtonGlyphStyle" format="reference" />
+    <attr name="inverseUpdatableButtonStyle" format="reference" />
+    <attr name="followButtonStyle" format="string" />
+    <attr name="state_blue" format="boolean" />
+    <attr name="state_grey" format="boolean" />
     <attr name="capitalize" format="boolean" />
     <attr name="medium" format="boolean" />
+    <attr name="body" format="reference" />
+    <attr name="bodyEmphasized" format="reference" />
+    <attr name="bodyDetail" format="reference" />
+    <attr name="bodyLink" format="reference" />
+    <attr name="buttonPrimary" format="reference" />
+    <attr name="buttonPrimaryInverse" format="reference" />
+    <attr name="buttonSecondary" format="reference" />
+    <attr name="buttonSecondaryInverse" format="reference" />
+    <attr name="buttonUpdatable" format="reference" />
+    <attr name="buttonUpdatableInverse" format="reference" />
+    <attr name="footnote" format="reference" />
+    <attr name="footnoteEmphasized" format="reference" />
+    <attr name="footnoteDetail" format="reference" />
+    <attr name="footnoteLink" format="reference" />
+    <attr name="headline1" format="reference" />
+    <attr name="headline2" format="reference" />
+    <attr name="section" format="reference" />
+    <attr name="titleText" format="reference" />
+    <attr name="titleInactive" format="reference" />
+    <attr name="titleButtonPrimary" format="reference" />
     <attr name="image" format="reference" />
     <attr name="errorImage" format="reference" />
     <attr name="colorFilter" format="reference|color" />
@@ -123,7 +155,6 @@
     <attr name="modalActionBarPrimaryButtonForeground" format="reference" />
     <attr name="modalActionBarPrimaryButtonForegroundPressed" format="reference" />
     <attr name="modalActionBarDividerColor" format="color" />
-    <attr name="modalActionBarStatusBarColor" format="color" />
     <attr name="clearActionBarForegroundPressedColor" format="color" />
     <attr name="clearActionBarDividerColor" format="color" />
     <attr name="browserActionBarForegroundPressedColor" format="color" />
@@ -136,9 +167,6 @@
     <attr name="titleLogoDrawable" format="reference" />
     <attr name="drawable" format="reference" />
     <attr name="innerSpacing" format="dimension" />
-    <attr name="followButtonStyle" format="string" />
-    <attr name="state_blue" format="boolean" />
-    <attr name="state_grey" format="boolean" />
     <attr name="forceFullWidth" format="boolean" />
     <attr name="perfTrackingCategory" format="string" />
     <attr name="circularImageView" format="boolean" />
@@ -179,6 +207,8 @@
     <attr name="arrowThickness" format="dimension" />
     <attr name="maxDurationMS" format="integer" />
     <attr name="arrowAngle" format="float" />
+    <attr name="progressStrokeWidth" format="dimension" />
+    <attr name="progressGradientStyle" format="reference" />
     <attr name="tabBarHeight" format="reference" />
     <attr name="tabButtonBackground" format="reference" />
     <attr name="tabButtonIconStyle" format="reference" />
@@ -190,14 +220,11 @@
     <attr name="tabSearchDrawable" format="reference" />
     <attr name="activeStrokeWidth" format="dimension" />
     <attr name="inactiveStrokeWidth" format="dimension" />
+    <attr name="feedItemHeaderActiveStrokeWidth" format="dimension" />
     <attr name="lineWidth" format="dimension" />
     <attr name="inactiveColour" format="color" />
     <attr name="errorColour" format="color" />
-    <attr name="gradientColour1" format="color" />
-    <attr name="gradientColour2" format="color" />
-    <attr name="gradientColour3" format="color" />
-    <attr name="gradientColour4" format="color" />
-    <attr name="gradientColour5" format="color" />
+    <attr name="gradientPatternStyle" format="reference" />
     <attr name="borderDrawable" format="reference" />
     <attr name="auto_start" format="boolean" />
     <attr name="base_alpha" format="float" />
@@ -334,15 +361,6 @@
     <attr name="mediaPickerSpacing" format="dimension" />
     <attr name="gridColumnCount" format="integer" />
     <attr name="gridItemSpacing" format="dimension" />
-    <attr name="triangleSpinnerStyle" format="reference" />
-    <attr name="triangleColor" format="color" />
-    <attr name="trianglePadding" format="dimension" />
-    <attr name="triangleSize" format="dimension" />
-    <attr name="triangleStyle">
-        <enum name="corner" value="0" />
-        <enum name="downward" value="1" />
-    </attr>
-    <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="clipBackground" format="reference" />
     <attr name="clipBackgroundSoftDelete" format="reference" />
     <attr name="backgroundColour" format="color" />
@@ -403,19 +421,15 @@
     <attr name="drawingview_stroke_color" format="color" />
     <attr name="maxWidth" format="dimension" />
     <attr name="maxHeight" format="dimension" />
+    <attr name="gradientColor1" format="color" />
+    <attr name="gradientColor2" format="color" />
+    <attr name="gradientColor3" format="color" />
+    <attr name="gradientColor4" format="color" />
+    <attr name="gradientColor5" format="color" />
     <attr name="customToastViewStyle" format="reference" />
     <attr name="notificationNub" format="reference" />
     <attr name="notificationTooltip" format="reference" />
     <attr name="TokenTextViewStyle" format="reference" />
-    <attr name="filledColor" format="color" />
-    <attr name="unfilledColor" format="color" />
-    <attr name="spacing" format="dimension" />
-    <attr name="cornerRadius" format="dimension" />
-    <attr name="segmentFillType">
-        <enum name="current_segment" value="1" />
-        <enum name="sliding_segment" value="2" />
-        <enum name="total progress" value="0" />
-    </attr>
     <attr name="seekBarStyle" format="reference" />
     <attr name="seekBarRoot" format="reference" />
     <attr name="seekBarKnob" format="reference" />
@@ -433,6 +447,15 @@
     <attr name="spanCount" format="integer" />
     <attr name="reverseLayout" format="boolean" />
     <attr name="stackFromEnd" format="boolean" />
+    <attr name="filledColor" format="color" />
+    <attr name="unfilledColor" format="color" />
+    <attr name="spacing" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="segmentFillType">
+        <enum name="current_segment" value="1" />
+        <enum name="sliding_segment" value="2" />
+        <enum name="total_progress" value="0" />
+    </attr>
     <attr name="filterListTheme" format="reference" />
     <attr name="filterListBackground" format="color" />
     <attr name="filterListDividers" format="reference" />

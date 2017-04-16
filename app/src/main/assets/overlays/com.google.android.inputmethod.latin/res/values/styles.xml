@@ -122,7 +122,7 @@
     </style>
     <style name="PrivacyNoticeLearnMore">
         <item name="android:textSize">@*com.google.android.inputmethod.latin:dimen/privacy_notice_learn_more_text_size</item>
-        <item name="android:textColor">#8a1976d2</item>
+        <item name="android:textColor">#ff1976d2</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>

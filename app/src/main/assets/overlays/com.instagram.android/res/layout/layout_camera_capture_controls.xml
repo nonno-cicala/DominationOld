@@ -15,7 +15,7 @@
         <FrameLayout android:gravity="center" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <ViewStub android:layout_gravity="bottom|center" android:id="@*com.instagram.android:id/text_reply_swipe_affordance_stub" android:layout="@*com.instagram.android:layout/text_reply_swipe_affordance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </FrameLayout>
-        <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@*com.instagram.android:id/frame_holder" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
                 <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
                     <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@*com.instagram.android:id/camera_flash_button" android:layout_width="@*com.instagram.android:dimen/button_width" android:layout_height="@*com.instagram.android:dimen/button_width" android:src="@*com.instagram.android:drawable/flash_states" android:scaleType="center" app:disabled_alpha="0x00000080" />
@@ -34,6 +34,7 @@
         </FrameLayout>
     </LinearLayout>
     <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/capture_format_picker_stub" android:layout="@*com.instagram.android:layout/capture_format_picker" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/snack_bar" android:layout="@*com.instagram.android:layout/snackbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip">
         <Button android:textColor="@*android:color/white" android:id="@*com.instagram.android:id/camera_save_button" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@*com.instagram.android:string/save_button_text" android:drawableTop="@*com.instagram.android:drawable/overlay_save" style="@*com.instagram.android:style/Widget.TextView.Capture.Shadow.Small" />
         <Button android:textColor="@*android:color/white" android:id="@*com.instagram.android:id/my_story_button" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.instagram.android:string/your_story_button_text" android:drawableTop="@*com.instagram.android:drawable/your_story_icon" android:drawablePadding="8.0dip" style="@*com.instagram.android:style/Widget.TextView.Capture.Shadow.Small" />

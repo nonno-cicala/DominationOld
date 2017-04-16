@@ -468,4 +468,36 @@
     <color name="search_suggestion_category_text_color">#ffd32f2f</color>
     <color name="slim_metadata_main_color">#ffffffff</color>
     <color name="quantum_bluegrey100">@*android:color/background_floating_material_dark</color>
+
+
+    <!-- New with 12.05.53 -->
+    <color name="connection_shelf_invite_button_disabled">#ff555555</color>
+    <color name="divider_color">#00000000</color>
+    <color name="horizontal_list_buttons_background_solid">@*android:color/button_material_dark</color>
+    <color name="live_chat_mentions_bg_color">#ffe64a19</color>
+    <color name="youtube_dimmed_white">#deffffff</color><!-- Text -->
+    <!-- New with 12.07.56 -->
+    <color name="background_postv2">@*android:color/background_floating_material_dark</color>
+    <color name="camera_record_button_animation_outer_color_white_50">#80ffffff</color>
+    <color name="carousel_divider_color">#00000000</color>
+    <color name="carousel_inactive_item_color">#64ffffff</color>
+    <color name="meta_font_postv2">#ffffffff</color>
+    <color name="notification_setting_thumbnail_background_border_color">#40000000</color>
+    <color name="notification_setting_thumbnail_background_color">#1a000000</color>
+    <color name="title_font_postv2">#ffffffff</color>
+    <!-- New with 12.09.57 -->
+    <color name="inline_muted_subtitles_background">@android:color/transparent</color>
+    <color name="inline_muted_subtitles_edge">#80000000</color>
+    <color name="inline_muted_subtitles_text">#ffffffff</color>
+    <color name="inline_muted_subtitles_window">#59000000</color>
+    <color name="interstitial_action_color">#ffd32f2f</color> <!-- Textcolor -->
+    <color name="interstitial_dismiss_color">#ffffffff</color> <!-- Textcolor -->
+    <color name="number_font_postv2">#ffdddddd</color> <!-- Textcolor -->
+    <!-- New with 12.11.57 -->
+    <color name="ghost_chard_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="lc_accent">#ff1976d2</color>
+    <color name="white_header_actionbar_color">@*android:color/primary_material_dark</color>
+    <color name="white_header_controls_color">#ffdddddd</color>
+    <color name="white_header_statusbar_color">@*android:color/primary_dark_material_dark</color>
+    <color name="white_header_text_color">#ffffffff</color>
 </resources>

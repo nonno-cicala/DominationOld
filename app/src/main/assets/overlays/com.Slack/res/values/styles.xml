@@ -3,40 +3,7 @@
 
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
 
-    <style name="BottomSheet.Dialog" parent="@*android:style/Theme.Material.Dialog">
-        <item name="android:backgroundDimAmount">0.3</item>
-        <item name="android:textColorPrimary">#ffffffff</item>
-        <item name="android:textColorSecondary">#ffdddddd</item>
-        <item name="android:windowBackground">@*android:color/transparent</item>
-        <item name="android:windowFrame">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:textColorHint">#ffbbbbbb</item>
-        <item name="android:windowAnimationStyle">@*com.Slack:style/BottomSheet.Animation</item>
-        <item name="android:backgroundDimEnabled">true</item>
-        <item name="*com.Slack:bs_dialogBackground">@*android:color/background_floating_material_dark</item>
-        <item name="*com.Slack:bs_listStyle">@*com.Slack:style/BottomSheet.List</item>
-        <item name="*com.Slack:bs_dividerColor">@*com.Slack:color/bs_divider_color</item>
-        <item name="*com.Slack:bs_numColumns">@*com.Slack:integer/bs_grid_colum</item>
-        <item name="*com.Slack:bs_titleTextAppearance">@*com.Slack:style/Text.Headline</item>
-        <item name="*com.Slack:bs_listItemTitleTextAppearance">@*com.Slack:style/Text.Title</item>
-        <item name="*com.Slack:bs_gridItemTitleTextAppearance">@*com.Slack:style/Text.Hint</item>
-        <item name="*com.Slack:bs_moreDrawable">@*com.Slack:drawable/bs_ic_more_light</item>
-        <item name="*com.Slack:bs_moreText">@*com.Slack:string/bs_more</item>
-        <item name="*com.Slack:bs_closeDrawable">@*com.Slack:drawable/bs_ic_clear_light</item>
-    </style>
-    <style name="BottomSheet.Dialog.Dark" parent="@*com.Slack:style/BottomSheet.Dialog">
-        <item name="android:textColorPrimary">#ffffffff</item>
-        <item name="android:textColorSecondary">#ffdddddd</item>
-        <item name="android:textColorHint">#ffbbbbbb</item>
-        <item name="*com.Slack:bs_dialogBackground">@*android:color/background_floating_material_dark</item>
-        <item name="*com.Slack:bs_listStyle">@*com.Slack:style/BottomSheet.List.Dark</item>
-        <item name="*com.Slack:bs_dividerColor">@*com.Slack:color/bs_dark_divider_color</item>
-        <item name="*com.Slack:bs_moreDrawable">@*com.Slack:drawable/bs_ic_more</item>
-        <item name="*com.Slack:bs_closeDrawable">@*com.Slack:drawable/bs_ic_clear</item>
-    </style>
+
 
     <style name="ButtonStyle.White" parent="@*com.Slack:style/ButtonStyle">
         <item name="android:textColor">@*com.Slack:color/navy_blue</item>

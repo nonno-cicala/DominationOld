@@ -69,7 +69,9 @@
     <style name="FixedTabBar.Whiteout" parent="@*com.instagram.android:style/FixedTabBar">
         <item name="android:background">@*android:color/background_floating_material_dark</item>
     </style>
-    <style name="Base.Theme" parent="@*android:style/Theme.Holo.Light" />
+    <style name="Base.Theme" parent="@*android:style/Theme.Holo.Light">
+        <item name="*com.instagram.android:backgroundColorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+    </style>
     <style name="Base.Theme.Instagram" parent="@*com.instagram.android:style/Base.Theme">
         <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
         <item name="android:buttonStyle">@*com.instagram.android:style/ButtonStyle</item>
@@ -96,7 +98,6 @@
         <item name="*com.instagram.android:textColorHyperlink">@*android:color/accent_material_dark</item>
         <item name="*com.instagram.android:dividerColor">@*android:color/transparent</item>
         <item name="*com.instagram.android:backgroundColorPrimary">@*android:color/primary_material_dark</item>
-        <item name="*com.instagram.android:backgroundColorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="*com.instagram.android:backgroundColorSecondary">@*android:color/background_floating_material_dark</item>
         <item name="*com.instagram.android:backgroundColorHighlight">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:backgroundColorHighlightPressed">@*android:color/dim_foreground_light</item>
@@ -118,7 +119,7 @@
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
     </style>
     <style name="OverlayTextStyle">
-        <item name="android:textSize">@*com.instagram.android:dimen/font_xxlarge</item>
+        <item name="android:textSize">@*com.instagram.android:dimen/font_xlarge_xxlarge</item>
         <item name="android:textColor">@*android:color/white</item>
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
@@ -214,6 +215,8 @@
         <item name="android:textColor">@*android:color/white</item>
     </style>
     <style name="Theme.Instagram" parent="@*com.instagram.android:style/Base.Theme.Instagram">
+        <item name="*com.instagram.android:defaultDividerStyle">@*com.instagram.android:style/Widget.Instagram.Divider.Hidden</item>
+        <item name="*com.instagram.android:triangleSpinnerStyle">@*com.instagram.android:style/Widget.TriangleSpinner.Whiteout</item>
         <item name="*com.instagram.android:primaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton</item>
         <item name="*com.instagram.android:secondaryButtonStyle">@*com.instagram.android:style/IgSecondaryButton</item>
         <item name="*com.instagram.android:inversePrimaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton.Inverse</item>
@@ -221,7 +224,26 @@
         <item name="*com.instagram.android:updatableButtonStyle">@*com.instagram.android:style/IgUpdatableButtonStyle</item>
         <item name="*com.instagram.android:updatableButtonGlyphStyle">@*com.instagram.android:style/IgUpdatableButtonStyle.Small</item>
         <item name="*com.instagram.android:inverseUpdatableButtonStyle">@*com.instagram.android:style/IgUpdatableButtonStyle.Inverse</item>
-        <item name="*com.instagram.android:defaultDividerStyle">@*com.instagram.android:style/Widget.Instagram.Divider.Hidden</item>
+        <item name="*com.instagram.android:body">@*com.instagram.android:style/Body</item>
+        <item name="*com.instagram.android:bodyEmphasized">@*com.instagram.android:style/BodyEmphasized</item>
+        <item name="*com.instagram.android:bodyDetail">@*com.instagram.android:style/BodyDetail</item>
+        <item name="*com.instagram.android:bodyLink">@*com.instagram.android:style/BodyLink</item>
+        <item name="*com.instagram.android:buttonPrimary">@*com.instagram.android:style/ButtonPrimary</item>
+        <item name="*com.instagram.android:buttonPrimaryInverse">@*com.instagram.android:style/ButtonPrimaryInverse</item>
+        <item name="*com.instagram.android:buttonSecondary">@*com.instagram.android:style/ButtonSecondary</item>
+        <item name="*com.instagram.android:buttonSecondaryInverse">@*com.instagram.android:style/ButtonSecondaryInverse</item>
+        <item name="*com.instagram.android:buttonUpdatable">@*com.instagram.android:style/ButtonUpdatable</item>
+        <item name="*com.instagram.android:buttonUpdatableInverse">@*com.instagram.android:style/ButtonUpdatableInverse</item>
+        <item name="*com.instagram.android:footnote">@*com.instagram.android:style/FootNote</item>
+        <item name="*com.instagram.android:footnoteEmphasized">@*com.instagram.android:style/FootNoteEmphasized</item>
+        <item name="*com.instagram.android:footnoteDetail">@*com.instagram.android:style/FootNoteDetail</item>
+        <item name="*com.instagram.android:footnoteLink">@*com.instagram.android:style/FootNoteLink</item>
+        <item name="*com.instagram.android:headline1">@*com.instagram.android:style/Headline1</item>
+        <item name="*com.instagram.android:headline2">@*com.instagram.android:style/Headline2</item>
+        <item name="*com.instagram.android:section">@*com.instagram.android:style/Section</item>
+        <item name="*com.instagram.android:titleText">@*com.instagram.android:style/Title</item>
+        <item name="*com.instagram.android:titleInactive">@*com.instagram.android:style/TitleInactive</item>
+        <item name="*com.instagram.android:titleButtonPrimary">@*com.instagram.android:style/TitleButtonPrimary</item>
         <item name="*com.instagram.android:defaultActionBarBackground">@*android:color/primary_material_dark</item>
         <item name="*com.instagram.android:defaultActionBarForegroundPressedColor">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:defaultActionBarDividerColor">@*android:color/transparent</item>
@@ -236,7 +258,6 @@
         <item name="*com.instagram.android:modalActionBarPrimaryButtonForeground">@*android:color/accent_material_dark</item>
         <item name="*com.instagram.android:modalActionBarPrimaryButtonForegroundPressed">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:modalActionBarDividerColor">@*android:color/transparent</item>
-        <item name="*com.instagram.android:modalActionBarStatusBarColor">@*android:color/primary_dark_material_dark</item>
         <item name="*com.instagram.android:clearActionBarForegroundPressedColor">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:clearActionBarDividerColor">@*android:color/transparent</item>
         <item name="*com.instagram.android:browserActionBarForegroundPressedColor">@*android:color/dim_foreground_light</item>
@@ -303,7 +324,6 @@
         <item name="*com.instagram.android:captureDeleteTextColor">@*android:color/white</item>
         <item name="*com.instagram.android:mediaPickerBackground">@*android:color/background_dark</item>
         <item name="*com.instagram.android:mediaPickerSpacing">1.5dip</item>
-        <item name="*com.instagram.android:triangleSpinnerStyle">@*com.instagram.android:style/Widget.TriangleSpinner.Whiteout</item>
         <item name="*com.instagram.android:textColorDirectShareCaption">@*android:color/white</item>
         <item name="*com.instagram.android:peopleTagSearchTheme">@*com.instagram.android:style/Widget.PeopleTag</item>
         <item name="*com.instagram.android:contextualFeedTitleStyle">@*com.instagram.android:style/ActionBarTitle.ContextualFeed.Whiteout</item>

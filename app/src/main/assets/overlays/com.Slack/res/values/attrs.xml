@@ -215,17 +215,6 @@
     <attr name="avatarBadgeHeight" format="dimension" />
     <attr name="avatarBadgeOverhangRight" format="dimension" />
     <attr name="avatarBadgeOverhangBottom" format="dimension" />
-    <attr name="bottomSheetStyle" format="reference" />
-    <attr name="bs_dialogBackground" format="reference|color" />
-    <attr name="bs_listStyle" format="reference" />
-    <attr name="bs_dividerColor" format="reference|color" />
-    <attr name="bs_numColumns" format="integer" />
-    <attr name="bs_titleTextAppearance" format="reference" />
-    <attr name="bs_listItemTitleTextAppearance" format="reference" />
-    <attr name="bs_gridItemTitleTextAppearance" format="reference" />
-    <attr name="bs_moreDrawable" format="reference" />
-    <attr name="bs_moreText" format="string" />
-    <attr name="bs_closeDrawable" format="reference" />
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
     </attr>
@@ -337,6 +326,7 @@
         <flag name="all" value="0x00000077" />
     </attr>
     <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
     <attr name="textColorError" format="color" />
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
@@ -445,6 +435,11 @@
     <attr name="hintText" format="reference|string" />
     <attr name="enableAdvancedMessageInput" format="boolean" />
     <attr name="enableCommandsAutoCompletion" format="boolean" />
+    <attr name="commandAutoCompleteMode">
+        <enum name="disabled" value="2" />
+        <enum name="enabled" value="0" />
+        <enum name="threads" value="1" />
+    </attr>
     <attr name="enableBroadcastAction" format="boolean" />
     <attr name="menu" format="reference" />
     <attr name="itemIconTint" format="color" />

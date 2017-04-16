@@ -29,8 +29,8 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
             <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
-                <TextView android:textColor="@*com.Slack:color/invite_better_with_others" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.Slack:string/invite_better_with_others" fontPath="fonts/Lato-Regular.ttf" />
-                <com.Slack.ui.widgets.FontIconView android:textSize="18.0sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:rotation="15.0" app:iconColor="@*com.Slack:color/invite_better_with_others" app:iconResourceId="@*com.Slack:string/ts_icon_happy_smile" />
+                <TextView android:textColor="@*com.Slack:color/steel_grey" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.Slack:string/invite_better_with_others" fontPath="fonts/Lato-Regular.ttf" />
+                <com.Slack.ui.widgets.FontIconView android:textSize="18.0sp" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:rotation="15.0" app:iconColor="@*com.Slack:color/steel_grey" app:iconResourceId="@*com.Slack:string/ts_icon_happy_smile" />
             </LinearLayout>
         </com.Slack.ui.widgets.MaxWidthLinearLayout>
     </ScrollView>
