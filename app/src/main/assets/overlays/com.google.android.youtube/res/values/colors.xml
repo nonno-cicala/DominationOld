@@ -500,4 +500,8 @@
     <color name="white_header_controls_color">#ffdddddd</color>
     <color name="white_header_statusbar_color">@*android:color/primary_dark_material_dark</color>
     <color name="white_header_text_color">#ffffffff</color>
+    <!-- New with 12.15.55 -->
+    <color name="connection_dialog_user_area_background">@*android:color/background_floating_material_dark</color>
+    <color name="live_chat_light_auto_mod_text_color">#80ffffff</color>
+    <color name="live_chat_light_highlight_bar_color">#80ffffff</color>
 </resources>
