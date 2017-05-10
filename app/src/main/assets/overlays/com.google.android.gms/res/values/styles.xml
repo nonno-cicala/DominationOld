@@ -256,4 +256,29 @@
     <style name="Theme.YouTube.Dialog.Progress" parent="@*com.google.android.gms:style/Theme.YouTube.Dialog">
         <item name="android:windowBackground">@*android:color/background_dark</item>
     </style>
+
+
+    <style name="ThemeOverlay.Base.Button" parent="@*com.google.android.gms:style/ThemeOverlay.AppCompat">
+        <item name="*com.google.android.gms:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="ThemeOverlay.Button" parent="@*com.google.android.gms:style/ThemeOverlay.Base.Button">
+        <item name="*com.google.android.gms:colorButtonNormal">@*android:color/button_material_dark</item>
+    </style>
+    <style name="ThemeOverlay.Button.Borderless" parent="@*com.google.android.gms:style/ThemeOverlay.Base.Button" />
+    <style name="ThemeOverlay.Text" parent="@*com.google.android.gms:style/ThemeOverlay.AppCompat" />
+    <style name="ThemeOverlay.Text.Light" parent="@*com.google.android.gms:style/ThemeOverlay.Text">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="ThemeOverlay.Text.Light.PlainLinks" parent="@*com.google.android.gms:style/ThemeOverlay.Text.Light">
+        <item name="*com.google.android.gms:colorAccent">@*android:color/white</item>
+    </style>
+    <style name="ThemeOverlay.Text.Subtitle" parent="@*com.google.android.gms:style/ThemeOverlay.Text">
+        <item name="android:textSize">@*com.google.android.gms:dimen/opt_in_subtitle_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="ThemeOverlay.Text.Title" parent="@*com.google.android.gms:style/ThemeOverlay.Text">
+        <item name="android:textSize">@*com.google.android.gms:dimen/opt_in_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+    </style>
 </resources>
