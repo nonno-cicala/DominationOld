@@ -1,0 +1,16 @@
+{
+	"themeName" : "Domination",
+	"themeAuthor" : "daveyannihilation",
+	"themeTemplates" : [
+	 	{
+	 		"id" : "bubbleColourTemplate",
+			"title" : "Outgoing Bubble Colours",
+			"description" : "Choose your favorite Outgoing Bubble Colours",
+			"templateFile" : "template_type1a.xml",
+			"templateType" : "type1a",
+			"themes" : {
+				"buttonColour" : "#ff388e3c"
+			}
+		}
+	]
+}
