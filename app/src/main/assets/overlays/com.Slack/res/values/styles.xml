@@ -6,7 +6,7 @@
 
 
     <style name="ButtonStyle.White" parent="@*com.Slack:style/ButtonStyle">
-        <item name="android:textColor">@*com.Slack:color/navy_blue</item>
+        <item name="android:textColor">@*com.Slack:color/blue_link</item>
         <item name="*com.Slack:colorButtonNormal">@*android:color/button_material_dark</item>
     </style>
     <style name="CardStyle">

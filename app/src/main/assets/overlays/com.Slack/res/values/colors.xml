@@ -228,4 +228,17 @@
     <color name="yolk_orange">#fffbc02d</color>
 
     <color name="fake_edit_text_line">@*android:color/background_floating_material_dark</color>
+
+
+    <color name="blue_fill">#ff1976d2</color>
+    <color name="blue_fill_10p">#1a1976d2</color>
+    <color name="blue_fill_5p">#0e1976d2</color>
+    <color name="blue_link">#ff1976d2</color>
+    <color name="blue_pressed">#ff0d47a1</color>
+    <color name="highlight_yellow">#fffbc02d</color>
+    <color name="instant_invite_button_blue">#ff1976d2</color>
+    <color name="instant_invite_grey">#ffdddddd</color>
+    <color name="instant_invite_link_blue">#ff1976d2</color>
+    <color name="mustard_yellow">#ffdfa941</color>
+    <color name="pale_blue">#ff1976d2</color>
 </resources>
