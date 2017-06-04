@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@*com.google.android.contacts:dimen/sign_in_screen_main_padding" android:paddingBottom="@*com.google.android.contacts:dimen/sign_in_screen_main_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@*com.google.android.contacts:id/account_avatar" android:layout_width="@*com.google.android.contacts:dimen/sign_in_screen_avatar_size" android:layout_height="@*com.google.android.contacts:dimen/sign_in_screen_avatar_size" android:contentDescription="@null" android:layout_marginEnd="@*com.google.android.contacts:dimen/sign_in_screen_main_padding" />
+    <LinearLayout android:gravity="start" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0sp" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*com.google.android.contacts:id/account_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:alpha="1.0" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="14.0sp" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*com.google.android.contacts:id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:alpha="1.0" android:fontFamily="sans-serif" />
+    </LinearLayout>
+</LinearLayout>

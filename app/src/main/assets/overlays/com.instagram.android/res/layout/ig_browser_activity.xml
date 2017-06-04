@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.base.TouchInterceptorFrameLayout android:id="@*com.instagram.android:id/ig_browser_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@*com.instagram.android:id/overlay_below_browser" android:background="@*android:color/background_dark" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fragment android:name="com.facebook.browser.lite.BrowserLiteFragment" android:id="@*com.instagram.android:id/browser_lite_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.instagram.ui.widget.base.TouchInterceptorFrameLayout>

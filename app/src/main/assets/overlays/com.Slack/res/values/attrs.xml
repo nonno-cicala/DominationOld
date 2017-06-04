@@ -209,12 +209,7 @@
     <attr name="actionText" format="reference|string" />
     <attr name="style" format="string" />
     <attr name="textMaxLines" format="integer" />
-    <attr name="avatarWidth" format="dimension" />
-    <attr name="avatarHeight" format="dimension" />
-    <attr name="avatarBadgeWidth" format="dimension" />
-    <attr name="avatarBadgeHeight" format="dimension" />
-    <attr name="avatarBadgeOverhangRight" format="dimension" />
-    <attr name="avatarBadgeOverhangBottom" format="dimension" />
+    <attr name="avatarSize" format="dimension" />
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
     </attr>
@@ -590,4 +585,7 @@
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
     </attr>
+    <attr name="userName" format="string" />
+    <attr name="avatar" format="reference" />
+    <attr name="screenImage" format="reference" />
 </resources>

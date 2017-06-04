@@ -156,4 +156,14 @@
     <color name="status_normal">#ffdddddd</color>
     <color name="status_seen">#ffdddddd</color>
     <color name="status_unseen">#ff009688</color>
+
+
+    <color name="live_location_duration_background">#cc000000</color>
+    <color name="live_location_duration_gray">@*android:color/button_material_dark</color>
+    <color name="live_location_expired_text">#ffdddddd</color>
+    <color name="live_location_live_location_marker">#4c388e3c</color>
+    <color name="live_location_stale_location_marker">#4cd32f2f</color>
+    <color name="live_location_stop_sharing_red">#ffd32f2f</color>
+    <color name="pin_hint_color">#4cffffff</color>
+    <color name="white_20">#33555555</color>
 </resources>

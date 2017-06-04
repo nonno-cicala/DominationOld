@@ -272,6 +272,9 @@
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
     </attr>
+    <attr name="clltGlowSize" format="dimension" />
+    <attr name="clltGlowColor" format="color" />
+    <attr name="clltStackSize" format="integer" />
     <attr name="cstSeenColor" format="color" />
     <attr name="cstUnseenColor" format="color" />
     <attr name="cstErrorColor" format="color" />
@@ -565,6 +568,13 @@
     <attr name="logoDescription" format="string" />
     <attr name="titleTextColor" format="color" />
     <attr name="subtitleTextColor" format="color" />
+    <attr name="vtvThumbColor" format="color" />
+    <attr name="vtvThumbSize" format="dimension" />
+    <attr name="vtvThumbColorPressed" format="color" />
+    <attr name="vtvThumbSizePressed" format="dimension" />
+    <attr name="vtvBorderColor" format="color" />
+    <attr name="vtvBorderSize" format="dimension" />
+    <attr name="vtvDimColor" format="color" />
     <attr name="paddingStart" format="dimension" />
     <attr name="paddingEnd" format="dimension" />
     <attr name="theme" format="reference" />

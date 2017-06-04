@@ -361,4 +361,9 @@
     <color name="bt_settings_background">@*android:color/background_dark</color>
     <color name="edge_effect_color">@*android:color/accent_material_dark</color>
     <color name="quantum_grey900">#ffdddddd</color>
+
+
+    <color name="quantum_black_hint_text">#80ffffff</color>
+    <color name="quantum_black_secondary_text">#b3ffffff</color>
+    <color name="quantum_black_text">#ffffffff</color>
 </resources>

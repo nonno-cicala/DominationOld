@@ -21,6 +21,19 @@
     <attr name="defaultDividerStyle" format="reference" />
     <attr name="defaultSpinnerStyle" format="reference" />
     <attr name="segmentedUnderlineWidth" format="reference" />
+    <attr name="contextualFeedTitleStyle" format="color" />
+    <attr name="creationRowHeight" format="dimension" />
+    <attr name="creationTitleText" format="reference" />
+    <attr name="creationSubTitleText" format="reference" />
+    <attr name="noResultsPadding" format="dimension" />
+    <attr name="creationFilterText" format="reference" />
+    <attr name="profileRowHeight" format="dimension" />
+    <attr name="profileRowHeightLarge" format="reference" />
+    <attr name="profileAvatarSize" format="reference" />
+    <attr name="profileAvatarLarge" format="reference" />
+    <attr name="profileUserName" format="reference" />
+    <attr name="profileUserInfo" format="reference" />
+    <attr name="profileFootNote" format="reference" />
     <attr name="initialCameraFacingDeprecated">
         <enum name="back" value="0" />
         <enum name="front" value="1" />
@@ -67,6 +80,8 @@
     <attr name="placeholder" format="reference|color" />
     <attr name="aspect" format="float" />
     <attr name="radius" format="dimension" />
+    <attr name="imageUri" format="string" />
+    <attr name="density" format="integer" />
     <attr name="normal" format="color" />
     <attr name="normal_alpha" format="integer" min="0" max="255" />
     <attr name="active" format="color" />
@@ -117,6 +132,12 @@
     <attr name="rowHeaderDivider" format="reference" />
     <attr name="rowBadge" format="reference" />
     <attr name="rowDetailBoldText" format="reference" />
+    <attr name="rowAvatarHeight" format="dimension" />
+    <attr name="rowAvatarWidth" format="dimension" />
+    <attr name="rowUserName" format="reference" />
+    <attr name="rowUserInfo" format="reference" />
+    <attr name="contactRowHeight" format="dimension" />
+    <attr name="rowRightPadding" format="dimension" />
     <attr name="triangleSpinnerStyle" format="reference" />
     <attr name="triangleColor" format="color" />
     <attr name="trianglePadding" format="dimension" />
@@ -177,12 +198,12 @@
     <attr name="titleLogoDrawable" format="reference" />
     <attr name="drawable" format="reference" />
     <attr name="innerSpacing" format="dimension" />
+    <attr name="fixedTabBarStyle" format="reference" />
+    <attr name="fixedTabBarTextColor" format="color" />
     <attr name="forceFullWidth" format="boolean" />
     <attr name="perfTrackingCategory" format="string" />
     <attr name="circularImageView" format="boolean" />
     <attr name="fitAspectRatio" format="boolean" />
-    <attr name="fixedTabBarStyle" format="reference" />
-    <attr name="fixedTabBarTextColor" format="color" />
     <attr name="showStroke" format="boolean" />
     <attr name="imageWidth" format="dimension" />
     <attr name="imageHeight" format="dimension" />
@@ -217,6 +238,7 @@
     <attr name="arrowThickness" format="dimension" />
     <attr name="maxDurationMS" format="integer" />
     <attr name="arrowAngle" format="float" />
+    <attr name="sendButtonShadow" format="boolean" />
     <attr name="progressStrokeWidth" format="dimension" />
     <attr name="progressGradientStyle" format="reference" />
     <attr name="tabBarHeight" format="reference" />
@@ -388,6 +410,16 @@
         <enum name="north" value="0" />
         <enum name="south" value="1" />
     </attr>
+    <attr name="searchRowHeight" format="dimension" />
+    <attr name="searchRowPadding" format="dimension" />
+    <attr name="searchSeenDotPadding" format="dimension" />
+    <attr name="searchAvatar" format="reference" />
+    <attr name="searchUserName" format="reference" />
+    <attr name="searchUserInfo" format="reference" />
+    <attr name="searchVerticalSeparatorPadding" format="dimension" />
+    <attr name="searchBadge" format="reference" />
+    <attr name="searchAvatarLocation" format="reference" />
+    <attr name="searchAvatarTag" format="reference" />
     <attr name="peopleTagSearchTheme" format="reference" />
     <attr name="peopleTagSearchBackground" format="reference" />
     <attr name="peopleTagSearchCacheColorHint" format="reference" />
@@ -413,11 +445,9 @@
     <attr name="alertDialogCenterButtons" format="boolean" />
     <attr name="alertDialogTheme" format="reference" />
     <attr name="icon" format="reference" />
+    <attr name="iconColor" format="color" />
     <attr name="defaultTitle" format="string" />
     <attr name="defaultSubtitle" format="string" />
-    <attr name="connectedTitle" format="string" />
-    <attr name="connectedSubtitle" format="string" />
-    <attr name="connectedColor" format="color" />
     <attr name="glyphEnabled" format="boolean" />
     <attr name="glyphPadding" format="dimension" />
     <attr name="countryCodeTextBold" format="boolean" />
@@ -426,7 +456,6 @@
     <attr name="innerPadding" format="dimension" />
     <attr name="paddingLeft" format="dimension" />
     <attr name="paddingRight" format="dimension" />
-    <attr name="contextualFeedTitleStyle" format="color" />
     <attr name="drawingview_stroke_width" format="dimension" />
     <attr name="drawingview_stroke_color" format="color" />
     <attr name="maxWidth" format="dimension" />
@@ -471,6 +500,7 @@
     <attr name="filterListDividers" format="reference" />
     <attr name="filterListItemText" format="reference" />
     <attr name="filterListCheckColor" format="color" />
+    <attr name="avatarSize" format="dimension" />
     <attr name="selectedTextColor" format="color" />
     <attr name="selectedTextSize" format="dimension" />
     <attr name="textPadding" format="dimension" />

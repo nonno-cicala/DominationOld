@@ -3,6 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/lib/com.instagram.android">
     <com.instagram.ui.widget.textureview.ScalingTextureView android:id="@*com.instagram.android:id/reel_viewer_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <com.instagram.feed.widget.IgProgressImageView android:id="@*com.instagram.android:id/reel_viewer_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:perfTrackingCategory="reel_media" />
+    <FrameLayout android:id="@*com.instagram.android:id/reel_viewer_reactives_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <View android:id="@*com.instagram.android:id/reel_viewer_top_shadow" android:background="@*com.instagram.android:drawable/reel_viewer_shadow_top" android:layout_width="fill_parent" android:layout_height="70.0dip" />
     <View android:id="@*com.instagram.android:id/back_shadow_affordance" android:background="@*com.instagram.android:drawable/reel_viewer_shadow_left" android:layout_width="44.0dip" android:layout_height="fill_parent" />
     <LinearLayout android:gravity="center" android:layout_gravity="start|center|top" android:orientation="horizontal" android:id="@*com.instagram.android:id/reel_viewer_attribution" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@*com.instagram.android:dimen/reel_attribution_height">
@@ -22,5 +23,6 @@
         <ViewStub android:id="@*com.instagram.android:id/favorites_badge_stub" android:layout="@*com.instagram.android:layout/favorites_badge" android:inflatedId="@*com.instagram.android:id/favorites_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@*com.instagram.android:dimen/reel_attribution_margin_right" />
     </LinearLayout>
     <com.instagram.ui.widget.segmentedprogressbar.SegmentedProgressBar android:layout_gravity="top" android:id="@*com.instagram.android:id/reel_viewer_progress_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" />
+    <com.instagram.ui.widget.gradientspinner.GradientSpinner android:layout_gravity="center" android:id="@*com.instagram.android:id/gradient_video_loading_spinner" android:visibility="gone" android:layout_width="108.0dip" android:layout_height="108.0dip" app:inactiveColour="@*android:color/white" />
     <include layout="@*com.instagram.android:layout/layout_reel_item_toolbar" />
 </com.instagram.reels.ui.ReelViewGroup>

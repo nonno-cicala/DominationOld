@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:padding="@*com.google.android.contacts:dimen/sign_in_screen_main_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@*android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.google.android.contacts:string/sign_in_account_list_header" android:alpha="1.0" android:fontFamily="sans-serif" />
+    <ListView android:id="@*com.google.android.contacts:id/account_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

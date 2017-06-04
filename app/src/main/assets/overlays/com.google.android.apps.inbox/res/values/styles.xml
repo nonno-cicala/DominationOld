@@ -82,4 +82,24 @@
         <item name="android:textCursorDrawable">@*com.google.android.apps.inbox:drawable/bt_cursor</item>
     </style>
 
+
+
+    <style name="TextAppearance.AppCompat.Notification" parent="@*com.google.android.apps.inbox:style/TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Notification.Info" parent="@*com.google.android.apps.inbox:style/TextAppearance.AppCompat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Notification.Time" parent="@*com.google.android.apps.inbox:style/TextAppearance.AppCompat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Notification.Title" parent="@*com.google.android.apps.inbox:style/TextAppearance.AppCompat.Notification">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
 </resources>

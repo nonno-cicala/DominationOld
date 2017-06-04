@@ -26,4 +26,6 @@
 
     <color name="visualizer_highlight">@*android:color/accent_material_dark</color> <!-- equalizer active level bar top element  -->
 
+
+    <color name="spinner_disabled">#ff999999</color> <!-- spinner color when set to none or musicfx is off -->
 </resources>

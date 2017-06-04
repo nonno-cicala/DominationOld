@@ -4,7 +4,8 @@
     <FrameLayout android:id="@*com.whatsapp:id/video_full_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <SurfaceView android:id="@*com.whatsapp:id/video_full" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
         <FrameLayout android:id="@*com.whatsapp:id/video_full_mute" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <ImageView android:gravity="center|left|top" android:id="@*com.whatsapp:id/video_full_mute_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:src="@*com.whatsapp:drawable/videocall_mute" />
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@*com.whatsapp:id/video_full_mute_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.whatsapp:drawable/videocall_mute" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@*com.whatsapp:id/video_full_mute_text" android:background="@*com.whatsapp:color/video_call_text_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.whatsapp:string/voip_peer_muted" />
         </FrameLayout>
     </FrameLayout>
     <FrameLayout android:id="@*com.whatsapp:id/call_profile_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@*com.whatsapp:id/footer" android:layout_below="@*com.whatsapp:id/call_status">
@@ -13,27 +14,22 @@
         <TextView android:textSize="28.0sp" android:textColor="@*android:color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@*com.whatsapp:id/user_hint" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="90.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="@*android:color/black" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:fontFamily="sans-serif-light" />
     </FrameLayout>
     <RelativeLayout android:id="@*com.whatsapp:id/video_pip_with_mute" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <SurfaceView android:id="@*com.whatsapp:id/video_pip" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <SurfaceView android:id="@*com.whatsapp:id/video_pip" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         <FrameLayout android:id="@*com.whatsapp:id/video_pip_mute" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@*com.whatsapp:id/video_pip_mute_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.whatsapp:drawable/videocall_mute" />
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@*com.whatsapp:id/video_pip_mute_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.whatsapp:drawable/videocall_mute" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@*com.whatsapp:id/video_pip_mute_text" android:background="@*com.whatsapp:color/video_call_text_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.whatsapp:string/voip_pip_peer_muted" />
         </FrameLayout>
     </RelativeLayout>
     <ImageView android:id="@*com.whatsapp:id/video_pip_replacement" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
     <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@*com.whatsapp:id/call_status_bar" android:background="@*com.whatsapp:color/primary" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
         <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@*com.whatsapp:drawable/call_icon" android:contentDescription="@*com.whatsapp:string/call_icon_content_description" />
-        <TextView android:textSize="14.0sp" android:textColor="#99ffffff" android:id="@*com.whatsapp:id/voip_call_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.whatsapp:string/voip_call_label" /> android:textSize="14sp" />
-<View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#99ffffff" android:id="@*com.whatsapp:id/voip_call_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.whatsapp:string/voip_call_label" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
     </LinearLayout>
     <LinearLayout android:gravity="left" android:id="@*com.whatsapp:id/name_layout" android:background="@*com.whatsapp:color/primary" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@*com.whatsapp:id/call_status_bar">
         <com.whatsapp.TextEmojiLabel android:textSize="35.0sp" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*com.whatsapp:id/name" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-light" />
     </LinearLayout>
     <TextView android:textSize="14.0sp" android:textColor="#99ffffff" android:id="@*com.whatsapp:id/call_status" android:background="@*com.whatsapp:color/primary" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@*com.whatsapp:id/name_layout" android:fontFamily="sans-serif-medium" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="28.0dip">
-        <ImageButton android:layout_gravity="right" android:id="@*com.whatsapp:id/debug_btn" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:src="@*com.whatsapp:drawable/ic_action_info" />
-    </FrameLayout>
-    <LinearLayout android:textColor="@*com.whatsapp:color/white" android:id="@*com.whatsapp:id/call_debug_view_short" android:background="@*com.whatsapp:color/video_call_text_background" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@*com.whatsapp:id/name_layout">
-        <TextView android:textSize="14.0sp" android:textStyle="bold" android:id="@*com.whatsapp:id/call_debug_stats_short" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="courier" />
-    </LinearLayout>
     <LinearLayout android:orientation="vertical" android:id="@*com.whatsapp:id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
         <FrameLayout android:id="@*com.whatsapp:id/answer_call_btns" android:background="@*com.whatsapp:color/primary" android:layout_width="fill_parent" android:layout_height="78.0dip">
             <ImageButton android:layout_gravity="center" android:id="@*com.whatsapp:id/reject_with_message" android:background="@*com.whatsapp:drawable/reject_with_message_btn_background" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.whatsapp:drawable/ic_action_compose" android:contentDescription="@*com.whatsapp:string/voip_call_goto_chat_description" />
@@ -87,7 +83,16 @@
             <ImageButton android:layout_gravity="center|right" android:id="@*com.whatsapp:id/voice_mail_button_press" android:background="@*com.whatsapp:drawable/input_circle_normal" android:visibility="gone" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginTop="8.0dip" android:src="@*com.whatsapp:drawable/input_mic_white_large" />
         </FrameLayout>
     </FrameLayout>
-    <LinearLayout android:textColor="@*com.whatsapp:color/white" android:id="@*com.whatsapp:id/call_debug_view" android:background="@*android:color/background_dark" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@*com.whatsapp:id/call_status">
-        <TextView android:textSize="14.0sp" android:id="@*com.whatsapp:id/call_debug_stats" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    </LinearLayout>
+    <RelativeLayout android:id="@*com.whatsapp:id/debug_views" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+        <RelativeLayout android:id="@*com.whatsapp:id/debug_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ffd32f2f" android:id="@*com.whatsapp:id/debug_tx_network_conditioner_param_text_view" android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@*com.whatsapp:id/debug_btn" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ff388e3c" android:id="@*com.whatsapp:id/debug_rx_network_conditioner_param_text_view" android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@*com.whatsapp:id/debug_btn" android:layout_below="@*com.whatsapp:id/debug_tx_network_conditioner_param_text_view" />
+            <ImageButton android:id="@*com.whatsapp:id/debug_btn" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:src="@*com.whatsapp:drawable/ic_action_info" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:textColor="@*com.whatsapp:color/white" android:id="@*com.whatsapp:id/call_debug_view" android:background="@*android:color/background_dark" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@*com.whatsapp:id/debug_header_view">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:id="@*com.whatsapp:id/call_debug_stats" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
 </RelativeLayout>

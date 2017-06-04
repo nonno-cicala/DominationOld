@@ -214,4 +214,9 @@
     <color name="dialer_secondary_color">#ffd32f2f</color>
     <color name="dialpad_fab_green">#ff388e3c</color>
     <color name="tab_selected_underline_color">#ffd32f2f</color>
+
+
+    <color name="spam_contact_background">#ffd32f2f</color>
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
 </resources>

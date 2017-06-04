@@ -57,7 +57,7 @@
     </style>
 
 
-    <style name="TrustAgentNotificationWithNoActionBar" parent="@*android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="TrustAgentNotificationWithNoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />
 
     <style name="SmartDevice.Widget.ProgressBar.Large.Inverse" parent="@*android:style/Widget.Material.ProgressBar.Large" />
     <style name="SmartDevice.Widget.ProgressBar.Small.Inverse" parent="@*android:style/Widget.Material.ProgressBar.Small" />
@@ -113,7 +113,7 @@
         <item name="android:colorPrimary">#ffe64a19</item>
         <item name="android:colorPrimaryDark">#ff000000</item>
         <item name="android:colorAccent">#ffe64a19</item>
-        <item name="alertDialogTheme">@*com.google.android.gms:style/Theme.PlayMusic.Dialog</item>
+        <item name="*com.google.android.gms:alertDialogTheme">@*com.google.android.gms:style/Theme.PlayMusic.Dialog</item>
     </style>
     <style name="Theme.PlayMusic" parent="@*com.google.android.gms:style/Base.Theme.PlayMusic">
         <item name="android:textColorLink">#ffe64a19</item>
@@ -126,7 +126,7 @@
         <item name="android:colorPrimary">#ffd32f2f</item>
         <item name="android:colorPrimaryDark">#ff000000</item>
         <item name="android:colorAccent">#ff1976d2</item>
-        <item name="alertDialogTheme">@*com.google.android.gms:style/Theme.YouTube.Dialog</item>
+        <item name="*com.google.android.gms:alertDialogTheme">@*com.google.android.gms:style/Theme.YouTube.Dialog</item>
     </style>
     <style name="Theme.YouTube" parent="@*com.google.android.gms:style/Base.Theme.YouTube">
         <item name="android:textColorLink">#ff1976d2</item>
@@ -136,8 +136,8 @@
     </style>
 
     <style name="CarWindowDisablePreview" parent="@*android:style/Theme.Material.NoActionBar">
-        <item name="android:colorBackground">@android:color/transparent</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@*android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowDisablePreview">true</item>
@@ -166,8 +166,9 @@
 
 
     <style name="Theme.EmeraldSea.Preference.Dialog" parent="@*android:style/Theme.Holo.Dialog" />
-    <style name="Theme.Light" parent="@*android:style/Theme.Holo" />
-
+    <style name="Theme.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
     <style name="SetBackupAccountActivity" parent="@*android:style/Theme.Material.Dialog" />
 
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
@@ -186,30 +187,35 @@
     <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
 
     <style name="Platform.AppCompat" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
     </style>
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
     </style>
 
-    <style name="Platform.V11.AppCompat.Light" parent="@*android:style/Theme.Holo" />
-
-
+    <style name="Platform.V11.AppCompat.Light" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
     <style name="common.WidgetDropDownItemLight" parent="@*android:style/Widget.DropDownItem">
         <item name="android:textColor">#ffffffff</item>
     </style>
 
-    <style name="common.Activity.Light" parent="@*android:style/Theme.Holo" />
+    <style name="common.Activity.Light" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
     <style name="common.Activity.Light.NoTitleBar" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <style name="common.Theme.Base.NoAppCompat.Light.Dialog" parent="@*android:style/Theme.Material.Light.Dialog" />
+    <style name="common.Theme.Base.NoAppCompat.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
     <style name="common.Theme.Base.NoAppCompat.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth">
         <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
     </style>
