@@ -264,7 +264,7 @@
 
     <style name="Theme.DeviceDefault.InputMethod" parent="@*android:style/Theme.Material.InputMethod" />
 
-    <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.Material">
+    <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.Material">  <!-- Power Menu dialog style -->
         <item name="android:alertDialogTheme">@*android:style/Theme.Material.Dialog.Alert</item>
     </style>
 </resources>

@@ -45,43 +45,38 @@
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="secondary_text_default_material_light">#ff999999</color>
 
-    <color name="timepicker_default_background_holo_light">#ff000000</color>
-    <color name="timepicker_default_ampm_selected_background_color_holo_light">#ff555555</color>
+
     <color name="timepicker_default_ampm_selected_background_color_holo_dark">#ff555555</color>
-    <color name="timepicker_default_ampm_unselected_background_color_holo_light">#ff000000</color>
-    <color name="datepicker_default_header_selector_background_holo_light">#ff111111</color>
+
     <color name="datepicker_default_header_selector_background_holo_dark">#ff111111</color>
-    <color name="datepicker_default_header_dayofweek_background_color_holo_light">#ffffffff</color>
+
     <color name="datepicker_default_header_dayofweek_background_color_holo_dark">#ffffffff</color>
-    <color name="datepicker_default_normal_text_color_holo_light">#ffffffff</color>
-    <color name="datepicker_default_disabled_text_color_holo_light">#80ffffff</color>
+
     <color name="datepicker_default_disabled_text_color_holo_dark">#80ffffff</color>
-    <color name="datepicker_default_selected_text_color_holo_light">#ffffffff</color>
+
     <color name="datepicker_default_selected_text_color_holo_dark">#ffffffff</color>
-    <color name="datepicker_default_pressed_text_color_holo_light">#ffdddddd</color>
+
     <color name="datepicker_default_pressed_text_color_holo_dark">#ffdddddd</color>
     <color name="timepicker_default_background_material">#ff000000</color>
     <color name="timepicker_default_text_color_material">#ffffffff</color>
     <color name="timepicker_default_ampm_selected_background_color_material">#ff555555</color>
     <color name="timepicker_default_selector_color_material">#ff777777</color>
-    <color name="datepicker_default_header_selector_background_material_light">#ff111111</color>
+
     <color name="datepicker_default_header_selector_background_material_dark">#ff111111</color>
-    <color name="datepicker_default_header_dayofweek_background_color_material_light">#ffffffff</color>
-    <color name="datepicker_default_normal_text_color_material_light">#ffffffff</color>
-    <color name="datepicker_default_disabled_text_color_material_light">#80ffffff</color>
+
     <color name="datepicker_default_disabled_text_color_material_dark">#80ffffff</color>
-    <color name="datepicker_default_selected_text_color_material_light">#ffbbbbbb</color>
+
     <color name="datepicker_default_selected_text_color_material_dark">#ffbbbbbb</color>
-    <color name="datepicker_default_pressed_text_color_material_light">#ffaaaaaa</color>
+
     <color name="datepicker_default_pressed_text_color_material_dark">#ffaaaaaa</color>
-    <color name="datepicker_default_circle_background_color_material_light">#ffffffff</color>
+
     <color name="datepicker_default_circle_background_color_material_dark">#ffffffff</color>
-    <color name="datepicker_default_view_animator_color_material_light">#ff000000</color>
+
     <color name="datepicker_default_view_animator_color_material_dark">#ff000000</color>
-    <color name="resolver_list_bg">@*android:color/background_floating_material_dark</color>
+    <color name="resolver_list_bg">@*android:color/background_floating_material_dark</color> <!-- Background colour for the bottom sheet to choose which app to use to open certain items --> 
     <color name="global_menu_icon">@*android:color/material_deep_teal_200</color>
     <color name="global_menu_icon_enabled">@*android:color/accent_material_dark</color>
-    <color name="chooser_grid_bg">#ff000000</color>
+    <color name="chooser_grid_bg">@*android:color/background_floating_material_dark</color>
     <color name="user_icon_1">#ff0097a7</color>
     <color name="user_icon_2">#ff303f9f</color>
     <color name="user_icon_3">#ff1976d2</color>
@@ -99,11 +94,11 @@
  
 
     <color name="notification_material_background_color">@*android:color/background_dark</color>
-    <color name="notification_action_list">@*android:color/background_dark</color>
+    <color name="notification_action_list">@*android:color/background_dark</color> <!-- The REPLY background in a notification -->
     <color name="notification_default_color">@*android:color/accent_material_dark</color>
     <color name="notification_icon_default_color">@*android:color/accent_material_dark</color>
     <color name="notification_text_default_color">@*android:color/accent_material_dark</color>
-    <color name="chooser_service_row_background_color">@*android:color/background_dark</color>
+    <color name="chooser_service_row_background_color">@*android:color/background_floating_material_dark</color>
     <color name="material_deep_teal_100">@*android:color/accent_material_dark</color>
     <color name="material_deep_teal_300">@*android:color/accent_material_dark</color>
 
@@ -128,9 +123,9 @@
     <color name="immersive_cling_bg_color">#ff00796b</color>
     <color name="immersive_cling_text_color">#ffffffff</color>
 
-    <color name="primary_device_default_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_device_default_dark">@*android:color/primary_material_dark</color> 
     <color name="primary_dark_device_default_dark">@*android:color/primary_dark_material_dark</color>
-    <color name="notification_action_list_dark">@*android:color/background_dark</color>
+    <color name="notification_action_list_dark">@*android:color/background_dark</color> <!-- The REPLY background in a notification -->
 
 
 
@@ -138,7 +133,7 @@
 
     <color name="primary_dark_device_default_settings">@*android:color/primary_dark_material_dark</color>
 
-    <color name="secondary_device_default_settings">@*android:color/button_material_dark</color>
+    <color name="secondary_device_default_settings">@*android:color/button_material_dark</color> <!-- Switchbar backgrounds -->
     <color name="tertiary_device_default_settings">@*android:color/accent_material_dark</color>
     <color name="quaternary_device_default_settings">@*android:color/accent_material_dark</color>
 
