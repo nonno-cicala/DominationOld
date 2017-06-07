@@ -22,18 +22,66 @@
     <attr name="defaultSpinnerStyle" format="reference" />
     <attr name="segmentedUnderlineWidth" format="reference" />
     <attr name="contextualFeedTitleStyle" format="color" />
+    <attr name="creationRowHeightLarge" format="dimension" />
     <attr name="creationRowHeight" format="dimension" />
+    <attr name="creationRowHeightSmall" format="dimension" />
     <attr name="creationTitleText" format="reference" />
+    <attr name="creationPadding" format="dimension" />
+    <attr name="creationAvatar" format="reference" />
     <attr name="creationSubTitleText" format="reference" />
+    <attr name="creationPaddingRedesign" format="dimension" />
+    <attr name="creationMetadataUserAvatar" format="reference" />
+    <attr name="creationMetadataThumbnail" format="reference" />
+    <attr name="creationTagIcon" format="reference" />
+    <attr name="creationRowPadding" format="reference" />
+    <attr name="creationSectionText" format="reference" />
+    <attr name="creationLegacyPadding" format="dimension" />
+    <attr name="creationFootnote" format="reference" />
     <attr name="noResultsPadding" format="dimension" />
     <attr name="creationFilterText" format="reference" />
+    <attr name="directRowLargeHeight" format="reference" />
+    <attr name="directRowPadding" format="reference" />
+    <attr name="directRowHeight" format="reference" />
+    <attr name="directAvatarRingSizeMedium" format="reference" />
+    <attr name="directDoubleAvatar" format="reference" />
+    <attr name="directDoubleAvatarFrontPadding" format="reference" />
+    <attr name="directDoubleAvatarBackPadding" format="reference" />
+    <attr name="directRowAvatar" format="reference" />
+    <attr name="directRowUserName" format="reference" />
+    <attr name="directRowUserInfo" format="reference" />
+    <attr name="directRowTimeStamp" format="reference" />
     <attr name="profileRowHeight" format="dimension" />
+    <attr name="profileRowHeightMedium" format="reference" />
+    <attr name="profileSwitchAccountPadding" format="dimension" />
+    <attr name="profileSwitchAccountAvatar" format="reference" />
+    <attr name="profileSwitchAccountNotificationText" format="reference" />
+    <attr name="profileSwitchAccountUserInfo" format="reference" />
+    <attr name="profileSwitchAccountCheck" format="reference" />
+    <attr name="profileSwitchAccountUserInfoTextColor" format="reference" />
     <attr name="profileRowHeightLarge" format="reference" />
     <attr name="profileAvatarSize" format="reference" />
     <attr name="profileAvatarLarge" format="reference" />
     <attr name="profileUserName" format="reference" />
     <attr name="profileUserInfo" format="reference" />
     <attr name="profileFootNote" format="reference" />
+    <attr name="activityRowHeight" format="reference" />
+    <attr name="activityAvatar" format="dimension" />
+    <attr name="activityStackedAvatar" format="dimension" />
+    <attr name="activityUserDetails" format="reference" />
+    <attr name="activityUserInfo" format="reference" />
+    <attr name="activityPadding" format="dimension" />
+    <attr name="activityMultiMediaRowLeftMargin" format="dimension" />
+    <attr name="activityPaddingSmall" format="dimension" />
+    <attr name="activityRowPadding" format="dimension" />
+    <attr name="activityTitleText" format="reference" />
+    <attr name="activityRowIcon" format="dimension" />
+    <attr name="activityRowIconLarge" format="dimension" />
+    <attr name="activityBoldText" format="reference" />
+    <attr name="activityPaddingMedium" format="dimension" />
+    <attr name="activityBadgeIconLargeMargin" format="dimension" />
+    <attr name="activityBadgeIconSmallMargin" format="dimension" />
+    <attr name="profileBusinessTitle" format="reference" />
+    <attr name="profileGenderIcon" format="reference" />
     <attr name="initialCameraFacingDeprecated">
         <enum name="back" value="0" />
         <enum name="front" value="1" />
@@ -91,6 +139,8 @@
     <attr name="secondaryButtonStyle" format="reference" />
     <attr name="inversePrimaryButtonStyle" format="reference" />
     <attr name="inverseSecondaryButtonStyle" format="reference" />
+    <attr name="wrappedPrimaryButtonStyle" format="reference" />
+    <attr name="wrappedSecondaryButtonStyle" format="reference" />
     <attr name="updatableButtonStyle" format="reference" />
     <attr name="updatableButtonGlyphStyle" format="reference" />
     <attr name="inverseUpdatableButtonStyle" format="reference" />
@@ -211,6 +261,7 @@
     <attr name="avatarWidth" format="dimension" />
     <attr name="descendantWithErrorBackground" format="reference" />
     <attr name="errorBackground" format="reference" />
+    <attr name="progressBarTint" format="color" />
     <attr name="text" format="string" />
     <attr name="textColor" format="color" />
     <attr name="backgroundColor" format="color" />
@@ -395,6 +446,20 @@
     <attr name="gridItemSpacing" format="dimension" />
     <attr name="clipBackground" format="reference" />
     <attr name="clipBackgroundSoftDelete" format="reference" />
+    <attr name="searchRowHeight" format="dimension" />
+    <attr name="searchRowPadding" format="dimension" />
+    <attr name="searchSeenDotPadding" format="dimension" />
+    <attr name="searchAvatar" format="reference" />
+    <attr name="searchUserName" format="reference" />
+    <attr name="searchUserInfo" format="reference" />
+    <attr name="searchVerticalSeparatorPadding" format="dimension" />
+    <attr name="searchBadge" format="reference" />
+    <attr name="searchAvatarLocation" format="reference" />
+    <attr name="searchAvatarTag" format="reference" />
+    <attr name="peopleTagSearchTheme" format="reference" />
+    <attr name="peopleTagSearchBackground" format="reference" />
+    <attr name="peopleTagSearchCacheColorHint" format="reference" />
+    <attr name="peopleTagSearchItemBackground" format="reference" />
     <attr name="backgroundColour" format="color" />
     <attr name="edgeRadius" format="dimension" />
     <attr name="strokeRadius" format="dimension" />
@@ -410,20 +475,6 @@
         <enum name="north" value="0" />
         <enum name="south" value="1" />
     </attr>
-    <attr name="searchRowHeight" format="dimension" />
-    <attr name="searchRowPadding" format="dimension" />
-    <attr name="searchSeenDotPadding" format="dimension" />
-    <attr name="searchAvatar" format="reference" />
-    <attr name="searchUserName" format="reference" />
-    <attr name="searchUserInfo" format="reference" />
-    <attr name="searchVerticalSeparatorPadding" format="dimension" />
-    <attr name="searchBadge" format="reference" />
-    <attr name="searchAvatarLocation" format="reference" />
-    <attr name="searchAvatarTag" format="reference" />
-    <attr name="peopleTagSearchTheme" format="reference" />
-    <attr name="peopleTagSearchBackground" format="reference" />
-    <attr name="peopleTagSearchCacheColorHint" format="reference" />
-    <attr name="peopleTagSearchItemBackground" format="reference" />
     <attr name="fullDark" format="reference|color" />
     <attr name="topDark" format="reference|color" />
     <attr name="centerDark" format="reference|color" />
