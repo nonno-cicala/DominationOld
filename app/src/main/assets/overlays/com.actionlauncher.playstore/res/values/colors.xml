@@ -195,4 +195,13 @@
     <color name="workspace_icon_text_color">#ffffffff</color>
 
 
+    <color name="accent_bg">@*android:color/background_dark</color>
+    <color name="accent_blue">#ff1976d2</color>
+    <color name="accent_blue_bg">@*android:color/background_dark</color>
+    <color name="accent_blue_tint">#ff0d47a1</color>
+    <color name="accent_button_bg">@*android:color/button_material_dark</color>
+    <color name="highlight">#ffd32f2f</color>
+    <color name="highlight_focused">#ffb71c1c</color>
+
+
 </resources>

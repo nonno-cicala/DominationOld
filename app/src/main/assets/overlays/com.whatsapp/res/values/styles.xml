@@ -166,6 +166,7 @@
     </style>
     <style name="Theme.App.GalleryPicker" parent="@*com.whatsapp:style/Theme.App">
         <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
         <item name="*com.whatsapp:actionOverflowButtonStyle">@*com.whatsapp:style/OverFlowLight</item>
         <item name="*com.whatsapp:actionBarStyle">@*com.whatsapp:style/Widget.Styled.ActionBar.GalleryPicker</item>
         <item name="*com.whatsapp:actionModeBackground">@*com.whatsapp:color/action_mode</item>
@@ -243,5 +244,29 @@
         <item name="*com.whatsapp:titleTextStyle">@*com.whatsapp:style/Theme.ActionBar.Registration.TitleTextStyle</item>
         <item name="*com.whatsapp:background">@*android:color/primary_material_dark</item>
         <item name="*com.whatsapp:elevation">4.0dip</item>
+    </style>
+
+
+    <style name="MapBalloonDetails" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MapBalloonTitle" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
     </style>
 </resources>

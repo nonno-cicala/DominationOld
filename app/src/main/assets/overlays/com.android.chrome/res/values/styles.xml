@@ -134,12 +134,12 @@
         <item name="android:layout_weight">1.0</item>
         <item name="android:requiresFadingEdge">horizontal</item>
     </style>
-    <style name="PhysicalWebNearbyUrlsListStyle" parent="@*com.android.chrome:style/Theme.AppCompat.Light">
+    <style name="PhysicalWebNearbyUrlsListStyle" parent="@*com.android.chrome:style/Theme.AppCompat">
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
-    <style name="PhysicalWebOptInStyle" parent="@*com.android.chrome:style/Theme.AppCompat.Light">
+    <style name="PhysicalWebOptInStyle" parent="@*com.android.chrome:style/Theme.AppCompat">
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="*com.android.chrome:windowActionBar">false</item>
@@ -147,7 +147,7 @@
     </style>
 
 
-    <style name="FullscreenWhiteDialog" parent="@*com.android.chrome:style/Theme.AppCompat.Light">
+    <style name="FullscreenWhiteDialog" parent="@*com.android.chrome:style/Theme.AppCompat">
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
         <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
@@ -173,5 +173,16 @@
         <item name="*com.android.chrome:behavior_peekHeight">auto</item>
         <item name="*com.android.chrome:behavior_hideable">true</item>
         <item name="*com.android.chrome:behavior_skipCollapsed">false</item>
+    </style>
+
+
+    <style name="SearchActivityTheme" parent="@*com.android.chrome:style/MainTheme">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+
+
+    <style name="FullscreenWhiteActivityTheme" parent="@*com.android.chrome:style/FullscreenWhite">
+        <item name="*com.android.chrome:windowActionBar">false</item>
+        <item name="android:backgroundTint">@*android:color/primary_material_dark</item>
     </style>
 </resources>

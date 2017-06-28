@@ -21,5 +21,5 @@
             </com.whatsapp.TextAndDateLayout>
         </LinearLayout>
     </FrameLayout>
-    <ImageView android:id="@*com.whatsapp:id/forward" style="@*com.whatsapp:style/ForwardButton" />
+    <ImageView android:id="@*com.whatsapp:id/forward" android:contentDescription="@*com.whatsapp:string/conversation_menu_forward" style="@*com.whatsapp:style/ForwardButton" />
 </merge>

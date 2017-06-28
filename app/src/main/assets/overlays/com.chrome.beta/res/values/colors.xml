@@ -194,4 +194,15 @@
     <color name="page_info_popup_text_link">#ff1976d2</color>
     <color name="data_reduction_breakdown_text_color">#ffffffff</color>
     <color name="data_reduction_breakdown_light_text_color">#ffffffff</color>
+
+
+    <color name="http_bad_warning_message_text">#ffd32f2f</color>
+    <color name="insecure_context_payment_disabled_message_text">#ffbbbbbb</color>
+    <color name="keyboard_accessory_hint_icon">#ff1976d2</color>
+    <color name="black_alpha_20">#ffffffff</color>
+
+
+    <color name="black_alpha_40">#ffffffff</color>
+    <color name="black_alpha_54">#ffdddddd</color>
+    <color name="black_alpha_87">#ffdddddd</color>
 </resources>

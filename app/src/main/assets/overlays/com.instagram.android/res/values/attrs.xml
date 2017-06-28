@@ -17,6 +17,7 @@
     <attr name="backgroundColorHighlight" format="color" />
     <attr name="backgroundColorHighlightPressed" format="color" />
     <attr name="backgroundDrawable" format="reference" />
+    <attr name="backgroundUnseenDrawable" format="reference" />
     <attr name="backgroundNotificationBadge" format="reference" />
     <attr name="defaultDividerStyle" format="reference" />
     <attr name="defaultSpinnerStyle" format="reference" />
@@ -44,12 +45,15 @@
     <attr name="directRowHeight" format="reference" />
     <attr name="directAvatarRingSizeMedium" format="reference" />
     <attr name="directDoubleAvatar" format="reference" />
-    <attr name="directDoubleAvatarFrontPadding" format="reference" />
-    <attr name="directDoubleAvatarBackPadding" format="reference" />
     <attr name="directRowAvatar" format="reference" />
     <attr name="directRowUserName" format="reference" />
     <attr name="directRowUserInfo" format="reference" />
     <attr name="directRowTimeStamp" format="reference" />
+    <attr name="directBadge" format="reference" />
+    <attr name="directMessageRequestPadding" format="dimension" />
+    <attr name="directMessageRequest" format="reference" />
+    <attr name="directMessageRequestAction" format="reference" />
+    <attr name="directRowDivider" format="reference" />
     <attr name="profileRowHeight" format="dimension" />
     <attr name="profileRowHeightMedium" format="reference" />
     <attr name="profileSwitchAccountPadding" format="dimension" />
@@ -82,52 +86,40 @@
     <attr name="activityBadgeIconSmallMargin" format="dimension" />
     <attr name="profileBusinessTitle" format="reference" />
     <attr name="profileGenderIcon" format="reference" />
-    <attr name="initialCameraFacingDeprecated">
-        <enum name="back" value="0" />
-        <enum name="front" value="1" />
-    </attr>
-    <attr name="videoCaptureQualityDeprecated">
-        <enum name="deactivated" value="3" />
-        <enum name="high" value="0" />
-        <enum name="low" value="2" />
-        <enum name="medium" value="1" />
-    </attr>
-    <attr name="photoCaptureQualityDeprecated">
-        <enum name="deactivated" value="3" />
-        <enum name="high" value="0" />
-        <enum name="low" value="2" />
-        <enum name="medium" value="1" />
-    </attr>
-    <attr name="enablePinchZoomDeprecated" format="boolean" />
-    <attr name="lockMediaOrientationDeprecated" format="boolean" />
-    <attr name="initialCameraFacing">
-        <enum name="back" value="0" />
-        <enum name="front" value="1" />
-    </attr>
-    <attr name="videoCaptureQuality">
-        <enum name="deactivated" value="3" />
-        <enum name="high" value="0" />
-        <enum name="low" value="2" />
-        <enum name="medium" value="1" />
-    </attr>
-    <attr name="photoCaptureQuality">
-        <enum name="deactivated" value="3" />
-        <enum name="high" value="0" />
-        <enum name="low" value="2" />
-        <enum name="medium" value="1" />
-    </attr>
-    <attr name="enablePinchZoom" format="boolean" />
-    <attr name="singleTapGesture">
-        <flag name="disabled" value="0x00000000" />
-        <flag name="focus" value="0x00000001" />
-        <flag name="metering" value="0x00000002" />
-    </attr>
-    <attr name="lockMediaOrientation" format="boolean" />
+    <attr name="rowHeaderDivider" format="reference" />
+    <attr name="enableQuickBackWhenEmpty" format="boolean" />
+    <attr name="allowTextSelection" format="boolean" />
+    <attr name="defaultActionBarBackground" format="reference" />
+    <attr name="defaultActionBarForegroundPressedColor" format="color" />
+    <attr name="defaultActionBarDividerColor" format="color" />
+    <attr name="highlightActionBarForegroundPressedColor" format="color" />
+    <attr name="highlightActionBarDividerColor" format="color" />
+    <attr name="lightActionBarForegroundPressedColor" format="color" />
+    <attr name="lightActionBarDividerColor" format="color" />
+    <attr name="modalActionBarBackground" format="reference" />
+    <attr name="modalActionBarButtonBackground" format="reference" />
+    <attr name="modalActionBarForegroundPressedColor" format="color" />
+    <attr name="modalActionBarPrimaryButtonBackground" format="reference" />
+    <attr name="modalActionBarPrimaryButtonForeground" format="reference" />
+    <attr name="modalActionBarPrimaryButtonForegroundPressed" format="reference" />
+    <attr name="modalActionBarDividerColor" format="color" />
+    <attr name="clearActionBarForegroundPressedColor" format="color" />
+    <attr name="clearActionBarDividerColor" format="color" />
+    <attr name="browserActionBarForegroundPressedColor" format="color" />
+    <attr name="browserActionBarDividerColor" format="color" />
+    <attr name="actionBarShadowVisibility" format="integer" />
+    <attr name="actionBarTextCapitalize" format="boolean" />
+    <attr name="actionBarTitleStyle" format="reference" />
+    <attr name="actionBarSearchStyle" format="reference" />
+    <attr name="actionBarTextButtonStyle" format="reference" />
+    <attr name="titleLogoDrawable" format="reference" />
     <attr name="strokeColor" format="reference|color" />
     <attr name="strokeWidth" format="dimension" />
     <attr name="placeholder" format="reference|color" />
     <attr name="aspect" format="float" />
     <attr name="radius" format="dimension" />
+    <attr name="punchRadius" format="dimension" />
+    <attr name="punchCorner" format="string" />
     <attr name="imageUri" format="string" />
     <attr name="density" format="integer" />
     <attr name="normal" format="color" />
@@ -135,9 +127,15 @@
     <attr name="active" format="color" />
     <attr name="active_alpha" format="integer" min="0" max="255" />
     <attr name="disabled_alpha" format="integer" min="0" max="255" />
+    <attr name="drawable" format="reference" />
+    <attr name="innerSpacing" format="dimension" />
+    <attr name="fixedTabBarStyle" format="reference" />
+    <attr name="fixedTabBarTextColor" format="color" />
+    <attr name="dark" format="boolean" />
     <attr name="primaryButtonStyle" format="reference" />
     <attr name="secondaryButtonStyle" format="reference" />
     <attr name="inversePrimaryButtonStyle" format="reference" />
+    <attr name="wrappedInversePrimaryButtonStyle" format="reference" />
     <attr name="inverseSecondaryButtonStyle" format="reference" />
     <attr name="wrappedPrimaryButtonStyle" format="reference" />
     <attr name="wrappedSecondaryButtonStyle" format="reference" />
@@ -172,31 +170,6 @@
     <attr name="titleText" format="reference" />
     <attr name="titleInactive" format="reference" />
     <attr name="titleButtonPrimary" format="reference" />
-    <attr name="dark" format="boolean" />
-    <attr name="SeletedPicturePaddingRight" format="dimension" />
-    <attr name="rowPadding" format="dimension" />
-    <attr name="rowTextPadding" format="dimension" />
-    <attr name="rowHeight" format="reference" />
-    <attr name="rowTextStyle" format="reference" />
-    <attr name="rowDetailStyle" format="reference" />
-    <attr name="rowHeaderDivider" format="reference" />
-    <attr name="rowBadge" format="reference" />
-    <attr name="rowDetailBoldText" format="reference" />
-    <attr name="rowAvatarHeight" format="dimension" />
-    <attr name="rowAvatarWidth" format="dimension" />
-    <attr name="rowUserName" format="reference" />
-    <attr name="rowUserInfo" format="reference" />
-    <attr name="contactRowHeight" format="dimension" />
-    <attr name="rowRightPadding" format="dimension" />
-    <attr name="triangleSpinnerStyle" format="reference" />
-    <attr name="triangleColor" format="color" />
-    <attr name="trianglePadding" format="dimension" />
-    <attr name="triangleSize" format="dimension" />
-    <attr name="triangleStyle">
-        <enum name="corner" value="0" />
-        <enum name="downward" value="1" />
-    </attr>
-    <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="image" format="reference" />
     <attr name="errorImage" format="reference" />
     <attr name="colorFilter" format="reference|color" />
@@ -215,52 +188,39 @@
         <enum name="Error" value="2" />
         <enum name="Loading" value="1" />
     </attr>
-    <attr name="loadMoreAspectRatio" format="float" />
-    <attr name="igSwitchStyle" format="reference" />
-    <attr name="thumbDrawable" format="reference" />
-    <attr name="checkedDrawable" format="reference" />
-    <attr name="uncheckedDrawable" format="reference" />
-    <attr name="enableQuickBackWhenEmpty" format="boolean" />
-    <attr name="allowTextSelection" format="boolean" />
-    <attr name="defaultActionBarBackground" format="reference" />
-    <attr name="defaultActionBarForegroundPressedColor" format="color" />
-    <attr name="defaultActionBarDividerColor" format="color" />
-    <attr name="highlightActionBarForegroundPressedColor" format="color" />
-    <attr name="highlightActionBarDividerColor" format="color" />
-    <attr name="lightActionBarForegroundPressedColor" format="color" />
-    <attr name="lightActionBarDividerColor" format="color" />
-    <attr name="modalActionBarBackground" format="reference" />
-    <attr name="modalActionBarButtonBackground" format="reference" />
-    <attr name="modalActionBarForegroundPressedColor" format="color" />
-    <attr name="modalActionBarPrimaryButtonBackground" format="reference" />
-    <attr name="modalActionBarPrimaryButtonForeground" format="reference" />
-    <attr name="modalActionBarPrimaryButtonForegroundPressed" format="reference" />
-    <attr name="modalActionBarDividerColor" format="color" />
-    <attr name="clearActionBarForegroundPressedColor" format="color" />
-    <attr name="clearActionBarDividerColor" format="color" />
-    <attr name="browserActionBarForegroundPressedColor" format="color" />
-    <attr name="browserActionBarDividerColor" format="color" />
-    <attr name="actionBarShadowVisibility" format="integer" />
-    <attr name="actionBarTextCapitalize" format="boolean" />
-    <attr name="actionBarTitleStyle" format="reference" />
-    <attr name="actionBarSearchStyle" format="reference" />
-    <attr name="actionBarTextButtonStyle" format="reference" />
-    <attr name="titleLogoDrawable" format="reference" />
-    <attr name="drawable" format="reference" />
-    <attr name="innerSpacing" format="dimension" />
-    <attr name="fixedTabBarStyle" format="reference" />
-    <attr name="fixedTabBarTextColor" format="color" />
     <attr name="forceFullWidth" format="boolean" />
     <attr name="perfTrackingCategory" format="string" />
     <attr name="circularImageView" format="boolean" />
     <attr name="fitAspectRatio" format="boolean" />
+    <attr name="loadMoreAspectRatio" format="float" />
     <attr name="showStroke" format="boolean" />
     <attr name="imageWidth" format="dimension" />
     <attr name="imageHeight" format="dimension" />
     <attr name="imageCornerRadius" format="dimension" />
     <attr name="avatarWidth" format="dimension" />
+    <attr name="SeletedPicturePaddingRight" format="dimension" />
+    <attr name="rowPadding" format="dimension" />
+    <attr name="rowTextPadding" format="dimension" />
+    <attr name="rowHeight" format="reference" />
+    <attr name="rowTextStyle" format="reference" />
+    <attr name="rowDetailStyle" format="reference" />
+    <attr name="rowBadge" format="reference" />
+    <attr name="rowDetailBoldText" format="reference" />
+    <attr name="rowAvatarHeight" format="dimension" />
+    <attr name="rowAvatarWidth" format="dimension" />
+    <attr name="rowUserName" format="reference" />
+    <attr name="rowUserInfo" format="reference" />
+    <attr name="contactRowHeight" format="dimension" />
+    <attr name="rowRightPadding" format="dimension" />
+    <attr name="igSwitchStyle" format="reference" />
+    <attr name="thumbDrawable" format="reference" />
+    <attr name="checkedDrawable" format="reference" />
+    <attr name="uncheckedDrawable" format="reference" />
     <attr name="descendantWithErrorBackground" format="reference" />
     <attr name="errorBackground" format="reference" />
+    <attr name="errorColor" format="color" />
+    <attr name="hint" format="string" />
+    <attr name="hintColor" format="color" />
     <attr name="progressBarTint" format="color" />
     <attr name="text" format="string" />
     <attr name="textColor" format="color" />
@@ -382,6 +342,47 @@
     <attr name="mediaTabBackground" format="color" />
     <attr name="mediaTabTextColor" format="color" />
     <attr name="mediaTabTextColorSelected" format="color" />
+    <attr name="initialCameraFacingDeprecated">
+        <enum name="back" value="0" />
+        <enum name="front" value="1" />
+    </attr>
+    <attr name="videoCaptureQualityDeprecated">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="photoCaptureQualityDeprecated">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="enablePinchZoomDeprecated" format="boolean" />
+    <attr name="lockMediaOrientationDeprecated" format="boolean" />
+    <attr name="initialCameraFacing">
+        <enum name="back" value="0" />
+        <enum name="front" value="1" />
+    </attr>
+    <attr name="videoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="photoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="enablePinchZoom" format="boolean" />
+    <attr name="singleTapGesture">
+        <flag name="disabled" value="0x00000000" />
+        <flag name="focus" value="0x00000001" />
+        <flag name="metering" value="0x00000002" />
+    </attr>
+    <attr name="lockMediaOrientation" format="boolean" />
     <attr name="colorIndicatorRadius" format="dimension" />
     <attr name="stroke_width" format="dimension" />
     <attr name="stroke_colour" format="color" />
@@ -444,6 +445,15 @@
     <attr name="mediaPickerSpacing" format="dimension" />
     <attr name="gridColumnCount" format="integer" />
     <attr name="gridItemSpacing" format="dimension" />
+    <attr name="triangleSpinnerStyle" format="reference" />
+    <attr name="triangleColor" format="color" />
+    <attr name="trianglePadding" format="dimension" />
+    <attr name="triangleSize" format="dimension" />
+    <attr name="triangleStyle">
+        <enum name="corner" value="0" />
+        <enum name="downward" value="1" />
+    </attr>
+    <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="clipBackground" format="reference" />
     <attr name="clipBackgroundSoftDelete" format="reference" />
     <attr name="searchRowHeight" format="dimension" />
@@ -456,6 +466,11 @@
     <attr name="searchBadge" format="reference" />
     <attr name="searchAvatarLocation" format="reference" />
     <attr name="searchAvatarTag" format="reference" />
+    <attr name="searchReelRingSize" format="dimension" />
+    <attr name="searchReelAvatarSize" format="dimension" />
+    <attr name="searchReelMarginRight" format="dimension" />
+    <attr name="searchTextPadding" format="dimension" />
+    <attr name="searchDrawablePadding" format="dimension" />
     <attr name="peopleTagSearchTheme" format="reference" />
     <attr name="peopleTagSearchBackground" format="reference" />
     <attr name="peopleTagSearchCacheColorHint" format="reference" />

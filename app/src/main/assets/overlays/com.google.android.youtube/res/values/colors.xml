@@ -508,4 +508,38 @@
     <color name="bottom_status_bar_active_background_color">#ff388e3c</color>
     <color name="bottom_status_bar_inactive_background_color">@*android:color/button_material_dark</color>
     <color name="live_chat_auto_mod_button_grey_light_color">@*android:color/button_material_dark</color> <!-- Button background -->
+    <!-- New in 12.21.57 -->
+    <color name="bright_red">#ffd32f2f</color>
+    <color name="bright_red_dark">#ffb71c1c</color>
+    <color name="edit_yt_bright_red">#ffd32f2f</color>
+    <color name="grey60">#ffdddddd</color>
+    <color name="lc_dialog_action_button_color">#ff1976d2</color>
+    <color name="lc_dialog_action_button_text_color">#ffffffff</color>
+    <color name="lc_dialog_message_color">#ffffffff</color>
+    <color name="lc_location_suggestion_button_stroke_color">#80ffffff</color>
+    <color name="lc_location_suggestion_text_color">#ffbbbbbb</color>
+    <color name="local_notification_large_icon_tint">#ffffffff</color>
+    <color name="promoted_video_blue_font_color">#ff1976d2</color>
+    <color name="promoted_video_grey_font_color">#ffdddddd</color>
+    <color name="reel_thumbnail_background_color">@*android:color/button_material_dark</color>
+    <color name="reel_upload_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="reel_upload_failure_message_color">#ffd32f2f</color>
+    <color name="slim_status_bar_active_background_color">#ff388e3c</color>
+    <color name="slim_status_bar_inactive_background_color">@*android:color/button_material_dark</color>
+    <color name="slim_status_bar_text_color">@*android:color/white</color>
+    <color name="yt_light_blue">#ff1976d2</color>
+    <!-- New in 12.23.57 -->
+    <color name="camera_front_flash_torch_scrim_color">#e0ffffff</color>
+    <color name="cluster_chip_text_default_color">#ffdddddd</color>
+    <color name="cluster_chip_text_toggled_color">@*android:color/white</color>
+    <color name="companion_ad_action_cta_blue">#ff1976d2</color>
+    <color name="display_ad_cta_blue">#ff1976d2</color>
+    <color name="emoji_picker_divider_color">#00000000</color>
+    <color name="manage_membership_confirm_button_text">#ffd32f2f</color>
+    <color name="offer_alerts">#ff1976d2</color>
+    <color name="purchase_button_background">#ff388e3c</color>
+    <color name="purchase_button_text">@*android:color/white</color>
+    <color name="quantum_lightblueA400">#ff1976d2</color>
+    <color name="upload_edit_choose_filter_view_background">@*android:color/button_material_dark</color>
+    <color name="secondary_dark">#ffdddddd</color>
 </resources>

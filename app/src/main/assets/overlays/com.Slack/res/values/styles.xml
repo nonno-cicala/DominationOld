@@ -28,4 +28,18 @@
         <item name="*com.Slack:panelBackground">@*android:color/background_dark</item>
     </style>
 
+
+
+    <style name="FindYourTeamsContainer.EmailEntry" parent="@*com.Slack:style/FindYourTeamsContainer">
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:paddingLeft">@*com.Slack:dimen/join_team_screen_margins</item>
+        <item name="android:paddingRight">@*com.Slack:dimen/join_team_screen_margins</item>
+        <item name="android:paddingBottom">@*com.Slack:dimen/join_team_screen_margins</item>
+    </style>
+
+    <style name="FindYourTeamsContainer.Welcome" parent="@*com.Slack:style/FindYourTeamsContainer">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
 </resources>

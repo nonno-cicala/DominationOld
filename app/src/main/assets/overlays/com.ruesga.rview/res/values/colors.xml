@@ -139,7 +139,8 @@
     <color name="theme_default_primary">#ff1976d2</color>
     <color name="theme_default_primary_dark">#ff0d47a1</color>
     <color name="toastBackgroundColor">#b2000000</color>
-
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
 
     <color name="unscored">#ffbbbbbb</color>
     <color name="wizard_navbar">#ff000000</color>

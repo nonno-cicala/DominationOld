@@ -202,4 +202,8 @@
     <color name="page_info_popup_text_link">#ff1976d2</color>
     <color name="data_reduction_breakdown_text_color">#ffffffff</color>
     <color name="data_reduction_breakdown_light_text_color">#ffffffff</color>
+
+    <color name="black_alpha_40">#ffffffff</color>
+    <color name="black_alpha_54">#ffdddddd</color>
+    <color name="black_alpha_87">#ffdddddd</color>
 </resources>

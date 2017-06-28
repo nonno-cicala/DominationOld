@@ -28,21 +28,7 @@
         <item name="android:paddingStart">28.0dip</item>
         <item name="android:paddingEnd">28.0dip</item>
     </style>
-    <style name="CirclesButton" parent="@*com.android.vending:style/PlayPlainText">
-        <item name="android:textSize">@*com.android.vending:dimen/play_price_small_size</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:gravity">center</item>
-        <item name="android:paddingLeft">30.0dip</item>
-        <item name="android:paddingRight">30.0dip</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minWidth">@*com.android.vending:dimen/standard_button_minwidth</item>
-        <item name="android:minHeight">@*com.android.vending:dimen/play_profile_button_height</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:paddingStart">30.0dip</item>
-        <item name="android:paddingEnd">30.0dip</item>
-    </style>
+
     <style name="FamilyEducationCardAction" parent="@*com.android.vending:style/PlayCardAction">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:gravity">center</item>

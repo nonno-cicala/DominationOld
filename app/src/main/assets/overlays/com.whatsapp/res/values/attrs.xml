@@ -448,6 +448,7 @@
     <attr name="scvBorderSize" format="dimension" />
     <attr name="scvBorderColor" format="color" />
     <attr name="scvIcon" format="reference" />
+    <attr name="scvIconContentDescription" format="string" />
     <attr name="buttonSize" format="reference">
         <enum name="icon_only" value="2" />
         <enum name="standard" value="0" />
@@ -469,6 +470,7 @@
     </attr>
     <attr name="shrvGridSize" format="dimension" />
     <attr name="shrvGridSpacing" format="dimension" />
+    <attr name="strokeWidth" format="dimension" />
     <attr name="thumbTint" format="color" />
     <attr name="thumbTintMode">
         <enum name="add" value="16" />

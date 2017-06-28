@@ -15,9 +15,21 @@
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
     <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
 
-
+    <style name="Platform.AppCompat" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:statusBarColor">@*android:color/background_dark</item>
+        <item name="android:textColorPrimaryInverse">#ffffffff</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+        <item name="android:colorPrimary">@*android:color/background_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/background_dark</item>
+    </style>
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
         <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
         <item name="android:statusBarColor">@*android:color/background_dark</item>
         <item name="android:textColorPrimaryInverse">#ffffffff</item>
         <item name="android:windowNoTitle">true</item>
@@ -67,7 +79,17 @@
     <style name="UrawTheme" parent="@*android:style/Theme.Material">
         <item name="android:colorControlActivated">#ff1976d2</item>
     </style>
+    <style name="Platform.V21.AppCompat" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
     <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
         <item name="android:textColorHintInverse">#ffbbbbbb</item>
         <item name="android:textColorHint">#ffbbbbbb</item>
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
@@ -83,4 +105,61 @@
     <style name="DialogTitle" parent="@*android:style/TextAppearance.Material.DialogWindowTitle">
         <item name="android:textColor">#ffffffff</item>
     </style>
+
+
+    <style name="GvrDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Theme.Arkham.WithWhiteActionBar" parent="@*com.google.android.apps.photos:style/Theme.Arkham">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.photos:style/Theme.Arkham.White.ActionBar</item>
+        <item name="android:actionMenuTextAppearance">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.MenuButtonTextStyle</item>
+        <item name="android:actionMenuTextColor">@*com.google.android.apps.photos:color/white_actionbar_done_button_color</item>
+        <item name="*com.google.android.apps.photos:actionBarStyle">@*com.google.android.apps.photos:style/Theme.Arkham.White.ActionBar</item>
+        <item name="*com.google.android.apps.photos:actionMenuTextAppearance">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.MenuButtonTextStyle</item>
+        <item name="*com.google.android.apps.photos:actionMenuTextColor">@*com.google.android.apps.photos:color/white_actionbar_done_button_color</item>
+        <item name="*com.google.android.apps.photos:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.photos:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+    </style>
+    <style name="Widget.Photos.ActionBar" parent="@*com.google.android.apps.photos:style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+        <item name="android:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:displayOptions">showHome|showTitle</item>
+        <item name="*com.google.android.apps.photos:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:background">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.photos:contentInsetStart">@*com.google.android.apps.photos:dimen/photos_theme_actionbar_title_padding</item>
+        <item name="*com.google.android.apps.photos:elevation">2.0dip</item>
+    </style>
+    <style name="Widget.Photos.Backup.Settings.ActionBar" parent="@*com.google.android.apps.photos:style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+        <item name="android:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.Backup.Settings.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:displayOptions">showHome|showTitle</item>
+        <item name="*com.google.android.apps.photos:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.Backup.Settings.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:background">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.photos:contentInsetStart">@*com.google.android.apps.photos:dimen/photos_backup_settings_title_padding</item>
+        <item name="*com.google.android.apps.photos:elevation">2.0dip</item>
+    </style>
+    <style name="mm_Theme" parent="@*com.google.android.apps.photos:style/Theme.Photos">
+        <item name="android:icon">@*android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:logo">@*android:color/transparent</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.photos:style/mm_ActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/mm_OverFlow</item>
+        <item name="android:actionMenuTextColor">@*com.google.android.apps.photos:color/mm_main_text</item>
+        <item name="android:colorAccent">@*com.google.android.apps.photos:color/mm_accent</item>
+        <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.google.android.apps.photos:icon">@*android:color/transparent</item>
+        <item name="*com.google.android.apps.photos:logo">@*android:color/transparent</item>
+        <item name="*com.google.android.apps.photos:windowActionBarOverlay">true</item>
+        <item name="*com.google.android.apps.photos:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/mm_OverFlow</item>
+        <item name="*com.google.android.apps.photos:actionBarStyle">@*com.google.android.apps.photos:style/mm_ActionBar</item>
+        <item name="*com.google.android.apps.photos:actionMenuTextColor">@*com.google.android.apps.photos:color/mm_main_text</item>
+        <item name="*com.google.android.apps.photos:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.photos:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.google.android.apps.photos:colorAccent">@*com.google.android.apps.photos:color/mm_accent</item>
+    </style>
+
 </resources>

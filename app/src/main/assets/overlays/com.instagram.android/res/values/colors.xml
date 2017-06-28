@@ -2,6 +2,7 @@
 <resources>
     <color name="grey_9">#ffffffff</color>
     <color name="grey_9_30_transparent">#4dffffff</color>
+    <color name="grey_8">#ffffffff</color>
     <color name="grey_6">#ffdddddd</color>
     <color name="grey_5">#ffdddddd</color>
     <color name="grey_4">#ffdddddd</color>
@@ -92,6 +93,8 @@
 
     <color name="close_button_tint_color">#ffffffff</color>
 
-
     <color name="share_screen_icon_color">#ffffffff</color>
+
+
+    <color name="grey_4_50_transparent">#80202020</color>
 </resources>

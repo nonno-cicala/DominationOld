@@ -1,112 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="corpusId" format="string" />
-    <attr name="corpusVersion" format="string" />
-    <attr name="contentProviderUri" format="string" />
-    <attr name="trimmable" format="boolean" />
-    <attr name="schemaOrgType" format="string" />
-    <attr name="semanticallySearchable" format="boolean" />
-    <attr name="documentMaxAgeSecs" format="integer" />
-    <attr name="perAccountTemplate" format="boolean" />
-    <attr name="paramName" format="string" />
-    <attr name="paramValue" format="string" />
-    <attr name="searchEnabled" format="boolean" />
-    <attr name="searchLabel" format="string" />
-    <attr name="settingsDescription" format="string" />
-    <attr name="defaultIntentAction" format="string" />
-    <attr name="defaultIntentData" format="string" />
-    <attr name="defaultIntentActivity" format="string" />
-    <attr name="allowShortcuts" format="boolean" />
-    <attr name="sectionType">
-        <enum name="icon_uri" value="2" />
-        <enum name="intent_action" value="3" />
-        <enum name="intent_activity" value="8" />
-        <enum name="intent_data" value="4" />
-        <enum name="intent_data_id" value="5" />
-        <enum name="intent_extra_data" value="6" />
-        <enum name="large_icon_uri" value="7" />
-        <enum name="text1" value="0" />
-        <enum name="text2" value="1" />
-        <enum name="thing_proto" value="9" />
-    </attr>
-    <attr name="sectionContent" format="string" />
-    <attr name="inputEnabled" format="boolean" />
-    <attr name="sourceClass">
-        <enum name="contact" value="1" />
-        <enum name="email" value="0" />
-        <enum name="instant_message" value="2" />
-    </attr>
-    <attr name="userInputTag" format="string" />
-    <attr name="userInputSection" format="string" />
-    <attr name="userInputValue" format="string" />
-    <attr name="toAddressesSection" format="string" />
-    <attr name="sectionId" format="string" />
-    <attr name="sectionFormat">
-        <enum name="html" value="1" />
-        <enum name="plain" value="0" />
-        <enum name="rfc822" value="2" />
-        <enum name="url" value="3" />
-    </attr>
-    <attr name="noIndex" format="boolean" />
-    <attr name="sectionWeight" format="integer" />
-    <attr name="indexPrefixes" format="boolean" />
-    <attr name="subsectionSeparator" format="string" />
-    <attr name="schemaOrgProperty" format="string" />
-    <attr name="featureType">
-        <enum name="demote_common_words" value="2" />
-        <enum name="demote_rfc822_hostnames" value="3" />
-        <enum name="index_entity_types" value="6" />
-        <enum name="match_global_nicknames" value="1" />
-        <enum name="omnibox_title_section" value="5" />
-        <enum name="omnibox_url_section" value="4" />
-    </attr>
-    <attr name="imageAspectRatioAdjust">
-        <enum name="adjust_height" value="2" />
-        <enum name="adjust_width" value="1" />
-        <enum name="none" value="0" />
-    </attr>
-    <attr name="imageAspectRatio" format="float" />
-    <attr name="circleCrop" format="boolean" />
-    <attr name="buttonSize" format="reference">
-        <enum name="icon_only" value="2" />
-        <enum name="standard" value="0" />
-        <enum name="wide" value="1" />
-    </attr>
-    <attr name="colorScheme" format="reference">
-        <enum name="auto" value="2" />
-        <enum name="dark" value="0" />
-        <enum name="light" value="1" />
-    </attr>
-    <attr name="scopeUris" format="reference|string" />
-    <attr name="mapType">
-        <enum name="none" value="0" />
-        <enum name="hybrid" value="4" />
-        <enum name="normal" value="1" />
-        <enum name="satellite" value="2" />
-        <enum name="terrain" value="3" />
-    </attr>
-    <attr name="cameraBearing" format="float" />
-    <attr name="cameraTargetLat" format="float" />
-    <attr name="cameraTargetLng" format="float" />
-    <attr name="cameraTilt" format="float" />
-    <attr name="cameraZoom" format="float" />
-    <attr name="liteMode" format="boolean" />
-    <attr name="uiCompass" format="boolean" />
-    <attr name="uiRotateGestures" format="boolean" />
-    <attr name="uiScrollGestures" format="boolean" />
-    <attr name="uiTiltGestures" format="boolean" />
-    <attr name="uiZoomControls" format="boolean" />
-    <attr name="uiZoomGestures" format="boolean" />
-    <attr name="useViewLifecycle" format="boolean" />
-    <attr name="zOrderOnTop" format="boolean" />
-    <attr name="uiMapToolbar" format="boolean" />
-    <attr name="ambientEnabled" format="boolean" />
-    <attr name="cameraMinZoomPreference" format="float" />
-    <attr name="cameraMaxZoomPreference" format="float" />
-    <attr name="latLngBoundsSouthWestLatitude" format="float" />
-    <attr name="latLngBoundsSouthWestLongitude" format="float" />
-    <attr name="latLngBoundsNorthEastLatitude" format="float" />
-    <attr name="latLngBoundsNorthEastLongitude" format="float" />
     <attr name="windowTransitionStyle">
         <enum name="none" value="2" />
         <enum name="slide" value="1" />
@@ -176,8 +69,8 @@
     <attr name="isLightTheme" format="boolean" />
     <attr name="title" format="string" />
     <attr name="navigationMode">
-        <enum name="normal" value="0" />
         <enum name="listMode" value="1" />
+        <enum name="normal" value="0" />
         <enum name="tabMode" value="2" />
     </attr>
     <attr name="displayOptions">
@@ -462,12 +355,166 @@
     <attr name="strokeColor" format="color" />
     <attr name="fillColor" format="color" />
     <attr name="fillColorSecondary" format="color" />
+    <attr name="corpusId" format="string" />
+    <attr name="corpusVersion" format="string" />
+    <attr name="contentProviderUri" format="string" />
+    <attr name="trimmable" format="boolean" />
+    <attr name="schemaOrgType" format="string" />
+    <attr name="semanticallySearchable" format="boolean" />
+    <attr name="documentMaxAgeSecs" format="integer" />
+    <attr name="perAccountTemplate" format="boolean" />
+    <attr name="paramName" format="string" />
+    <attr name="paramValue" format="string" />
+    <attr name="searchEnabled" format="boolean" />
+    <attr name="searchLabel" format="string" />
+    <attr name="settingsDescription" format="string" />
+    <attr name="defaultIntentAction" format="string" />
+    <attr name="defaultIntentData" format="string" />
+    <attr name="defaultIntentActivity" format="string" />
+    <attr name="allowShortcuts" format="boolean" />
+    <attr name="sectionType">
+        <enum name="icon_uri" value="2" />
+        <enum name="intent_action" value="3" />
+        <enum name="intent_activity" value="8" />
+        <enum name="intent_data" value="4" />
+        <enum name="intent_data_id" value="5" />
+        <enum name="intent_extra_data" value="6" />
+        <enum name="large_icon_uri" value="7" />
+        <enum name="text1" value="0" />
+        <enum name="text2" value="1" />
+        <enum name="thing_proto" value="9" />
+    </attr>
+    <attr name="sectionContent" format="string" />
+    <attr name="inputEnabled" format="boolean" />
+    <attr name="sourceClass">
+        <enum name="contact" value="1" />
+        <enum name="email" value="0" />
+        <enum name="instant_message" value="2" />
+    </attr>
+    <attr name="userInputTag" format="string" />
+    <attr name="userInputSection" format="string" />
+    <attr name="userInputValue" format="string" />
+    <attr name="toAddressesSection" format="string" />
+    <attr name="sectionId" format="string" />
+    <attr name="sectionFormat">
+        <enum name="date" value="4" />
+        <enum name="html" value="1" />
+        <enum name="plain" value="0" />
+        <enum name="rfc822" value="2" />
+        <enum name="url" value="3" />
+    </attr>
+    <attr name="noIndex" format="boolean" />
+    <attr name="sectionWeight" format="integer" />
+    <attr name="indexPrefixes" format="boolean" />
+    <attr name="subsectionSeparator" format="string" />
+    <attr name="schemaOrgProperty" format="string" />
+    <attr name="featureType">
+        <enum name="demote_common_words" value="2" />
+        <enum name="demote_rfc822_hostnames" value="3" />
+        <enum name="index_entity_types" value="6" />
+        <enum name="match_global_nicknames" value="1" />
+        <enum name="omnibox_title_section" value="5" />
+        <enum name="omnibox_url_section" value="4" />
+    </attr>
     <attr name="stackedMargin" format="reference" />
     <attr name="primaryButtonText" format="reference|string" />
     <attr name="secondaryButtonText" format="reference|string" />
+    <attr name="buttonAlignment">
+        <enum name="end" value="1" />
+        <enum name="apart" value="2" />
+        <enum name="start" value="0" />
+    </attr>
     <attr name="buttonColor" format="reference|color" />
     <attr name="buttonRaised" format="boolean" />
     <attr name="leading" format="reference|dimension" />
+    <attr name="mapType">
+        <enum name="none" value="0" />
+        <enum name="normal" value="1" />
+        <enum name="hybrid" value="4" />
+        <enum name="satellite" value="2" />
+        <enum name="terrain" value="3" />
+    </attr>
+    <attr name="cameraBearing" format="float" />
+    <attr name="cameraTargetLat" format="float" />
+    <attr name="cameraTargetLng" format="float" />
+    <attr name="cameraTilt" format="float" />
+    <attr name="cameraZoom" format="float" />
+    <attr name="liteMode" format="boolean" />
+    <attr name="uiCompass" format="boolean" />
+    <attr name="uiRotateGestures" format="boolean" />
+    <attr name="uiScrollGestures" format="boolean" />
+    <attr name="uiTiltGestures" format="boolean" />
+    <attr name="uiZoomControls" format="boolean" />
+    <attr name="uiZoomGestures" format="boolean" />
+    <attr name="useViewLifecycle" format="boolean" />
+    <attr name="zOrderOnTop" format="boolean" />
+    <attr name="uiMapToolbar" format="boolean" />
+    <attr name="ambientEnabled" format="boolean" />
+    <attr name="cameraMinZoomPreference" format="float" />
+    <attr name="cameraMaxZoomPreference" format="float" />
+    <attr name="latLngBoundsSouthWestLatitude" format="float" />
+    <attr name="latLngBoundsSouthWestLongitude" format="float" />
+    <attr name="latLngBoundsNorthEastLatitude" format="float" />
+    <attr name="latLngBoundsNorthEastLongitude" format="float" />
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="rowCount" format="integer" />
+    <attr name="columnCount" format="integer" />
+    <attr name="useDefaultMargins" format="boolean" />
+    <attr name="alignmentMode">
+        <enum name="alignBounds" value="0" />
+        <enum name="alignMargins" value="1" />
+    </attr>
+    <attr name="rowOrderPreserved" format="boolean" />
+    <attr name="columnOrderPreserved" format="boolean" />
+    <attr name="layout_row" format="integer" />
+    <attr name="layout_rowSpan" format="integer" min="1" />
+    <attr name="layout_rowWeight" format="float" />
+    <attr name="layout_column" format="integer" />
+    <attr name="layout_columnSpan" format="integer" min="1" />
+    <attr name="layout_columnWeight" format="float" />
+    <attr name="layout_gravity">
+        <flag name="end" value="0x00800005" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="top" value="0x00000030" />
+        <flag name="start" value="0x00800003" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+    </attr>
+    <attr name="imageAspectRatioAdjust">
+        <enum name="none" value="0" />
+        <enum name="adjust_height" value="2" />
+        <enum name="adjust_width" value="1" />
+    </attr>
+    <attr name="imageAspectRatio" format="float" />
+    <attr name="circleCrop" format="boolean" />
+    <attr name="buttonSize" format="reference">
+        <enum name="icon_only" value="2" />
+        <enum name="standard" value="0" />
+        <enum name="wide" value="1" />
+    </attr>
+    <attr name="colorScheme" format="reference">
+        <enum name="dark" value="0" />
+        <enum name="light" value="1" />
+        <enum name="auto" value="2" />
+    </attr>
+    <attr name="scopeUris" format="reference|string" />
+    <attr name="layoutManager" format="string" />
+    <attr name="spanCount" format="integer" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="stackFromEnd" format="boolean" />
+    <attr name="select_dialog_multichoice" format="reference" />
+    <attr name="select_dialog_singlechoice" format="reference" />
     <attr name="expanded" format="boolean" />
     <attr name="state_collapsed" format="boolean" />
     <attr name="state_collapsible" format="boolean" />
@@ -479,7 +526,9 @@
         <flag name="snap" value="0x00000010" />
     </attr>
     <attr name="layout_scrollInterpolator" format="reference" />
-    <attr name="behavior_peekHeight" format="dimension" />
+    <attr name="behavior_peekHeight" format="dimension">
+        <enum name="auto" value="-1" />
+    </attr>
     <attr name="behavior_hideable" format="boolean" />
     <attr name="behavior_skipCollapsed" format="boolean" />
     <attr name="expandedTitleMargin" format="dimension" />
@@ -498,25 +547,25 @@
         <flag name="end" value="0x00800005" />
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
+        <flag name="start" value="0x00800003" />
         <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
-        <flag name="start" value="0x00800003" />
     </attr>
     <attr name="expandedTitleGravity">
         <flag name="end" value="0x00800005" />
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
+        <flag name="start" value="0x00800003" />
         <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
-        <flag name="start" value="0x00800003" />
     </attr>
     <attr name="titleEnabled" format="boolean" />
     <attr name="layout_collapseMode">
@@ -534,30 +583,50 @@
         <flag name="end" value="0x00800005" />
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
+        <flag name="start" value="0x00800003" />
         <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
-        <flag name="fill_vertical" value="0x00000070" />
-        <flag name="left" value="0x00000003" />
-        <flag name="right" value="0x00000005" />
-        <flag name="start" value="0x00800003" />
         <flag name="clip_horizontal" value="0x00000008" />
         <flag name="clip_vertical" value="0x00000080" />
         <flag name="fill" value="0x00000077" />
         <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+    </attr>
+    <attr name="layout_insetEdge">
+        <enum name="none" value="0" />
+        <enum name="end" value="8388613" />
+        <enum name="bottom" value="80" />
+        <enum name="top" value="48" />
+        <enum name="start" value="8388611" />
+        <enum name="left" value="3" />
+        <enum name="right" value="3" />
+    </attr>
+    <attr name="layout_dodgeInsetEdges">
+        <flag name="none" value="0x00000000" />
+        <flag name="end" value="0x00800005" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="top" value="0x00000030" />
+        <flag name="start" value="0x00800003" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000003" />
+        <flag name="all" value="0x00000077" />
     </attr>
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="textColorError" format="color" />
     <attr name="rippleColor" format="color" />
     <attr name="fabSize">
-        <enum name="auto" value="-1" />
         <enum name="normal" value="0" />
+        <enum name="auto" value="-1" />
         <enum name="mini" value="1" />
     </attr>
     <attr name="pressedTranslationZ" format="dimension" />
     <attr name="borderWidth" format="dimension" />
     <attr name="useCompatPadding" format="boolean" />
+    <attr name="behavior_autoHide" format="boolean" />
     <attr name="foregroundInsidePadding" format="boolean" />
     <attr name="menu" format="reference" />
     <attr name="itemIconTint" format="color" />
@@ -599,28 +668,27 @@
     <attr name="counterTextAppearance" format="reference" />
     <attr name="counterOverflowTextAppearance" format="reference" />
     <attr name="hintAnimationEnabled" format="boolean" />
-    <attr name="layoutManager" format="string" />
-    <attr name="spanCount" format="integer" />
-    <attr name="reverseLayout" format="boolean" />
-    <attr name="stackFromEnd" format="boolean" />
-    <attr name="select_dialog_multichoice" format="reference" />
-    <attr name="select_dialog_singlechoice" format="reference" />
+    <attr name="passwordToggleEnabled" format="boolean" />
+    <attr name="passwordToggleDrawable" format="reference" />
+    <attr name="passwordToggleContentDescription" format="string" />
+    <attr name="passwordToggleTint" format="color" />
+    <attr name="passwordToggleTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
     <attr name="MediaRouteControllerWindowBackground" format="reference" />
     <attr name="mediaRouteAudioTrackDrawable" format="reference" />
     <attr name="mediaRouteButtonStyle" format="reference" />
-    <attr name="mediaRouteCastDrawable" format="reference" />
     <attr name="mediaRouteChooserPrimaryTextStyle" format="reference" />
     <attr name="mediaRouteChooserSecondaryTextStyle" format="reference" />
     <attr name="mediaRouteCloseDrawable" format="reference" />
-    <attr name="mediaRouteCollapseGroupDrawable" format="reference" />
-    <attr name="mediaRouteConnectingDrawable" format="reference" />
     <attr name="mediaRouteControllerPrimaryTextStyle" format="reference" />
     <attr name="mediaRouteControllerSecondaryTextStyle" format="reference" />
     <attr name="mediaRouteControllerTitleTextStyle" format="reference" />
     <attr name="mediaRouteDefaultIconDrawable" format="reference" />
-    <attr name="mediaRouteExpandGroupDrawable" format="reference" />
-    <attr name="mediaRouteOffDrawable" format="reference" />
-    <attr name="mediaRouteOnDrawable" format="reference" />
     <attr name="mediaRoutePauseDrawable" format="reference" />
     <attr name="mediaRoutePlayDrawable" format="reference" />
     <attr name="mediaRouteSpeakerGroupIconDrawable" format="reference" />
@@ -644,8 +712,10 @@
     <attr name="maxChildHeight" format="dimension" />
     <attr name="maxWidth" format="dimension" />
     <attr name="maxHeight" format="dimension" />
-    <attr name="progressBarColor" format="reference|color" />
-    <attr name="backgroundColor" format="reference|color" />
+    <attr name="colorBackground" format="reference|color" />
+    <attr name="colorProgress" format="reference|color" />
+    <attr name="colorSecondaryProgress" format="reference|color" />
     <attr name="titleText" format="string" />
     <attr name="noBottomSpacing" format="boolean" />
+    <attr name="singleLine" format="boolean" />
 </resources>

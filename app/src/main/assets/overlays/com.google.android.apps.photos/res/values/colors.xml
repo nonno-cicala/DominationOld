@@ -162,7 +162,7 @@
     <color name="mm_video_trim_fg_color">#ffffffff</color>
     <color name="mm_video_trim_text_color">#ffffffff</color>
     <color name="mm_video_trim_view_container_border">#ff1976d2</color>
-    <color name="mm_white">@*android:color/background_dark</color>
+
     <color name="non_white_button_ripple">#20ffffff</color>
     <color name="photo_list_container_header_background_color">#f0000000</color>
     <color name="photo_loading_background">@*android:color/background_dark</color>
@@ -241,7 +241,7 @@
     <color name="quantum_black_hint_text">#61ffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_text">#ffffffff</color>
-    <color name="quantum_white_100">@*android:color/background_dark</color>
+
     <color name="quantum_blue">#ff1976d2</color>
     <color name="quantum_cyan">#ff0097a7</color>
     <color name="quantum_cyan500">#ff0097a7</color>
@@ -350,4 +350,14 @@
     <color name="autocomplete_selected_color">#ff1976d2</color>
     <color name="autocomplete_text_color">#ffffffff</color>
     <color name="hats_lib_white_100">@*android:color/background_floating_material_dark</color>
+
+
+
+    <color name="photos_list_fastscroll_new_scrubber_label_text">#ffffffff</color>
+    <color name="photos_list_fastscroll_new_scrubber_scale_label_background">@*android:color/button_material_dark</color>
+    <color name="photos_list_fastscroll_new_scrubber_scale_label_text">#ffffffff</color>
+    <color name="mm_lighter_gray">@*android:color/primary_dark_material_dark</color>
+    <color name="photos_assistant_cardui_disabled_button_text">#61ffffff</color>
+    <color name="photos_assistant_cardui_div_line_color">#00000000</color>
+    <color name="photos_assistant_cardui_header_dark_title">#ffffffff</color>
 </resources>

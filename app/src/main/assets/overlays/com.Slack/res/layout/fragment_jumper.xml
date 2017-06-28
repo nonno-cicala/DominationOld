@@ -7,6 +7,6 @@
         <ImageView android:layout_gravity="center|right" android:id="@*com.Slack:id/clear" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@*com.Slack:drawable/ic_xcircle_grey_24dp" />
     </FrameLayout>
     <android.support.v4.widget.SwipeRefreshLayout android:id="@*com.Slack:id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip">
-        <ListView android:scrollbarStyle="outsideInset" android:id="@*com.Slack:id/channel_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" android:fastScrollEnabled="true" />
+        <ListView android:scrollbarStyle="outsideInset" android:id="@*com.Slack:id/channel_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
     </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>

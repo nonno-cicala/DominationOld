@@ -166,4 +166,8 @@
     <color name="live_location_stop_sharing_red">#ffd32f2f</color>
     <color name="pin_hint_color">#4cffffff</color>
     <color name="white_20">#33555555</color>
+
+    <color name="emoji_keyboard_covered">#cd1976d2</color>
+    <color name="live_location_privacy_setting_background">@*android:color/background_dark</color>
+    <color name="video_call_answer">#ff1976d2</color>
 </resources>

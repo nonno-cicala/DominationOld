@@ -211,7 +211,7 @@
     <color name="flat_card_cluster_header_title_text_color">#ffffffff</color>
     <color name="flat_card_cluster_light_background">@*android:color/background_floating_material_dark</color>
     <color name="flat_cluster_item_divider_color">#00000000</color>
-    <color name="flat_overflow_menu_fill_color">#33ffffff</color>
+    <color name="flat_overflow_menu_fill_color">#ffffffff</color>
     <color name="jpkr_disabled_grey">#ffaaaaaa</color>
     <color name="jpkr_grey_secondary">#ffdddddd</color>
     <color name="jpkr_mini_top_charts_category_spinner_label_color">#ff388e3c</color>
@@ -222,4 +222,17 @@
     <color name="jpkr_mini_top_charts_tooltip_background">@*android:color/background_floating_material_dark</color>
     <color name="jpkr_primary_black">#ffffffff</color>
     <color name="jpkr_vertical_secondary">#ff388e3c</color>
+    <color name="flat_overflow_menu_fill_color_dark">#ffffffff</color>
+    <color name="flat_card_cluster_header_title_text_color_black">#ffffffff</color>
+    <color name="flat_card_live_reengagement_progressbar_background">#cc000000</color>
+    <color name="flat_card_live_reengagement_progressbar_progress">#ff388e3c</color>
+    <color name="light_text_dialog">#ffdddddd</color>
+    <color name="loading_accent_color">#ff1976d2</color>
+    <color name="loading_ia_background">#aa000000</color>
+    <color name="loading_progressbar">#ff1976d2</color>
+    <color name="loading_progressbar_background">#77111111</color>
+    <color name="music_home_microsite_image_header_text">#ffd32f2f</color>
+    <color name="myapps_progress_ring_bg">#ffbbbbbb</color>
+    <color name="myapps_progress_ring_fg">#ff388e3c</color>
+    <color name="myapps_warning_color">#ffd32f2f</color>
 </resources>

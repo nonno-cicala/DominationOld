@@ -192,4 +192,14 @@
 
     <color name="tile_view_text">#ffffffff</color>
     <color name="tile_view_offline_badge_tint">#ff1976d2</color>
+
+
+    <color name="google_blue_500">#ff1976d2</color>
+    <color name="google_grey_200">@*android:color/button_material_dark</color>
+    <color name="black_alpha_40">#80ffffff</color>
+    <color name="page_info_popup_text">#ffffffff</color>
+    <color name="page_info_popup_text_link">#ff1976d2</color>
+    <color name="data_reduction_breakdown_text_color">#ffffffff</color>
+    <color name="data_reduction_breakdown_light_text_color">#ffbbbbbb</color>
+    <color name="translate_overflow_menu_divider_color">#00000000</color>
 </resources>

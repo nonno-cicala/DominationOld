@@ -69,7 +69,13 @@
     <style name="FixedTabBar.Whiteout" parent="@*com.instagram.android:style/FixedTabBar">
         <item name="android:background">@*android:color/background_floating_material_dark</item>
     </style>
-    <style name="Base.Theme" parent="@*android:style/Theme.Holo.Light">
+    <style name="IgSecondayWrappedButtonMultiline" parent="@*com.instagram.android:style/IgSecondaryButton">
+        <item name="android:ellipsize">none</item>
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="Base.Theme" parent="@*android:style/Theme.Holo">
         <item name="*com.instagram.android:backgroundColorPrimaryDark">@*android:color/primary_dark_material_dark</item>
     </style>
     <style name="Base.Theme.Instagram" parent="@*com.instagram.android:style/Base.Theme">
@@ -102,6 +108,7 @@
         <item name="*com.instagram.android:backgroundColorHighlight">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:backgroundColorHighlightPressed">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:backgroundDrawable">@*com.instagram.android:drawable/bg_simple_row</item>
+        <item name="*com.instagram.android:backgroundUnseenDrawable">@*com.instagram.android:drawable/bg_simple_row_unseen</item>
         <item name="*com.instagram.android:backgroundNotificationBadge">@*com.instagram.android:drawable/notification_bubble_whiteout</item>
         <item name="*com.instagram.android:defaultSpinnerStyle">@*com.instagram.android:style/SpinnerTextStyle.Whiteout</item>
         <item name="*com.instagram.android:segmentedUnderlineWidth">@*com.instagram.android:dimen/segmented_underline_width_whiteout</item>
@@ -213,6 +220,19 @@
         <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
         <item name="android:textColor">@*android:color/white</item>
     </style>
+    <style name="IgSettingsRadioButton">
+        <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*com.instagram.android:drawable/bg_simple_row</item>
+        <item name="android:paddingLeft">28.0dip</item>
+        <item name="android:paddingRight">28.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:minHeight">@*com.instagram.android:dimen/row_height_small</item>
+    </style>
     <style name="Theme.Instagram" parent="@*com.instagram.android:style/Base.Theme.Instagram">
         <item name="*com.instagram.android:defaultDividerStyle">@*com.instagram.android:style/Widget.Instagram.Divider.Hidden</item>
         <item name="*com.instagram.android:contextualFeedTitleStyle">@*com.instagram.android:style/ActionBarTitle.ContextualFeed.Whiteout</item>
@@ -236,14 +256,17 @@
         <item name="*com.instagram.android:directRowLargeHeight">@*com.instagram.android:dimen/inbox_row_height</item>
         <item name="*com.instagram.android:directRowPadding">@*com.instagram.android:dimen/row_text_padding</item>
         <item name="*com.instagram.android:directRowHeight">@*com.instagram.android:dimen/row_height</item>
-        <item name="*com.instagram.android:directAvatarRingSizeMedium">@*com.instagram.android:dimen/row_height_small_redesign</item>
+        <item name="*com.instagram.android:directAvatarRingSizeMedium">@*com.instagram.android:dimen/direct_double_avatar_ring_legacy</item>
         <item name="*com.instagram.android:directDoubleAvatar">@*com.instagram.android:dimen/row_height_small</item>
-        <item name="*com.instagram.android:directDoubleAvatarFrontPadding">@*com.instagram.android:style/directDoubleAvatarFrontPaddingLegacy</item>
-        <item name="*com.instagram.android:directDoubleAvatarBackPadding">@*com.instagram.android:style/directDoubleAvatarBackPaddingLegacy</item>
         <item name="*com.instagram.android:directRowAvatar">@*com.instagram.android:style/Avatar.Medium</item>
         <item name="*com.instagram.android:directRowUserName">@*com.instagram.android:style/rowUserName</item>
         <item name="*com.instagram.android:directRowUserInfo">@*com.instagram.android:style/rowUserInfo</item>
         <item name="*com.instagram.android:directRowTimeStamp">@*com.instagram.android:style/directRowTimeStamp</item>
+        <item name="*com.instagram.android:directBadge">@*com.instagram.android:style/rowBadgeLegacy</item>
+        <item name="*com.instagram.android:directMessageRequestPadding">0.0dip</item>
+        <item name="*com.instagram.android:directMessageRequest">@*com.instagram.android:style/rowUserInfo</item>
+        <item name="*com.instagram.android:directMessageRequestAction">@*com.instagram.android:style/directActionButton</item>
+        <item name="*com.instagram.android:directRowDivider">@*com.instagram.android:style/rowHeaderDividerLegacy</item>
         <item name="*com.instagram.android:profileRowHeight">@*com.instagram.android:dimen/row_height</item>
         <item name="*com.instagram.android:profileRowHeightMedium">@*com.instagram.android:dimen/row_height_small_redesign</item>
         <item name="*com.instagram.android:profileSwitchAccountPadding">11.0dip</item>
@@ -278,23 +301,24 @@
         <item name="*com.instagram.android:profileGenderIcon">@*com.instagram.android:drawable/profile_glyph_gender</item>
         <item name="*com.instagram.android:primaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton</item>
         <item name="*com.instagram.android:secondaryButtonStyle">@*com.instagram.android:style/IgSecondaryButton</item>
-        <item name="*com.instagram.android:inversePrimaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton.Inverse</item>
-        <item name="*com.instagram.android:inverseSecondaryButtonStyle">@*com.instagram.android:style/IgSecondaryButton.Inverse</item>
+        <item name="*com.instagram.android:inversePrimaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton</item>
+        <item name="*com.instagram.android:wrappedInversePrimaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton.Inverse.Wrapped</item>
+        <item name="*com.instagram.android:inverseSecondaryButtonStyle">@*com.instagram.android:style/IgSecondaryButton</item>
         <item name="*com.instagram.android:wrappedPrimaryButtonStyle">@*com.instagram.android:style/IgPrimaryWrappedButton</item>
         <item name="*com.instagram.android:wrappedSecondaryButtonStyle">@*com.instagram.android:style/IgSecondaryWrappedButton</item>
         <item name="*com.instagram.android:updatableButtonStyle">@*com.instagram.android:style/IgUpdatableButtonStyle</item>
         <item name="*com.instagram.android:updatableButtonGlyphStyle">@*com.instagram.android:style/IgUpdatableButtonStyle.Small</item>
-        <item name="*com.instagram.android:inverseUpdatableButtonStyle">@*com.instagram.android:style/IgUpdatableButtonStyle.Inverse</item>
+        <item name="*com.instagram.android:inverseUpdatableButtonStyle">@*com.instagram.android:style/IgUpdatableButtonStyle</item>
         <item name="*com.instagram.android:body">@*com.instagram.android:style/Body</item>
         <item name="*com.instagram.android:bodyEmphasized">@*com.instagram.android:style/BodyEmphasized</item>
         <item name="*com.instagram.android:bodyDetail">@*com.instagram.android:style/BodyDetail</item>
         <item name="*com.instagram.android:bodyLink">@*com.instagram.android:style/BodyLink</item>
         <item name="*com.instagram.android:buttonPrimary">@*com.instagram.android:style/ButtonPrimary</item>
-        <item name="*com.instagram.android:buttonPrimaryInverse">@*com.instagram.android:style/ButtonPrimaryInverse</item>
+        <item name="*com.instagram.android:buttonPrimaryInverse">@*com.instagram.android:style/ButtonPrimary</item>
         <item name="*com.instagram.android:buttonSecondary">@*com.instagram.android:style/ButtonSecondary</item>
-        <item name="*com.instagram.android:buttonSecondaryInverse">@*com.instagram.android:style/ButtonSecondaryInverse</item>
+        <item name="*com.instagram.android:buttonSecondaryInverse">@*com.instagram.android:style/ButtonSecondary</item>
         <item name="*com.instagram.android:buttonUpdatable">@*com.instagram.android:style/ButtonUpdatable</item>
-        <item name="*com.instagram.android:buttonUpdatableInverse">@*com.instagram.android:style/ButtonUpdatableInverse</item>
+        <item name="*com.instagram.android:buttonUpdatableInverse">@*com.instagram.android:style/ButtonUpdatable</item>
         <item name="*com.instagram.android:footnote">@*com.instagram.android:style/FootNote</item>
         <item name="*com.instagram.android:footnoteEmphasized">@*com.instagram.android:style/FootNoteEmphasized</item>
         <item name="*com.instagram.android:footnoteDetail">@*com.instagram.android:style/FootNoteDetail</item>
@@ -412,6 +436,11 @@
         <item name="*com.instagram.android:searchBadge">@*com.instagram.android:style/rowBadge</item>
         <item name="*com.instagram.android:searchAvatarLocation">@*com.instagram.android:style/Avatar.Medium</item>
         <item name="*com.instagram.android:searchAvatarTag">@*com.instagram.android:style/Avatar.Medium</item>
+        <item name="*com.instagram.android:searchReelRingSize">48.0dip</item>
+        <item name="*com.instagram.android:searchReelAvatarSize">@*com.instagram.android:dimen/avatar_size_medium</item>
+        <item name="*com.instagram.android:searchReelMarginRight">0.0dip</item>
+        <item name="*com.instagram.android:searchTextPadding">@*com.instagram.android:dimen/row_text_padding</item>
+        <item name="*com.instagram.android:searchDrawablePadding">3.0dip</item>
         <item name="*com.instagram.android:peopleTagSearchTheme">@*com.instagram.android:style/Widget.PeopleTag</item>
         <item name="*com.instagram.android:textColorDirectShareCaption">@*com.instagram.android:color/grey_9</item>
         <item name="*com.instagram.android:customToastViewStyle">@*com.instagram.android:style/CustomToast.Red</item>

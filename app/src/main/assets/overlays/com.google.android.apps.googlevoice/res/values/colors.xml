@@ -157,4 +157,23 @@
     <color name="tile_background">@*android:color/button_material_dark</color>
     <color name="tile_background_selected">#ff555555</color>
     <color name="voicemil_action_text_color">#ff1976d2</color>
+
+
+    <color name="hats_lib_checkbox_tint">#8cffffff</color>
+    <color name="hats_lib_open_text_underline">#ff1976d2</color>
+    <color name="hats_lib_prompt_take_survey_blue">#ff1976d2</color>
+    <color name="hats_lib_prompt_take_survey_blue_focused">#ff0d47a1</color>
+    <color name="hats_lib_prompt_take_survey_blue_pressed">#ff1976d2</color>
+    <color name="hats_lib_prompt_text_color">#ffffffff</color>
+    <color name="hats_lib_survey_control_normal">#ffbbbbbb</color>
+    <color name="hats_lib_survey_highlight_color">#ffffffff</color>
+    <color name="hats_lib_survey_question_text_color">#ffffffff</color>
+    <color name="hats_lib_survey_text_color">#ffffffff</color>
+    <color name="hats_lib_survey_white_ripple_color">#ffffffff</color>
+    <color name="hats_lib_survey_white_shape_color">@*android:color/button_material_dark</color>
+    <color name="hats_lib_survey_white_shape_focused_color">#ff555555</color>
+    <color name="hats_lib_survey_white_shape_pressed_color">#ff555555</color>
+    <color name="hats_lib_white_100">@*android:color/background_floating_material_dark</color>
+    <color name="semitransparent_white">#ee000000</color>
+    <color name="text_highlight_background_color">#ff1976d2</color>
 </resources>

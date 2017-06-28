@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme" parent="@*android:style/Theme.Material.Light">
+    <style name="Base.Theme" parent="@*android:style/Theme.Material">
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="android:colorAccent">@*com.instagram.android:color/blue_5</item>
         <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>

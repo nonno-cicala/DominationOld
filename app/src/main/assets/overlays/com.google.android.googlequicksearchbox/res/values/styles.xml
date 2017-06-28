@@ -264,4 +264,79 @@
         <item name="android:paddingStart">@*com.google.android.googlequicksearchbox:dimen/opa_error_margin</item>
         <item name="android:paddingEnd">@*com.google.android.googlequicksearchbox:dimen/opa_error_margin</item>
     </style>
+
+
+    <style name="OpaValuePropContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="update_tip_accept_button_style">
+        <item name="android:textSize">@*com.google.android.googlequicksearchbox:dimen/qp_h6_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="ChatUi.Suggestion.HqLaunch" parent="@*com.google.android.googlequicksearchbox:style/ChatUi.Suggestion">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@*com.google.android.googlequicksearchbox:drawable/chatui_launch_hq_suggestion_background</item>
+    </style>
+    <style name="OpaHQHeader">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:elevation">4.0dip</item>
+    </style>
+    <style name="HQBannerSubTitle" parent="@*com.google.android.googlequicksearchbox:style/HQBannerText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/button_material_dark</item>
+    </style>
+    <style name="HQBannerTitle" parent="@*com.google.android.googlequicksearchbox:style/HQBannerText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@*android:color/background_dark</item>
+    </style>
+    <style name="Theme.HotwordEnrollment" parent="@*com.google.android.googlequicksearchbox:style/setup_wizard_theme_material">
+        <item name="android:statusBarColor">@*com.google.android.googlequicksearchbox:color/hotword_enrollment_primary_color_dark</item>
+        <item name="*com.google.android.googlequicksearchbox:suwGlifHeaderGravity">start</item>
+    </style>
+    <style name="Theme.HotwordEnrollment.Glif" parent="@*com.google.android.googlequicksearchbox:style/Theme.HotwordEnrollment">
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.googlequicksearchbox:suwGlifHeaderGravity">center_horizontal</item>
+    </style>
+    <style name="SuwGlifCardContainer">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*com.google.android.googlequicksearchbox:dimen/suw_glif_card_elevation</item>
+    </style>
+    <style name="SuwThemeGlifV2" parent="@*com.google.android.googlequicksearchbox:style/SuwThemeGlif">
+        <item name="android:colorBackground">@*com.google.android.googlequicksearchbox:color/suw_glif_background_color_dark</item>
+        <item name="*com.google.android.googlequicksearchbox:suwDividerInsetEnd">@*com.google.android.googlequicksearchbox:dimen/suw_glif_margin_sides</item>
+        <item name="*com.google.android.googlequicksearchbox:suwDividerInsetStart">@*com.google.android.googlequicksearchbox:dimen/suw_glif_margin_sides</item>
+        <item name="*com.google.android.googlequicksearchbox:suwDividerInsetStartNoIcon">@*com.google.android.googlequicksearchbox:dimen/suw_glif_margin_sides</item>
+        <item name="*com.google.android.googlequicksearchbox:suwGlifHeaderGravity">center_horizontal</item>
+        <item name="*com.google.android.googlequicksearchbox:suwScrollIndicators">bottom|top</item>
+        <item name="*com.google.android.googlequicksearchbox:suwBackgroundPatterned">false</item>
+        <item name="*com.google.android.googlequicksearchbox:suwBackgroundBaseColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="SuwThemeGlifV2.Light" parent="@*com.google.android.googlequicksearchbox:style/SuwThemeGlif">
+        <item name="android:colorBackground">@*com.google.android.googlequicksearchbox:color/suw_glif_background_color_light</item>
+        <item name="*com.google.android.googlequicksearchbox:suwDividerInsetEnd">@*com.google.android.googlequicksearchbox:dimen/suw_glif_margin_sides</item>
+        <item name="*com.google.android.googlequicksearchbox:suwDividerInsetStart">@*com.google.android.googlequicksearchbox:dimen/suw_glif_margin_sides</item>
+        <item name="*com.google.android.googlequicksearchbox:suwDividerInsetStartNoIcon">@*com.google.android.googlequicksearchbox:dimen/suw_glif_margin_sides</item>
+        <item name="*com.google.android.googlequicksearchbox:suwGlifHeaderGravity">center_horizontal</item>
+        <item name="*com.google.android.googlequicksearchbox:suwScrollIndicators">bottom|top</item>
+        <item name="*com.google.android.googlequicksearchbox:suwBackgroundPatterned">false</item>
+        <item name="*com.google.android.googlequicksearchbox:suwBackgroundBaseColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*com.google.android.googlequicksearchbox:dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="*com.google.android.googlequicksearchbox:behavior_peekHeight">auto</item>
+        <item name="*com.google.android.googlequicksearchbox:behavior_hideable">true</item>
+        <item name="*com.google.android.googlequicksearchbox:behavior_skipCollapsed">false</item>
+    </style>
+    <style name="Widget.Design.NavigationView" parent="">
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:maxWidth">@*com.google.android.googlequicksearchbox:dimen/design_navigation_max_width</item>
+        <item name="*com.google.android.googlequicksearchbox:elevation">@*com.google.android.googlequicksearchbox:dimen/design_navigation_elevation</item>
+    </style>
 </resources>

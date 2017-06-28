@@ -9,6 +9,6 @@
         <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@*com.whatsapp:drawable/shadow_send_location_landscape" android:scaleType="fitXY" android:layout_alignParentRight="true" />
     </RelativeLayout>
     <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
-        <ListView android:id="@*android:id/list" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@*android:color/transparent" android:divider="@*com.whatsapp:drawable/divider_gray" android:dividerHeight="0.5dip" android:headerDividersEnabled="true" android:footerDividersEnabled="true" />
+        <android.support.v7.widget.RecyclerView android:id="@*com.whatsapp:id/user_list" android:paddingTop="1.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </LinearLayout>
 </LinearLayout>

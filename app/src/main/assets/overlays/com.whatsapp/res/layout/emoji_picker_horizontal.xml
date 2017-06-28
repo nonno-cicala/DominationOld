@@ -83,9 +83,7 @@
         <FrameLayout android:id="@*com.whatsapp:id/progress_container" android:background="@*android:color/background_floating_material_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ProgressBar android:layout_gravity="center" android:id="@*com.whatsapp:id/gif_trending_progress" android:layout_width="36.0dip" android:layout_height="36.0dip" />
         </FrameLayout>
-        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@*com.whatsapp:id/retry_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.whatsapp:string/network_required" />
-            <Button android:layout_gravity="center_horizontal" android:id="@*com.whatsapp:id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.whatsapp:string/retry" style="@*com.whatsapp:style/Widget.AppCompat.Button.Borderless.Colored" />
-        </LinearLayout>
+        <include layout="@*com.whatsapp:layout/gif_search_retry_panel" />
     </FrameLayout>
+    <FrameLayout android:id="@*com.whatsapp:id/disabled_overlay" android:background="@*com.whatsapp:color/emoji_keyboard_covered" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </RelativeLayout>
